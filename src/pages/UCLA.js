@@ -432,7 +432,7 @@ const UCLASchedule = () => {
     return (
       <>
         <div>
-        <h1>Purdue schedule</h1>
+        <h1>UCLA schedule</h1>
   
           <div className="grid-container">
             <div className="col-sm">
