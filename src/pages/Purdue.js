@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
 const purdueSchedule = () => {
   const schedule = [
     {
@@ -390,43 +388,43 @@ const purdueSchedule = () => {
     "Trokey",
   ]; // Your array of surnames
 
-  const name1 =
+  const purduename1 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name2 =
+    purduename2 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name3 =
+    purduename3 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name4 =
+    purduename4 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name5 =
+    purduename5 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name6 =
+    purduename6 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name7 =
+    purduename7 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name8 =
+    purduename8 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name9 =
+    purduename9 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    name10 =
+    purduename10 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)];
@@ -570,16 +568,16 @@ const purdueSchedule = () => {
           <div className="row">
             <div className="col-sm">
             <h4>Team roster</h4>
-              <h2>{name1}</h2>
-              <h2>{name2}</h2>
-              <h2>{name3}</h2>
-              <h2>{name4}</h2>
-              <h2>{name5}</h2>
-              <h2>{name6}</h2>
-              <h2>{name7}</h2>
-              <h2>{name8}</h2>
-              <h2>{name9}</h2>
-              <h2>{name10}</h2>
+              <h2>{purduename1}</h2>
+              <h2>{purduename2}</h2>
+              <h2>{purduename3}</h2>
+              <h2>{purduename4}</h2>
+              <h2>{purduename5}</h2>
+              <h2>{purduename6}</h2>
+              <h2>{purduename7}</h2>
+              <h2>{purduename8}</h2>
+              <h2>{purduename9}</h2>
+              <h2>{purduename10}</h2>
             </div>
           </div>
         </div>
