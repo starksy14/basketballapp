@@ -6,6 +6,7 @@ import Wooden from "./pages/Wooden";
 import Purdue from "./pages/Purdue";
 import UCLA from "./pages/UCLA";
 import Washington from "./pages/Washington";
+import VCU from "./pages/VCU";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="UCLA" element={<UCLA />} />
           <Route path="Purdue" element={<Purdue />} />
           <Route path="Washington" element={<Washington />} />
+          <Route path="VCU" element={<VCU />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>

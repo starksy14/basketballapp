@@ -1,33 +1,33 @@
-const UCLASchedule = () => {
+const VCUSchedule = () => {
     const schedule = [
       {
-        UCLATeam1: "@South Carolina",
-        UCLATeam2: "UAB",
-        UCLATeam3: "George Mason",
-        UCLATeam4: "@Fresno State",
-        UCLATeam5: "@Oral Roberts",
-        UCLATeam6: "Purdue",
-        UCLATeam7: "",
-        UCLATeam8: "",
-        UCLATeam9: "",
-        UCLATeam10: "",
-        UCLATeam11: "",
-        UCLATeam12: "",
-        UCLATeam13: "",
-        UCLATeam14: "",
-        UCLATeam15: "",
-        UCLATeam16: "",
-        UCLATeam17: "",
-        UCLATeam18: "",
-        UCLATeam19: "",
-        UCLATeam20: "",
-        UCLATeam21: "",
-        UCLATeam22: "",
-        UCLATeam23: "",
-        UCLATeam24: "",
-        UCLATeam25: "",
-        UCLATeam26: "",
-        UCLATeam27: "",
+        VCUTeam1: "Hawaii",
+        VCUTeam2: "@Saint Louis",
+        VCUTeam3: "Utah Valley",
+        VCUTeam4: "@Eastern Kentucky",
+        VCUTeam5: "@Northern Arizona",
+        VCUTeam6: "Penn",
+        VCUTeam7: "Northeastern",
+        VCUTeam8: "@Evansville",
+        VCUTeam9: "@Marist",
+        VCUTeam10: "William & Mary",
+        VCUTeam11: "Delaware State",
+        VCUTeam12: "Purdue",
+        VCUTeam13: "@UCLA",
+        VCUTeam14: "@Washington",
+        VCUTeam15: "@San Jose State",
+        VCUTeam16: "@Portland State",
+        VCUTeam17: "@Penn",
+        VCUTeam18: "@Northeastern",
+        VCUTeam19: "Evansville",
+        VCUTeam20: "Marist",
+        VCUTeam21: "@William & Mary",
+        VCUTeam22: "@Delaware State",
+        VCUTeam23: "@Purdue",
+        VCUTeam24: "UCLA",
+        VCUTeam25: "Washington",
+        VCUTeam26: "San Jose State",
+        VCUTeam27: "Portland State",
       },
     ];
   
@@ -388,43 +388,43 @@ const UCLASchedule = () => {
       "Trokey",
     ]; // Your array of surnames
   
-    const UCLAname1 =
+    const VCUname1 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname2 =
+      VCUname2 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname3 =
+      VCUname3 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname4 =
+      VCUname4 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname5 =
+      VCUname5 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname6 =
+      VCUname6 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname7 =
+      VCUname7 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname8 =
+      VCUname8 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname9 =
+      VCUname9 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      UCLAname10 =
+      VCUname10 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)];
@@ -432,7 +432,7 @@ const UCLASchedule = () => {
     return (
       <>
         <div>
-        <h1>UCLA schedule</h1>
+        <h1>VCU schedule</h1>
   
           <div className="grid-container">
             <div className="col-sm">
@@ -472,33 +472,33 @@ const UCLASchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.UCLATeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam27)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam1)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam2)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam3)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam4)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam5)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam6)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam7)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam8)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam9)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam10)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam11)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam12)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam13)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam14)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam15)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam16)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam17)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam18)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam19)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam20)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam21)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam22)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam23)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam24)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam25)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam26)}</h2>
+                <h2>{schedule.map((schedule) => schedule.VCUTeam27)}</h2>
               </div>
             </div>
             <div className="row">
@@ -567,17 +567,17 @@ const UCLASchedule = () => {
             </div>
             <div className="row">
               <div className="col-sm">
-              <h4>UCLATeam roster</h4>
-                <h2>{UCLAname1}</h2>
-                <h2>{UCLAname2}</h2>
-                <h2>{UCLAname3}</h2>
-                <h2>{UCLAname4}</h2>
-                <h2>{UCLAname5}</h2>
-                <h2>{UCLAname6}</h2>
-                <h2>{UCLAname7}</h2>
-                <h2>{UCLAname8}</h2>
-                <h2>{UCLAname9}</h2>
-                <h2>{UCLAname10}</h2>
+              <h4>VCUTeam roster</h4>
+                <h2>{VCUname1}</h2>
+                <h2>{VCUname2}</h2>
+                <h2>{VCUname3}</h2>
+                <h2>{VCUname4}</h2>
+                <h2>{VCUname5}</h2>
+                <h2>{VCUname6}</h2>
+                <h2>{VCUname7}</h2>
+                <h2>{VCUname8}</h2>
+                <h2>{VCUname9}</h2>
+                <h2>{VCUname10}</h2>
               </div>
             </div>
           </div>
@@ -585,5 +585,5 @@ const UCLASchedule = () => {
       </>
     );
   };
-  export default UCLASchedule;
+  export default VCUSchedule;
   

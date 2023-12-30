@@ -1,33 +1,33 @@
 const purdueSchedule = () => {
   const schedule = [
     {
-      Team1: "Texas",
-      Team2: "Rutgers",
-      Team3: "@Indiana State",
-      Team4: "UNLV",
-      Team5: "@Radford",
-      Team6: "@UCLA",
-      Team7: "@Washington",
-      Team8: "VCU",
-      Team9: "@San Jose State",
-      Team10: "Portland State",
-      Team11: "@Penn",
-      Team12: "@Northeastern",
-      Team13: "Evansville",
-      Team14: "Marist",
-      Team15: "@William & Mary",
-      Team16: "@Delaware State",
-      Team17: "UCLA",
-      Team18: "Washington",
-      Team19: "@VCU",
-      Team20: "San Jose State",
-      Team21: "@Portland State",
-      Team22: "Penn",
-      Team23: "Northeastern",
-      Team24: "@Evansville",
-      Team25: "@Marist",
-      Team26: "William & Mary",
-      Team27: "Delaware State",
+      PurdueTeam1: "Texas",
+      PurdueTeam2: "Rutgers",
+      PurdueTeam3: "@Indiana State",
+      PurdueTeam4: "UNLV",
+      PurdueTeam5: "@Radford",
+      PurdueTeam6: "@UCLA",
+      PurdueTeam7: "@Washington",
+      PurdueTeam8: "VCU",
+      PurdueTeam9: "@San Jose State",
+      PurdueTeam10: "@Portland State",
+      PurdueTeam11: "@Penn",
+      PurdueTeam12: "@Northeastern",
+      PurdueTeam13: "Evansville",
+      PurdueTeam14: "Marist",
+      PurdueTeam15: "@William & Mary",
+      PurdueTeam16: "@Delaware State",
+      PurdueTeam17: "UCLA",
+      PurdueTeam18: "Washington",
+      PurdueTeam19: "@VCU",
+      PurdueTeam20: "San Jose State",
+      PurdueTeam21: "Portland State",
+      PurdueTeam22: "Penn",
+      PurdueTeam23: "Northeastern",
+      PurdueTeam24: "@Evansville",
+      PurdueTeam25: "@Marist",
+      PurdueTeam26: "William & Mary",
+      PurdueTeam27: "Delaware State",
     },
   ];
 
@@ -472,33 +472,33 @@ const purdueSchedule = () => {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedule.map((schedule) => schedule.Team1)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team2)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team3)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team4)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team5)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team6)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team7)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team8)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team9)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team10)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team11)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team12)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team13)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team14)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team15)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team16)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team17)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team18)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team19)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team20)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team21)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team22)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team23)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team24)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team25)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team26)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team27)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam1)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam2)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam3)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam4)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam5)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam6)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam7)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam8)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam9)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam10)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam11)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam12)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam13)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam14)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam15)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam16)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam17)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam18)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam19)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam20)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam21)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam22)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam23)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam24)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam25)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam26)}</h2>
+              <h2>{schedule.map((schedule) => schedule.PurdueTeam27)}</h2>
             </div>
           </div>
           <div className="row">
@@ -567,7 +567,7 @@ const purdueSchedule = () => {
           </div>
           <div className="row">
             <div className="col-sm">
-            <h4>Team roster</h4>
+            <h4>PurdueTeam roster</h4>
               <h2>{purduename1}</h2>
               <h2>{purduename2}</h2>
               <h2>{purduename3}</h2>
