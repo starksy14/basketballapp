@@ -13,7 +13,7 @@ const Wooden = () => {
         <Dropdown.Menu>
           <Dropdown.Item href="/Purdue">Purdue</Dropdown.Item>
           <Dropdown.Item href="/UCLA">UCLA</Dropdown.Item>
-          <Dropdown.Item href="#/action">Washington</Dropdown.Item>
+          <Dropdown.Item href="/Washington">Washington</Dropdown.Item>
           <Dropdown.Item href="#/action">VCU</Dropdown.Item>
           <Dropdown.Item href="#/action">San Jose State</Dropdown.Item>
           <Dropdown.Item href="#/action">Portland State</Dropdown.Item>
