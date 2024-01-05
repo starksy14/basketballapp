@@ -19,10 +19,10 @@ const Wooden = () => {
           <Dropdown.Item href="/PortlandState">Portland State</Dropdown.Item>
           <Dropdown.Item href="/Penn">Penn</Dropdown.Item>
           <Dropdown.Item href="/Northeastern">Northeastern</Dropdown.Item>
-          <Dropdown.Item href="#/action">Evansville</Dropdown.Item>
-          <Dropdown.Item href="#/action">Marist</Dropdown.Item>
-          <Dropdown.Item href="#/action">William & Mary</Dropdown.Item>
-          <Dropdown.Item href="#/action">Delaware State</Dropdown.Item>
+          <Dropdown.Item href="/Evansville">Evansville</Dropdown.Item>
+          <Dropdown.Item href="/Marist">Marist</Dropdown.Item>
+          <Dropdown.Item href="/WilliamMary">William & Mary</Dropdown.Item>
+          <Dropdown.Item href="/DelawareState">Delaware State</Dropdown.Item>
 
         </Dropdown.Menu>
       </Dropdown>

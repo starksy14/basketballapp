@@ -11,6 +11,10 @@ import SanJoseState from "./pages/SanJoseState";
 import Penn from "./pages/Penn";
 import PortlandState from "./pages/PortlandState";
 import Northeastern from "./pages/Northeastern";
+import Evansville from "./pages/Evansville";
+import Marist from "./pages/Marist";
+import WilliamMary from "./pages/WilliamMary";
+import DelawareState from "./pages/DelawareState";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -28,6 +32,10 @@ export default function App() {
           <Route path="Penn" element={<Penn />} />
           <Route path="PortlandState" element={<PortlandState />} />
           <Route path="Northeastern" element={<Northeastern />} />
+          <Route path="Evansville" element={<Evansville />} />
+          <Route path="Marist" element={<Marist />} />
+          <Route path="WilliamMary" element={<WilliamMary />} />
+          <Route path="DelawareState" element={<DelawareState />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
