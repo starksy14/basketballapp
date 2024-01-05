@@ -6,28 +6,28 @@ const purdueSchedule = () => {
       PurdueTeam3: "@Indiana State",
       PurdueTeam4: "UNLV",
       PurdueTeam5: "@Radford",
-      PurdueTeam6: "@UCLA",
-      PurdueTeam7: "@Washington",
-      PurdueTeam8: "VCU",
-      PurdueTeam9: "@San Jose State",
-      PurdueTeam10: "@Portland State",
-      PurdueTeam11: "@Penn",
-      PurdueTeam12: "@Northeastern",
-      PurdueTeam13: "Evansville",
-      PurdueTeam14: "Marist",
-      PurdueTeam15: "@William & Mary",
-      PurdueTeam16: "@Delaware State",
-      PurdueTeam17: "UCLA",
-      PurdueTeam18: "Washington",
-      PurdueTeam19: "@VCU",
-      PurdueTeam20: "San Jose State",
-      PurdueTeam21: "Portland State",
-      PurdueTeam22: "Penn",
-      PurdueTeam23: "Northeastern",
-      PurdueTeam24: "@Evansville",
-      PurdueTeam25: "@Marist",
-      PurdueTeam26: "William & Mary",
-      PurdueTeam27: "Delaware State",
+      PurdueTeam6: "UCLA",
+      PurdueTeam7: "Penn",
+      PurdueTeam8: "Delaware State",
+      PurdueTeam9: "San Jose State",
+      PurdueTeam10: "Marist",
+      PurdueTeam11: "Washington",
+      PurdueTeam12: "Northeastern",
+      PurdueTeam13: "Portland State",
+      PurdueTeam14: "William & Mary",
+      PurdueTeam15: "VCU",
+      PurdueTeam16: "Evansville",
+      PurdueTeam17: "@UCLA",
+      PurdueTeam18: "@Penn",
+      PurdueTeam19: "@Delaware State",
+      PurdueTeam20: "@San Jose State",
+      PurdueTeam21: "@Marist",
+      PurdueTeam22: "@Washington",
+      PurdueTeam23: "@Northeastern",
+      PurdueTeam24: "@Portland State",
+      PurdueTeam25: "@William & Mary",
+      PurdueTeam26: "@VCU",
+      PurdueTeam27: "@Evansville",
     },
   ];
 
@@ -567,7 +567,7 @@ const purdueSchedule = () => {
           </div>
           <div className="row">
             <div className="col-sm">
-            <h4>PurdueTeam roster</h4>
+            <h4>Team roster</h4>
               <h2>{purduename1}</h2>
               <h2>{purduename2}</h2>
               <h2>{purduename3}</h2>
