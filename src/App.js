@@ -10,6 +10,7 @@ import VCU from "./pages/VCU";
 import SanJoseState from "./pages/SanJoseState";
 import Penn from "./pages/Penn";
 import PortlandState from "./pages/PortlandState";
+import Northeastern from "./pages/Northeastern";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="SanJoseState" element={<SanJoseState />} />
           <Route path="Penn" element={<Penn />} />
           <Route path="PortlandState" element={<PortlandState />} />
+          <Route path="Northeastern" element={<Northeastern />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
