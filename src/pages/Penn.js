@@ -1,33 +1,33 @@
-const SanJoseStSchedule = () => {
+const PennSchedule = () => {
     const schedule = [
       {
-        SanJoseTeam1: "Abilene Christian",
-        SanJoseTeam2: "@Belmont",
-        SanJoseTeam3: "@Southeastern Louisiana",
-        SanJoseTeam4: "Prairie View A&M",
-        SanJoseTeam5: "Quinnipiac",
-        SanJoseTeam6: "Marist",
-        SanJoseTeam7: "Evansville",
-        SanJoseTeam8: "Northeastern",
-        SanJoseTeam9: "Purdue",
-        SanJoseTeam10: "VCU",
-        SanJoseTeam11: "Delaware State",
-        SanJoseTeam12: "William & Mary",
-        SanJoseTeam13: "Penn",
-        SanJoseTeam14: "Portland State",
-        SanJoseTeam15: "Washington",
-        SanJoseTeam16: "UCLA",
-        SanJoseTeam17: "@Marist",
-        SanJoseTeam18: "@Evansville",
-        SanJoseTeam19: "@Northeastern",
-        SanJoseTeam20: "@Purdue",
-        SanJoseTeam21: "@VCU",
-        SanJoseTeam22: "@Delaware State",
-        SanJoseTeam23: "@William & Mary",
-        SanJoseTeam24: "@Penn",
-        SanJoseTeam25: "@Portland State",
-        SanJoseTeam26: "@Washington",
-        SanJoseTeam27: "@UCLA",
+        PennTeam1: "@Bryant",
+        PennTeam2: "@Austin Peay",
+        PennTeam3: "Coastal Carolina",
+        PennTeam4: "Boston University",
+        PennTeam5: "Chicago State",
+        PennTeam6: "Northeastern",
+        PennTeam7: "Purdue",
+        PennTeam8: "Portland State",
+        PennTeam9: "Washington",
+        PennTeam10: "UCLA",
+        PennTeam11: "Marist",
+        PennTeam12: "Evansville",
+        PennTeam13: "San Jose State",
+        PennTeam14: "VCU",
+        PennTeam15: "Delaware State",
+        PennTeam16: "William & Mary",
+        PennTeam17: "@Northeastern",
+        PennTeam18: "@Purdue",
+        PennTeam19: "@Portland State",
+        PennTeam20: "@Washington",
+        PennTeam21: "@UCLA",
+        PennTeam22: "@Marist",
+        PennTeam23: "@Evansville",
+        PennTeam24: "@San Jose State",
+        PennTeam25: "@VCU",
+        PennTeam26: "@Delaware State",
+        PennTeam27: "@William & Mary",
       },
     ];
   
@@ -388,43 +388,43 @@ const SanJoseStSchedule = () => {
       "Trokey",
     ]; // Your array of surnames
   
-    const SanJoseStname1 =
+    const Pennname1 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname2 =
+      Pennname2 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname3 =
+      Pennname3 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname4 =
+      Pennname4 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname5 =
+      Pennname5 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname6 =
+      Pennname6 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname7 =
+      Pennname7 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname8 =
+      Pennname8 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname9 =
+      Pennname9 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
-      SanJoseStname10 =
+      Pennname10 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)];
@@ -432,7 +432,7 @@ const SanJoseStSchedule = () => {
     return (
       <>
         <div>
-        <h1>San Jose State schedule</h1>
+        <h1>Penn schedule</h1>
   
           <div className="grid-container">
             <div className="col-sm">
@@ -472,33 +472,33 @@ const SanJoseStSchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam27)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam1)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam2)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam3)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam4)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam5)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam6)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam7)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam8)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam9)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam10)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam11)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam12)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam13)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam14)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam15)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam16)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam17)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam18)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam19)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam20)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam21)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam22)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam23)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam24)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam25)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam26)}</h2>
+                <h2>{schedule.map((schedule) => schedule.PennTeam27)}</h2>
               </div>
             </div>
             <div className="row">
@@ -568,16 +568,16 @@ const SanJoseStSchedule = () => {
             <div className="row">
               <div className="col-sm">
               <h4>Team roster</h4>
-                <h2>{SanJoseStname1}</h2>
-                <h2>{SanJoseStname2}</h2>
-                <h2>{SanJoseStname3}</h2>
-                <h2>{SanJoseStname4}</h2>
-                <h2>{SanJoseStname5}</h2>
-                <h2>{SanJoseStname6}</h2>
-                <h2>{SanJoseStname7}</h2>
-                <h2>{SanJoseStname8}</h2>
-                <h2>{SanJoseStname9}</h2>
-                <h2>{SanJoseStname10}</h2>
+                <h2>{Pennname1}</h2>
+                <h2>{Pennname2}</h2>
+                <h2>{Pennname3}</h2>
+                <h2>{Pennname4}</h2>
+                <h2>{Pennname5}</h2>
+                <h2>{Pennname6}</h2>
+                <h2>{Pennname7}</h2>
+                <h2>{Pennname8}</h2>
+                <h2>{Pennname9}</h2>
+                <h2>{Pennname10}</h2>
               </div>
             </div>
           </div>
@@ -585,5 +585,5 @@ const SanJoseStSchedule = () => {
       </>
     );
   };
-  export default SanJoseStSchedule;
+  export default PennSchedule;
   

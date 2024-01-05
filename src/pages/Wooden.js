@@ -15,9 +15,9 @@ const Wooden = () => {
           <Dropdown.Item href="/UCLA">UCLA</Dropdown.Item>
           <Dropdown.Item href="/Washington">Washington</Dropdown.Item>
           <Dropdown.Item href="/VCU">VCU</Dropdown.Item>
-          <Dropdown.Item href="#/action">San Jose State</Dropdown.Item>
-          <Dropdown.Item href="#/action">Portland State</Dropdown.Item>
-          <Dropdown.Item href="#/action">Penn</Dropdown.Item>
+          <Dropdown.Item href="/SanJoseState">San Jose State</Dropdown.Item>
+          <Dropdown.Item href="/PortlandState">Portland State</Dropdown.Item>
+          <Dropdown.Item href="Penn">Penn</Dropdown.Item>
           <Dropdown.Item href="#/action">Northeastern</Dropdown.Item>
           <Dropdown.Item href="#/action">Evansville</Dropdown.Item>
           <Dropdown.Item href="#/action">Marist</Dropdown.Item>
