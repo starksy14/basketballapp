@@ -12,33 +12,46 @@ body {
   width: 100%;
 }
 
+h6 {
+  margin: 0rem;
+  padding-bottom: 0rem;
+  font-size: 180px;
+  padding-bottom: 0.2em;
+  line-height: 1;
+font-family: 'Oswald', sans-serif;
+}
+
+p {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        width: 80%;
+        margin: 0 auto;
+      }
+      p::first-letter {
+        color: gray;
+        float: left;
+        font-size: 5em;
+        margin: 0 .1em 0 0;
+        line-height: 0.85;
+      }
+
 h1 {
   margin: 0rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 40px;
   font-weight: bold;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1em;
-  margin: 0 auto;
-  width: 90%;
-}
-p::first-letter {
-  color: gray;
-  float: left;
-  font-size: 5em;
-  margin: 0 .1em 0 0;
-  line-height: 0.85;
+  font-family: 'Oswald', sans-serif;
 }
 
 
 h2 {
   font-size: 15px;
   padding-top: 10px;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
 }
 
 .grid-container {

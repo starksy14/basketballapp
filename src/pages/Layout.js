@@ -1,7 +1,7 @@
 import Wooden from "./Wooden";
 
 const Title = props => (
-  <center><h1 className="title">{props.text}</h1></center>
+  <center><h6 className="title">{props.text}</h6></center>
 );
 
 // Doesn't have to be ES6 if you don't want
@@ -14,7 +14,7 @@ function Copy() {
 const App = () => {
   return(
       <div>
-      <Title text="UNTITLED COLLEGE BASKETBALL PROJECT" />
+      <Title text="THE UNTITLED COLLEGE BASKETBALL PROJECT" />
       <Copy />
       <br></br>
       <div className="grid-container">
