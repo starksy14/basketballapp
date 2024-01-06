@@ -1,15 +1,5 @@
 import { schedulePurdue } from "./pages/Purdue";
 import { scheduleUCLA } from "./pages/UCLA";
-import { scheduleWashington } from "./pages/Washington";
-import { scheduleVCU } from "./pages/VCU";
-import { scheduleSanJoseSt } from "./pages/SanJoseState";
-import { schedulePenn } from "./pages/Penn";
-import { schedulePortlandSt } from "./pages/PortlandState";
-import { scheduleNortheastern } from "./pages/Northeastern";
-import { scheduleEvansville } from "./pages/Evansville";
-import { scheduleMarist } from "./pages/Marist";
-import { scheduleWilliamMary } from "./pages/WilliamMary";
-import { scheduleDelawareSt } from "./pages/DelawareState";
 
 export default function GameOneTable() {
   return (
@@ -28,25 +18,25 @@ export default function GameOneTable() {
           <tr>
               <td>Texas</td>
               <td>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam6)}</td>
-              <td>Male</td>
-            <td>Anom</td>
+              <td>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam6)}</td>
+            <td>@South Carolina</td>
               <td>19</td>
               <td>Male</td>
           </tr>
           <tr>
-              <td>Megha</td>
-              <td>19</td>
+              <td>Stephen F. Austin</td>
+              <td>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam12)}</td>
               <td>Female</td>
-            <td>Megha</td>
-              <td>19</td>
+            <td>Hawaii</td>
+            <td>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam11)}</td>
               <td>Female</td>
           </tr>
           <tr>
-              <td>Subham</td>
-              <td>25</td>
+              <td>Abilene Christian</td>
+              <td>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam16)}</td>
               <td>Male</td>
-            <td>Subham</td>
-              <td>25</td>
+            <td>Northern Illinois</td>
+            <td>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam15)}</td>
               <td>Male</td>
           </tr>
       </table>

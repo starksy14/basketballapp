@@ -567,7 +567,7 @@ const UCLASchedule = () => {
             </div>
             <div className="row">
               <div className="col-sm">
-              <h4>UCLATeam roster</h4>
+              <h4>Team roster</h4>
                 <h2>{UCLAname1}</h2>
                 <h2>{UCLAname2}</h2>
                 <h2>{UCLAname3}</h2>
