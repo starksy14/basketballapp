@@ -1,5 +1,5 @@
 const MaristSchedule = () => {
-  const schedule = [
+  const scheduleMarist = [
     {
       MaristTeam1: "Lamar",
       MaristTeam2: "Florida A&M",
@@ -472,33 +472,33 @@ const MaristSchedule = () => {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedule.map((schedule) => schedule.MaristTeam1)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam2)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam3)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam4)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam5)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam6)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam7)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam8)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam9)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam10)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam11)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam12)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam13)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam14)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam15)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam16)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam17)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam18)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam19)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam20)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam21)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam22)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam23)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam24)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam25)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam26)}</h2>
-              <h2>{schedule.map((schedule) => schedule.MaristTeam27)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam1)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam2)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam3)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam4)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam5)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam6)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam7)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam8)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam9)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam10)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam11)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam12)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam13)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam14)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam15)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam16)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam17)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam18)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam19)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam20)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam21)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam22)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam23)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam24)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam25)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam26)}</h2>
+              <h2>{scheduleMarist.map((scheduleMarist) => scheduleMarist.MaristTeam27)}</h2>
             </div>
           </div>
           <div className="row">

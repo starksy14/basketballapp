@@ -1,5 +1,5 @@
 const PennSchedule = () => {
-    const schedule = [
+    const schedulePenn = [
       {
         PennTeam1: "@Bryant",
         PennTeam2: "@Austin Peay",
@@ -472,33 +472,33 @@ const PennSchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.PennTeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.PennTeam27)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam1)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam2)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam3)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam4)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam5)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam6)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam7)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam8)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam9)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam10)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam11)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam12)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam13)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam14)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam15)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam16)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam17)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam18)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam19)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam20)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam21)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam22)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam23)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam24)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam25)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam26)}</h2>
+                <h2>{schedulePenn.map((schedulePenn) => schedulePenn.PennTeam27)}</h2>
               </div>
             </div>
             <div className="row">

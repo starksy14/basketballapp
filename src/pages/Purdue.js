@@ -1,5 +1,5 @@
 const purdueSchedule = () => {
-  const schedule = [
+  const schedulePurdue = [
     {
       PurdueTeam1: "Texas",
       PurdueTeam2: "Rutgers",
@@ -472,33 +472,33 @@ const purdueSchedule = () => {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam1)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam2)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam3)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam4)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam5)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam6)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam7)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam8)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam9)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam10)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam11)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam12)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam13)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam14)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam15)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam16)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam17)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam18)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam19)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam20)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam21)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam22)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam23)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam24)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam25)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam26)}</h2>
-              <h2>{schedule.map((schedule) => schedule.PurdueTeam27)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam1)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam2)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam3)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam4)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam5)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam6)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam7)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam8)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam9)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam10)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam11)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam12)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam13)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam14)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam15)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam16)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam17)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam18)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam19)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam20)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam21)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam22)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam23)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam24)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam25)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam26)}</h2>
+              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam27)}</h2>
             </div>
           </div>
           <div className="row">

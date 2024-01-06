@@ -1,5 +1,5 @@
 const NortheasternSchedule = () => {
-    const schedule = [
+    const scheduleNortheastern = [
       {
         NortheasternTeam1: "@Ball State",
         NortheasternTeam2: "Tennessee Martin",
@@ -472,33 +472,33 @@ const NortheasternSchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.NortheasternTeam27)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam1)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam2)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam3)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam4)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam5)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam6)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam7)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam8)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam9)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam10)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam11)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam12)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam13)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam14)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam15)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam16)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam17)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam18)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam19)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam20)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam21)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam22)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam23)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam24)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam25)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam26)}</h2>
+                <h2>{scheduleNortheastern.map((scheduleNortheastern) => scheduleNortheastern.NortheasternTeam27)}</h2>
               </div>
             </div>
             <div className="row">

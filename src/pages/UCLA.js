@@ -1,5 +1,5 @@
 const UCLASchedule = () => {
-    const schedule = [
+    const scheduleUCLA = [
       {
         UCLATeam1: "@South Carolina",
         UCLATeam2: "UAB",
@@ -472,33 +472,33 @@ const UCLASchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.UCLATeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.UCLATeam27)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam1)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam2)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam3)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam4)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam5)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam6)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam7)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam8)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam9)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam10)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam11)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam12)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam13)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam14)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam15)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam16)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam17)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam18)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam19)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam20)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam21)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam22)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam23)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam24)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam25)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam26)}</h2>
+                <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam27)}</h2>
               </div>
             </div>
             <div className="row">
