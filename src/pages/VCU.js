@@ -1,5 +1,5 @@
 const VCUSchedule = () => {
-    const schedule = [
+    const scheduleVCU = [
       {
         VCUTeam1: "Hawaii",
         VCUTeam2: "@Saint Louis",
@@ -472,33 +472,33 @@ const VCUSchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.VCUTeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.VCUTeam27)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam1)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam2)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam3)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam4)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam5)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam6)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam7)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam8)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam9)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam10)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam11)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam12)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam13)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam14)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam15)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam16)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam17)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam18)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam19)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam20)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam21)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam22)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam23)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam24)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam25)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam26)}</h2>
+                <h2>{scheduleVCU.map((scheduleVCU) => scheduleVCU.VCUTeam27)}</h2>
               </div>
             </div>
             <div className="row">

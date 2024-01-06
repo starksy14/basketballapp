@@ -1,5 +1,5 @@
 const WashingtonSchedule = () => {
-  const schedule = [
+  const scheduleWashington = [
     {
       Team1: "Stephen F. Austin",
       Team2: "@Loyola Marymount",
@@ -472,33 +472,33 @@ const WashingtonSchedule = () => {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedule.map((schedule) => schedule.Team1)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team2)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team3)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team4)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team5)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team6)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team7)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team8)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team9)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team10)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team11)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team12)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team13)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team14)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team15)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team16)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team17)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team18)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team19)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team20)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team21)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team22)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team23)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team24)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team25)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team26)}</h2>
-              <h2>{schedule.map((schedule) => schedule.Team27)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team1)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team2)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team3)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team4)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team5)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team6)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team7)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team8)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team9)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team10)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team11)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team12)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team13)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team14)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team15)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team16)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team17)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team18)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team19)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team20)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team21)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team22)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team23)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team24)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team25)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team26)}</h2>
+              <h2>{scheduleWashington.map((scheduleWashington) => scheduleWashington.Team27)}</h2>
             </div>
           </div>
           <div className="row">

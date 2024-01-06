@@ -1,15 +1,15 @@
 import { schedulePurdue } from "./pages/Purdue";
 import { scheduleUCLA } from "./pages/UCLA";
-import Washington from "./pages/Washington";
-import VCU from "./pages/VCU";
-import SanJoseState from "./pages/SanJoseState";
+import { scheduleWashington } from "./pages/Washington";
+import { scheduleVCU } from "./pages/VCU";
+import { scheduleSanJoseSt } from "./pages/SanJoseState";
 import { schedulePenn } from "./pages/Penn";
-import PortlandState from "./pages/PortlandState";
+import { schedulePortlandSt } from "./pages/PortlandState";
 import { scheduleNortheastern } from "./pages/Northeastern";
-import Evansville from "./pages/Evansville";
+import { scheduleEvansville } from "./pages/Evansville";
 import { scheduleMarist } from "./pages/Marist";
-import WilliamMary from "./pages/WilliamMary";
-import DelawareState from "./pages/DelawareState";
+import { scheduleWilliamMary } from "./pages/WilliamMary";
+import { scheduleDelawareSt } from "./pages/DelawareState";
 
 export default function GameOneTable() {
   return (

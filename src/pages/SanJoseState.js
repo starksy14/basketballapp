@@ -1,5 +1,5 @@
 const SanJoseStSchedule = () => {
-    const schedule = [
+    const scheduleSanJoseSt = [
       {
         SanJoseTeam1: "Abilene Christian",
         SanJoseTeam2: "@Belmont",
@@ -472,33 +472,33 @@ const SanJoseStSchedule = () => {
             <div className="row">
               <h4>Opponent</h4>
               <div className="col-sm">
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam1)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam2)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam3)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam4)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam5)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam6)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam7)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam8)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam9)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam10)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam11)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam12)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam13)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam14)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam15)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam16)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam17)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam18)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam19)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam20)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam21)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam22)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam23)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam24)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam25)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam26)}</h2>
-                <h2>{schedule.map((schedule) => schedule.SanJoseTeam27)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam1)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam2)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam3)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam4)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam5)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam6)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam7)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam8)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam9)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam10)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam11)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam12)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam13)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam14)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam15)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam16)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam17)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam18)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam19)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam20)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam21)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam22)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam23)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam24)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam25)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam26)}</h2>
+                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam27)}</h2>
               </div>
             </div>
             <div className="row">

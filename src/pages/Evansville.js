@@ -1,5 +1,5 @@
 const EvansvilleSchedule = () => {
-  const schedule = [
+  const scheduleEvansville = [
     {
       EvansvilleTeam1: "@Nicholls State",
       EvansvilleTeam2: "Albany",
@@ -472,33 +472,33 @@ const EvansvilleSchedule = () => {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam1)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam2)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam3)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam4)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam5)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam6)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam7)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam8)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam9)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam10)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam11)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam12)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam13)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam14)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam15)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam16)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam17)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam18)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam19)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam20)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam21)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam22)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam23)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam24)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam25)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam26)}</h2>
-              <h2>{schedule.map((schedule) => schedule.EvansvilleTeam27)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam1)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam2)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam3)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam4)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam5)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam6)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam7)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam8)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam9)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam10)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam11)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam12)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam13)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam14)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam15)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam16)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam17)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam18)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam19)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam20)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam21)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam22)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam23)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam24)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam25)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam26)}</h2>
+              <h2>{scheduleEvansville.map((scheduleEvansville) => scheduleEvansville.EvansvilleTeam27)}</h2>
             </div>
           </div>
           <div className="row">

@@ -1,5 +1,5 @@
           const PortlandStSchedule = () => {
-            const schedule = [
+            const schedulePortlandSt = [
               {
                 PortlandStTeam1: "Northern Illinois",
                 PortlandStTeam2: "@UNC Asheville",
@@ -472,33 +472,33 @@
                     <div className="row">
                       <h4>Opponent</h4>
                       <div className="col-sm">
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam1)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam2)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam3)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam4)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam5)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam6)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam7)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam8)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam9)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam10)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam11)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam12)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam13)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam14)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam15)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam16)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam17)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam18)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam19)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam20)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam21)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam22)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam23)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam24)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam25)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam26)}</h2>
-                        <h2>{schedule.map((schedule) => schedule.PortlandStTeam27)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam1)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam2)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam3)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam4)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam5)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam6)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam7)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam8)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam9)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam10)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam11)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam12)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam13)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam14)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam15)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam16)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam17)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam18)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam19)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam20)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam21)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam22)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam23)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam24)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam25)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam26)}</h2>
+                        <h2>{schedulePortlandSt.map((schedulePortlandSt) => schedulePortlandSt.PortlandStTeam27)}</h2>
                       </div>
                     </div>
                     <div className="row">
