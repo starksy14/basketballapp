@@ -1,5 +1,5 @@
-import { schedulePurdue } from "./pages/Purdue";
-import { scheduleUCLA } from "./pages/UCLA";
+import { schedulePurdue } from './pages/Purdue';
+import { scheduleUCLA } from './pages/UCLA';
 
 export default function GameOneTable() {
   return (
