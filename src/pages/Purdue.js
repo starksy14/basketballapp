@@ -580,7 +580,7 @@ const purdueSchedule = () => {
               <h2>{purduename8}</h2>
               <h2>{purduename9}</h2>
               <h2>{purduename10}</h2>
-              <h2><Button /></h2>
+              <Button />
           </div>
         </div>
       </div>
