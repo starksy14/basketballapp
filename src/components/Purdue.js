@@ -1,4 +1,4 @@
-const purdueSchedule = () => {
+export default function purdueSchedule () {
   const schedulePurdue = [
     {
       PurdueTeam1: "Texas",
@@ -585,4 +585,3 @@ const purdueSchedule = () => {
     </>
   );
 };
-export default purdueSchedule;

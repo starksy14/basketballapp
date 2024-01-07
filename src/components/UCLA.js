@@ -1,4 +1,4 @@
-const UCLASchedule = () => {
+function UCLASchedule () {
     const scheduleUCLA = [
       {
         UCLATeam1: "@South Carolina",
