@@ -1,3 +1,6 @@
+import { Outlet } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+
 const purdueSchedule = () => {
   const schedulePurdue = [
     {
@@ -578,9 +581,11 @@ const purdueSchedule = () => {
               <h2>{purduename8}</h2>
               <h2>{purduename9}</h2>
               <h2>{purduename10}</h2>
-            </div>
+              <Button href="/GameOneTable">Link</Button>
+      <Outlet />
           </div>
         </div>
+      </div>
       </div>
     </>
   );
