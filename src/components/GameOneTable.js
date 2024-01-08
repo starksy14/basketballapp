@@ -1,5 +1,7 @@
 import { schedulePurdue } from './Purdue';
 import { scheduleUCLA } from './UCLA';
+import LinkButton from './LinkButton';
+
 
 export default function GameOneTable() {
   return (
@@ -112,6 +114,8 @@ export default function GameOneTable() {
             </div>
         </div>
       </div>
+      <br></br>
+      <center><LinkButton /></center>
     </div>
 
 );
