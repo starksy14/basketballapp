@@ -1,4 +1,4 @@
-import Wooden from "./components/Wooden";
+import Wooden from "./Wooden";
 
 const Title = props => (
   <center><h6 className="title">{props.text}</h6></center>

@@ -4,11 +4,11 @@ import { scheduleUCLA } from './UCLA';
 export default function GameOneTable() {
   return (
     <div>
-  <center><h1>Wooden Schedule: Game 1</h1></center>
+  <h1>Wooden Schedule: Game 1</h1>
 
       <div className="grid-container">
         <div className="col-sm">
-          <h4>Team</h4>
+          <h4>Game</h4>
           <div className="row">
             <div className="col-sm">
               <h2>Texas</h2>
@@ -22,13 +22,13 @@ export default function GameOneTable() {
               <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam25)}</h2>
               <h2>Lamar</h2>
               <h2>Buffalo</h2>
-              <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam18)}</h2>
+              <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam7)}</h2>
             </div>
           </div>
         </div>
         <div className="row">
+          <br></br>
           <div className="col-sm">
-          <h4>Opponent</h4>
           <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam6)}</h2>
               <h2>@South Carolina</h2>
               <h2>{scheduleUCLA.map((scheduleUCLA) => scheduleUCLA.UCLATeam12)}</h2>
@@ -44,25 +44,8 @@ export default function GameOneTable() {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm">
-          <h4>Result</h4>
-              <h2>Game 1</h2>
-              <h2>Game 2</h2>
-              <h2>Game 3</h2>
-              <h2>Game 4</h2>
-              <h2>Game 5</h2>
-              <h2>Game 6</h2>
-              <h2>Game 7</h2>
-              <h2>Game 8</h2>
-              <h2>Game 9</h2>
-              <h2>Game 10</h2>
-              <h2>Game 11</h2>
-              <h2>Game 12</h2>
-            </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
           <h4>Standings</h4>
+          <div className="col-sm">
               <h2>Game 1</h2>
               <h2>Game 2</h2>
               <h2>Game 3</h2>
@@ -78,8 +61,8 @@ export default function GameOneTable() {
             </div>
         </div>
         <div className="row">
+        <br></br>
            <div className="col-sm">
-           <h4>W</h4>
               <h2>Game 1</h2>
               <h2>Game 2</h2>
               <h2>Game 3</h2>
@@ -95,8 +78,8 @@ export default function GameOneTable() {
             </div>
         </div>
         <div className="row">
+        <br></br>
            <div className="col-sm">
-           <h4>L</h4>
               <h2>Game 1</h2>
               <h2>Game 2</h2>
               <h2>Game 3</h2>

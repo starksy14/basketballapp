@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import Layout from "./components/Layout";
 import Wooden from "./components/Wooden";
 import Purdue from "./components/Purdue";
 import UCLA from "./components/UCLA";
@@ -16,6 +16,7 @@ import Marist from "./components/Marist";
 import WilliamMary from "./components/WilliamMary";
 import DelawareState from "./components/DelawareState";
 import GameOneTable from "./components/GameOneTable";
+import LinkButton from "./components/LinkButton";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="WilliamMary" element={<WilliamMary />} />
           <Route path="DelawareState" element={<DelawareState />} />
           <Route path="GameOneTable" element={<GameOneTable />} />
+          <Route path="LinkButton" element={<LinkButton />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
