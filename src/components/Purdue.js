@@ -389,9 +389,7 @@ const myArray2 = [
   "Trokey",
 ]; // Your array of surnames
 
-export default function purdueSchedule () {
-
-  const purduename1 =
+const purduename1 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
@@ -432,6 +430,8 @@ export default function purdueSchedule () {
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)];
 
+export default function purdueSchedule () {
+  
   return (
     <>
       <div>

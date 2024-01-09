@@ -1,3 +1,5 @@
+import LinkButton from './LinkButton';
+
 export const scheduleUCLA = [
   {
     UCLATeam1: "@South Carolina",
@@ -386,9 +388,7 @@ const myArray2 = [
   "Zellefrow",
   "Trokey",
 ]; // Your array of surnames
-
-function UCLAschedule () {  
-    const UCLAname1 =
+const UCLAname1 =
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)],
@@ -428,6 +428,9 @@ function UCLAschedule () {
         myArray1[Math.floor(Math.random() * myArray1.length)] +
         " " +
         myArray2[Math.floor(Math.random() * myArray2.length)];
+        
+function UCLAschedule () {  
+    
   
     return (
       <>
@@ -582,6 +585,8 @@ function UCLAschedule () {
             </div>
           </div>
         </div>
+        <br></br>
+      <center><LinkButton /></center>
       </>
     );
   };
