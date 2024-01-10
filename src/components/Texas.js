@@ -232,7 +232,7 @@ const myArray1 = [
   "Ryan",
   "Jewel",
   "Jonas",
-  "Andres",
+  "Andres"
 ]; // Your array of names
 const myArray2 = [
   "Goodyear",
@@ -386,7 +386,7 @@ const myArray2 = [
   "Marcinko",
   "Buhovecky",
   "Zellefrow",
-  "Trokey",
+  "Trokey"
 ]; // Your array of surnames
 
 export const Texasname1 =
@@ -431,8 +431,7 @@ export const Texasname1 =
       myArray2[Math.floor(Math.random() * myArray2.length)];
 
 export const TexasPlayers = [{ Texasname1, Texasname2, Texasname3, Texasname4, Texasname5, Texasname6, Texasname7, Texasname8, Texasname9, Texasname10 }];
-
-export default function TexasSchedule () {
+export default function texasSchedule () {
   
   return (
     <>
@@ -573,16 +572,16 @@ export default function TexasSchedule () {
           <div className="row">
             <div className="col-sm">
             <h4>Team roster</h4>
-              <h2>{Texasname1}</h2>
-              <h2>{Texasname2}</h2>
-              <h2>{Texasname3}</h2>
-              <h2>{Texasname4}</h2>
-              <h2>{Texasname5}</h2>
-              <h2>{Texasname6}</h2>
-              <h2>{Texasname7}</h2>
-              <h2>{Texasname8}</h2>
-              <h2>{Texasname9}</h2>
-              <h2>{Texasname10}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
+            <h2>{Texasname1}</h2>
           </div>
         </div>
       </div>
@@ -591,4 +590,4 @@ export default function TexasSchedule () {
       <center><LinkButton /></center>
     </>
   );
-};
+  };

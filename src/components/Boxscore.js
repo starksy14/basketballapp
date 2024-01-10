@@ -48,15 +48,15 @@ export default function PurdueTexasBox() {
           <div className="row">
             <div className="col-sm">
             <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname1)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname2)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname3)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname4)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname5)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname6)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname7)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname8)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname9)}</h2>
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname10)}</h2>            
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname2)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname3)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname4)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname5)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname6)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname7)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname8)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname9)}</h2>
+          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname10)}</h2>            
             </div>
           </div>
         </div>

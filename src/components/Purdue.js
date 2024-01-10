@@ -431,7 +431,6 @@ export const purduename1 =
       myArray2[Math.floor(Math.random() * myArray2.length)];
 
 export const PurduePlayers = [{ purduename1, purduename2, purduename3, purduename4, purduename5, purduename6, purduename7, purduename8, purduename9, purduename10 }];
-Object.freeze(PurduePlayers);
 export default function purdueSchedule () {
   
   return (
