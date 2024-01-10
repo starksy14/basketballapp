@@ -5,6 +5,8 @@ body {
   display: grid;
   place-items: center;
   color: white;
+  width: 100%;
+
 }
 .box {
   background-color: black;
@@ -15,7 +17,7 @@ body {
 h6 {
   margin: 0rem;
   padding-bottom: 0rem;
-  font-size: 180px;
+  font-size: 120px;
   padding-bottom: 0.2em;
   line-height: 1;
 font-family: 'Oswald', sans-serif;
@@ -24,7 +26,7 @@ font-family: 'Oswald', sans-serif;
 p {
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
         font-size: 1em;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
       }
       p::first-letter {
@@ -57,11 +59,12 @@ h4 {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  gap: 20px;
+  gap: 40px;
   margin: 0 auto;
 }
 
 div {
   background-color: black;
   color: white;
+  width:fit-content;
 }

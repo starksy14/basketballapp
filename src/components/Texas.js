@@ -1,34 +1,34 @@
 import LinkButton from './LinkButton';
 
-export const schedulePurdue = [
+export const scheduleTexas = [
   {
-    PurdueTeam1: "Texas",
-    PurdueTeam2: "Rutgers",
-    PurdueTeam3: "@Indiana State",
-    PurdueTeam4: "UNLV",
-    PurdueTeam5: "@Radford",
-    PurdueTeam6: "UCLA",
-    PurdueTeam7: "Penn",
-    PurdueTeam8: "Delaware State",
-    PurdueTeam9: "San Jose State",
-    PurdueTeam10: "Marist",
-    PurdueTeam11: "Washington",
-    PurdueTeam12: "Northeastern",
-    PurdueTeam13: "Portland State",
-    PurdueTeam14: "William & Mary",
-    PurdueTeam15: "VCU",
-    PurdueTeam16: "Evansville",
-    PurdueTeam17: "@UCLA",
-    PurdueTeam18: "@Penn",
-    PurdueTeam19: "@Delaware State",
-    PurdueTeam20: "@San Jose State",
-    PurdueTeam21: "@Marist",
-    PurdueTeam22: "@Washington",
-    PurdueTeam23: "@Northeastern",
-    PurdueTeam24: "@Portland State",
-    PurdueTeam25: "@William & Mary",
-    PurdueTeam26: "@VCU",
-    PurdueTeam27: "@Evansville",
+    TexasTeam1: "Texas",
+    TexasTeam2: "Rutgers",
+    TexasTeam3: "@Indiana State",
+    TexasTeam4: "UNLV",
+    TexasTeam5: "@Radford",
+    TexasTeam6: "UCLA",
+    TexasTeam7: "Penn",
+    TexasTeam8: "Delaware State",
+    TexasTeam9: "San Jose State",
+    TexasTeam10: "Marist",
+    TexasTeam11: "Washington",
+    TexasTeam12: "Northeastern",
+    TexasTeam13: "Portland State",
+    TexasTeam14: "William & Mary",
+    TexasTeam15: "VCU",
+    TexasTeam16: "Evansville",
+    TexasTeam17: "@UCLA",
+    TexasTeam18: "@Penn",
+    TexasTeam19: "@Delaware State",
+    TexasTeam20: "@San Jose State",
+    TexasTeam21: "@Marist",
+    TexasTeam22: "@Washington",
+    TexasTeam23: "@Northeastern",
+    TexasTeam24: "@Portland State",
+    TexasTeam25: "@William & Mary",
+    TexasTeam26: "@VCU",
+    TexasTeam27: "@Evansville",
   },
 ];
 
@@ -389,53 +389,54 @@ const myArray2 = [
   "Trokey",
 ]; // Your array of surnames
 
-export const purduename1 =
+export const Texasname1 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename2 =
+    Texasname2 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename3 =
+    Texasname3 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename4 =
+    Texasname4 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename5 =
+    Texasname5 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename6 =
+    Texasname6 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename7 =
+    Texasname7 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename8 =
+    Texasname8 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename9 =
+    Texasname9 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)],
-    purduename10 =
+    Texasname10 =
       myArray1[Math.floor(Math.random() * myArray1.length)] +
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)];
 
-export default function purdueSchedule () {
+
+export default function TexasSchedule () {
   
   return (
     <>
       <div>
-      <center><h1>Purdue schedule</h1></center>
+      <center><h1>Texas schedule</h1></center>
 
         <div className="grid-container">
           <div className="col-sm">
@@ -475,33 +476,33 @@ export default function purdueSchedule () {
           <div className="row">
             <h4>Opponent</h4>
             <div className="col-sm">
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam1)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam2)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam3)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam4)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam5)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam6)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam7)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam8)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam9)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam10)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam11)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam12)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam13)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam14)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam15)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam16)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam17)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam18)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam19)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam20)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam21)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam22)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam23)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam24)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam25)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam26)}</h2>
-              <h2>{schedulePurdue.map((schedulePurdue) => schedulePurdue.PurdueTeam27)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam1)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam2)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam3)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam4)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam5)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam6)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam7)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam8)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam9)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam10)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam11)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam12)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam13)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam14)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam15)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam16)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam17)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam18)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam19)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam20)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam21)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam22)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam23)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam24)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam25)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam26)}</h2>
+              <h2>{scheduleTexas.map((scheduleTexas) => scheduleTexas.TexasTeam27)}</h2>
             </div>
           </div>
           <div className="row">
@@ -571,16 +572,16 @@ export default function purdueSchedule () {
           <div className="row">
             <div className="col-sm">
             <h4>Team roster</h4>
-              <h2>{purduename1}</h2>
-              <h2>{purduename2}</h2>
-              <h2>{purduename3}</h2>
-              <h2>{purduename4}</h2>
-              <h2>{purduename5}</h2>
-              <h2>{purduename6}</h2>
-              <h2>{purduename7}</h2>
-              <h2>{purduename8}</h2>
-              <h2>{purduename9}</h2>
-              <h2>{purduename10}</h2>
+              <h2>{Texasname1}</h2>
+              <h2>{Texasname2}</h2>
+              <h2>{Texasname3}</h2>
+              <h2>{Texasname4}</h2>
+              <h2>{Texasname5}</h2>
+              <h2>{Texasname6}</h2>
+              <h2>{Texasname7}</h2>
+              <h2>{Texasname8}</h2>
+              <h2>{Texasname9}</h2>
+              <h2>{Texasname10}</h2>
           </div>
         </div>
       </div>

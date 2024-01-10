@@ -17,6 +17,8 @@ import WilliamMary from "./components/WilliamMary";
 import DelawareState from "./components/DelawareState";
 import GameOneTable from "./components/GameOneTable";
 import LinkButton from "./components/LinkButton";
+import Boxscore from "./components/Boxscore";
+import BoxButton from "./components/BoxButton";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -40,6 +42,8 @@ export default function App() {
           <Route path="DelawareState" element={<DelawareState />} />
           <Route path="GameOneTable" element={<GameOneTable />} />
           <Route path="LinkButton" element={<LinkButton />} />
+          <Route path="BoxButton" element={<BoxButton />} />
+          <Route path="Boxscore" element={<Boxscore />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>

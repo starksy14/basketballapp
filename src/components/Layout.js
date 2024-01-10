@@ -13,7 +13,8 @@ function Copy() {
 // This one also has an explicit return
 const App = () => {
   return(
-      <div>
+<center>
+<div>
       <Title text="THE UNTITLED COLLEGE BASKETBALL PROJECT" />
       <Copy />
       <br></br>
@@ -71,9 +72,10 @@ const App = () => {
              <center><Wooden /></center>
               </div>
               </div>
-
               </div>
               </div>
+              </center>
+              
   );
 }
 
