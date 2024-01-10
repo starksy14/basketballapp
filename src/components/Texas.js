@@ -430,6 +430,7 @@ export const Texasname1 =
       " " +
       myArray2[Math.floor(Math.random() * myArray2.length)];
 
+export const TexasPlayers = [{ Texasname1, Texasname2, Texasname3, Texasname4, Texasname5, Texasname6, Texasname7, Texasname8, Texasname9, Texasname10 }];
 
 export default function TexasSchedule () {
   
