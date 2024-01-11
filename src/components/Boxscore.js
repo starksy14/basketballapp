@@ -1,4 +1,4 @@
-import { PurduePlayers } from "./Purdue";
+import { PurduePlayers } from "./PurdueNames";
 import { TexasPlayers } from "./Texas"
 
 

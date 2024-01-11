@@ -1,3 +1,4 @@
+// In a separate file or component
 const generatePurdueNames = (myArray1, myArray2) => {
   const PurduePlayers = Array.from({ length: 10 }, () => {
     const randomName =
@@ -10,4 +11,4 @@ const generatePurdueNames = (myArray1, myArray2) => {
   return PurduePlayers;
 };
 
-export default generatePurdueNames;
+export { generatePurdueNames, PurduePlayers };
