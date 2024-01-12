@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import {generatePurdueNames, PurduePlayers} from './PurdueNames';
+import React from 'react';
 import LinkButton from './LinkButton';
 
 export const schedulePurdue = [
@@ -34,10 +33,6 @@ export const schedulePurdue = [
   },
 ];
 
-const YourComponent = () => {
-  const [PurduePlayers, setPurduePlayers] = useState([]);
-
-  useEffect(() => {
 const myArray1 = [
   "Collin",
   "Sean",
@@ -238,7 +233,7 @@ const myArray1 = [
   "Ryan",
   "Jewel",
   "Jonas",
-  "Andres"
+  "Andres",
 ]; // Your array of names
 const myArray2 = [
   "Goodyear",
@@ -392,14 +387,55 @@ const myArray2 = [
   "Marcinko",
   "Buhovecky",
   "Zellefrow",
-  "Trokey"
-];
-const generatedNames = generatePurdueNames(myArray1, myArray2);
-    setPurduePlayers(generatedNames);
-  }, []);
-  
-  return (
-    <>
+  "Trokey",
+]; // Your array of surnames
+
+const Purduename1 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename2 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename3 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename4 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename5 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename6 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename7 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename8 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename9 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)],
+  Purduename10 =
+    myArray1[Math.floor(Math.random() * myArray1.length)] +
+    " " +
+    myArray2[Math.floor(Math.random() * myArray2.length)];
+
+    export const PurduePlayers = [{ Purduename1, Purduename2, Purduename3, Purduename4, Purduename5, Purduename6, Purduename7, Purduename8, Purduename9, Purduename10 }];
+
+    const PurdueSchedule = () => {
+      return (
+  <>
       <div>
       <center><h1>Purdue schedule</h1></center>
 
@@ -537,7 +573,16 @@ const generatedNames = generatePurdueNames(myArray1, myArray2);
           <div className="row">
             <div className="col-sm">
             <h4>Team roster</h4>
-            {PurduePlayers.map((player, index) => (<h2 key = {index}>{player.name}</h2>))}
+            <h2>{Purduename1}</h2>
+            <h2>{Purduename2}</h2>
+            <h2>{Purduename3}</h2>
+            <h2>{Purduename4}</h2>
+            <h2>{Purduename5}</h2>
+            <h2>{Purduename6}</h2>
+            <h2>{Purduename7}</h2>
+            <h2>{Purduename8}</h2>
+            <h2>{Purduename9}</h2>
+            <h2>{Purduename10}</h2>
           </div>
         </div>
       </div>
@@ -545,7 +590,7 @@ const generatedNames = generatePurdueNames(myArray1, myArray2);
       <br></br>
       <center><LinkButton /></center>
     </>
-  );
-};
+  )
+}
 
-export default YourComponent;
+export default PurdueSchedule;
