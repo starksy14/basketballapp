@@ -1,4 +1,4 @@
-import {generatePlayerNames, YourComponent} from './PurdueNames';
+import {generatePurdueNames, PurdueComponent} from './PurdueNames';
 import LinkButton from './LinkButton';
 
 export const schedulePurdue = [
@@ -173,7 +173,7 @@ return (
           <div className="row">
             <div className="col-sm">
             <h4>Team roster</h4>
-            <h2><YourComponent generatePlayerNames={generatePlayerNames} /></h2>
+            <h2><PurdueComponent generatePurdueNames={generatePurdueNames} /></h2>
             </div>
         </div>
       </div>

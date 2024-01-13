@@ -1,5 +1,5 @@
-import {generatePlayerNames, YourComponent} from './PurdueNames';
-import { TexasPlayers } from "./Texas"
+import {generatePurdueNames, PurdueComponent} from './PurdueNames';
+import {generateTexasNames, TexasComponent} from './TexasNames';
 
 
 var PurdueS1 = Math.floor((Math.random() * 25) + 0);
@@ -47,16 +47,8 @@ export default function PurdueTexasBox() {
           <h4>Texas</h4>
           <div className="row">
             <div className="col-sm">
-            <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname1)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname2)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname3)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname4)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname5)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname6)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname7)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname8)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname9)}</h2>
-          <h2>{TexasPlayers.map((TexasPlayers) => TexasPlayers.Texasname10)}</h2>            
+            <h2><TexasComponent generateTexasNames={generateTexasNames} /></h2>
+           
             </div>
           </div>
         </div>
@@ -86,7 +78,7 @@ export default function PurdueTexasBox() {
         <div className="row">
           <div className="col-sm">
           <h4>Purdue</h4>
-          <h2><YourComponent generatePlayerNames={generatePlayerNames} /></h2>
+          <h2><PurdueComponent generatePurdueNames={generatePurdueNames} /></h2>
             </div>
         </div>
         <div className="row">
