@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 
-const TexasComponent = ({ generateTexasNames }) => {
-  const [Texasplayers, setTexasPlayers] = useState([]);
+const NortheasternComponent = ({ generateNortheasternNames }) => {
+  const [Northeasternplayers, setNortheasternPlayers] = useState([]);
 
   useEffect(() => {
     // Check if there are previously saved player names in local storage
-    const storedTexasPlayers = JSON.parse(localStorage.getItem('TexasplayerNames'));
+    const storedNortheasternPlayers = JSON.parse(localStorage.getItem('NortheasternplayerNames'));
 
-    if (storedTexasPlayers) {
-      setTexasPlayers(storedTexasPlayers);
+    if (storedNortheasternPlayers) {
+      setNortheasternPlayers(storedNortheasternPlayers);
     } else {
       // Replace these sample arrays with your actual data
-      const TexasArray1 = [
+      const NortheasternArray1 = [
         "Collin",
         "Sean",
         "Leopoldo",
@@ -213,7 +213,7 @@ const TexasComponent = ({ generateTexasNames }) => {
         "Jonas",
         "Andres"
       ]; // Your array of names
-      const TexasArray2 = [
+      const NortheasternArray2 = [
         "Goodyear",
         "Arndorfer",
         "Stire",
@@ -369,17 +369,17 @@ const TexasComponent = ({ generateTexasNames }) => {
       ]; // Your array of surnames
 
       // Generate player names when the component mounts
-      const generatedTexasNames = generateTexasNames(TexasArray1, TexasArray2);
-      setTexasPlayers(generatedTexasNames);
+      const generatedNortheasternNames = generateNortheasternNames(NortheasternArray1, NortheasternArray2);
+      setNortheasternPlayers(generatedNortheasternNames);
 
       // Save the generated names to local storage
-      localStorage.setItem('TexasplayerNames', JSON.stringify(generatedTexasNames));
+      localStorage.setItem('NortheasternplayerNames', JSON.stringify(generatedNortheasternNames));
     }
-  }, [generateTexasNames]);
+  }, [generateNortheasternNames]);
 
   return (
     <div>
-      {Texasplayers.map((player, index) => (
+      {Northeasternplayers.map((player, index) => (
         <div key={index}>
           {player.name}
           <br />
@@ -390,16 +390,16 @@ const TexasComponent = ({ generateTexasNames }) => {
   );
 };
 
-const generateTexasNames = (TexasArray1, TexasArray2) => {
+const generateNortheasternNames = (NortheasternArray1, NortheasternArray2) => {
   const players = Array.from({ length: 10 }, () => {
     const playerName =
-      TexasArray1[Math.floor(Math.random() * TexasArray1.length)] +
+      NortheasternArray1[Math.floor(Math.random() * NortheasternArray1.length)] +
       ' ' +
-      TexasArray2[Math.floor(Math.random() * TexasArray2.length)];
+      NortheasternArray2[Math.floor(Math.random() * NortheasternArray2.length)];
     return { name: playerName };
   });
 
   return players;
 };
 
-export { TexasComponent, generateTexasNames };
+export { NortheasternComponent, generateNortheasternNames };

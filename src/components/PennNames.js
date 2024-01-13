@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 
-const TexasComponent = ({ generateTexasNames }) => {
-  const [Texasplayers, setTexasPlayers] = useState([]);
+const PennComponent = ({ generatePennNames }) => {
+  const [Pennplayers, setPennPlayers] = useState([]);
 
   useEffect(() => {
     // Check if there are previously saved player names in local storage
-    const storedTexasPlayers = JSON.parse(localStorage.getItem('TexasplayerNames'));
+    const storedPennPlayers = JSON.parse(localStorage.getItem('PennplayerNames'));
 
-    if (storedTexasPlayers) {
-      setTexasPlayers(storedTexasPlayers);
+    if (storedPennPlayers) {
+      setPennPlayers(storedPennPlayers);
     } else {
       // Replace these sample arrays with your actual data
-      const TexasArray1 = [
+      const PennArray1 = [
         "Collin",
         "Sean",
         "Leopoldo",
@@ -213,7 +213,7 @@ const TexasComponent = ({ generateTexasNames }) => {
         "Jonas",
         "Andres"
       ]; // Your array of names
-      const TexasArray2 = [
+      const PennArray2 = [
         "Goodyear",
         "Arndorfer",
         "Stire",
@@ -369,17 +369,17 @@ const TexasComponent = ({ generateTexasNames }) => {
       ]; // Your array of surnames
 
       // Generate player names when the component mounts
-      const generatedTexasNames = generateTexasNames(TexasArray1, TexasArray2);
-      setTexasPlayers(generatedTexasNames);
+      const generatedPennNames = generatePennNames(PennArray1, PennArray2);
+      setPennPlayers(generatedPennNames);
 
       // Save the generated names to local storage
-      localStorage.setItem('TexasplayerNames', JSON.stringify(generatedTexasNames));
+      localStorage.setItem('PennplayerNames', JSON.stringify(generatedPennNames));
     }
-  }, [generateTexasNames]);
+  }, [generatePennNames]);
 
   return (
     <div>
-      {Texasplayers.map((player, index) => (
+      {Pennplayers.map((player, index) => (
         <div key={index}>
           {player.name}
           <br />
@@ -390,16 +390,16 @@ const TexasComponent = ({ generateTexasNames }) => {
   );
 };
 
-const generateTexasNames = (TexasArray1, TexasArray2) => {
+const generatePennNames = (PennArray1, PennArray2) => {
   const players = Array.from({ length: 10 }, () => {
     const playerName =
-      TexasArray1[Math.floor(Math.random() * TexasArray1.length)] +
+      PennArray1[Math.floor(Math.random() * PennArray1.length)] +
       ' ' +
-      TexasArray2[Math.floor(Math.random() * TexasArray2.length)];
+      PennArray2[Math.floor(Math.random() * PennArray2.length)];
     return { name: playerName };
   });
 
   return players;
 };
 
-export { TexasComponent, generateTexasNames };
+export { PennComponent, generatePennNames };
