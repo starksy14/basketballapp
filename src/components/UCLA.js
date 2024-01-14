@@ -39,7 +39,7 @@ function UCLAschedule () {
     return (
       <>
         <div>
-        <h1>UCLA schedule</h1>
+        <center><h1>UCLA schedule</h1></center>
   
           <div className="grid-container">
             <div className="col-sm">
