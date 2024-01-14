@@ -1,5 +1,5 @@
 import {generateUCLANames, UCLAComponent} from './UCLANames';
-import LinkButton from './LinkButton';
+import UCLALinkButton from './UCLALinkButton';
 
 export const scheduleUCLA = [
   {
@@ -182,7 +182,7 @@ function UCLAschedule () {
           </div>
         </div>
         <br></br>
-      <center><LinkButton /></center>
+      <center><UCLALinkButton /></center>
       </>
     );
   };

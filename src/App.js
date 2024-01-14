@@ -16,9 +16,13 @@ import Marist from "./components/Marist";
 import WilliamMary from "./components/WilliamMary";
 import DelawareState from "./components/DelawareState";
 import GameOneTable from "./components/GameOneTable";
+import GameOneTableUCLA from "./components/GameOneTableUCLA";
 import LinkButton from "./components/LinkButton";
+import UCLALinkButton from "./components/UCLALinkButton";
 import TexasPurdueBox from "./components/TexasPurdueBox";
-import BoxButton from "./components/BoxButton";
+import TexasPurdueBoxButton from "./components/TexasPurdueBoxButton";
+import UCLASCarBox from "./components/UCLASCarBox";
+import UCLASCarBoxButton from "./components/UCLASCarBoxButton";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 
@@ -41,9 +45,13 @@ export default function App() {
           <Route path="WilliamMary" element={<WilliamMary />} />
           <Route path="DelawareState" element={<DelawareState />} />
           <Route path="GameOneTable" element={<GameOneTable />} />
+          <Route path="GameOneTableUCLA" element={<GameOneTableUCLA />} />
           <Route path="LinkButton" element={<LinkButton />} />
-          <Route path="BoxButton" element={<BoxButton />} />
+          <Route path="UCLALinkButton" element={<UCLALinkButton />} />
+          <Route path="TexasPurdueBoxButton" element={<TexasPurdueBoxButton />} />
           <Route path="TexasPurdueBox" element={<TexasPurdueBox />} />
+          <Route path="UCLASCarBoxButton" element={<UCLASCarBoxButton />} />
+          <Route path="UCLASCarBox" element={<UCLASCarBox />} />
           <Route path="Wooden" element={<Wooden />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
