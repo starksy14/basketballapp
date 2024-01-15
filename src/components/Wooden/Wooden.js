@@ -11,7 +11,7 @@ const Wooden = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="/Purdue">Purdue</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Purdue">Purdue</Dropdown.Item>
           <Dropdown.Item href="/UCLA">UCLA</Dropdown.Item>
           <Dropdown.Item href="/Washington">Washington</Dropdown.Item>
           <Dropdown.Item href="/VCU">VCU</Dropdown.Item>

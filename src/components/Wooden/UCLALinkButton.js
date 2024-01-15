@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 function UCLALinkButton () {
   return (
     <>
-      <Button variant="secondary" size="sm" href="/GameOneTableUCLA">Wooden Conference Schedule: Proceed to Game 1</Button>
+      <Button variant="secondary" size="sm" href="Wooden/GameOneTableUCLA">Wooden Conference Schedule: Proceed to Game 1</Button>
     </>
   );
 }
