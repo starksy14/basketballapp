@@ -12,17 +12,17 @@ const Wooden = () => {
 
         <Dropdown.Menu>
           <Dropdown.Item href="Wooden/Purdue">Purdue</Dropdown.Item>
-          <Dropdown.Item href="/UCLA">UCLA</Dropdown.Item>
-          <Dropdown.Item href="/Washington">Washington</Dropdown.Item>
-          <Dropdown.Item href="/VCU">VCU</Dropdown.Item>
-          <Dropdown.Item href="/SanJoseState">San Jose State</Dropdown.Item>
-          <Dropdown.Item href="/PortlandState">Portland State</Dropdown.Item>
-          <Dropdown.Item href="/Penn">Penn</Dropdown.Item>
-          <Dropdown.Item href="/Northeastern">Northeastern</Dropdown.Item>
-          <Dropdown.Item href="/Evansville">Evansville</Dropdown.Item>
-          <Dropdown.Item href="/Marist">Marist</Dropdown.Item>
-          <Dropdown.Item href="/WilliamMary">William & Mary</Dropdown.Item>
-          <Dropdown.Item href="/DelawareState">Delaware State</Dropdown.Item>
+          <Dropdown.Item href="Wooden/UCLA">UCLA</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Washington">Washington</Dropdown.Item>
+          <Dropdown.Item href="Wooden/VCU">VCU</Dropdown.Item>
+          <Dropdown.Item href="Wooden/SanJoseState">San Jose State</Dropdown.Item>
+          <Dropdown.Item href="Wooden/PortlandState">Portland State</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Penn">Penn</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Northeastern">Northeastern</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Evansville">Evansville</Dropdown.Item>
+          <Dropdown.Item href="Wooden/Marist">Marist</Dropdown.Item>
+          <Dropdown.Item href="Wooden/WilliamMary">William & Mary</Dropdown.Item>
+          <Dropdown.Item href="Wooden/DelawareState">Delaware State</Dropdown.Item>
 
         </Dropdown.Menu>
       </Dropdown>

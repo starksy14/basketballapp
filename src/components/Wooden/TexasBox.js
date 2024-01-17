@@ -1,10 +1,10 @@
 import {generateTexasNames, TexasComponent} from './TexasNames';
 export { default as TexasTotal } from './TexasBox';
-var TexasS1 = Math.floor((Math.random() * 25) + 0);
-var TexasS2 = Math.floor((Math.random() * 25) + 0);
-var TexasS3 = Math.floor((Math.random() * 25) + 0);
-var TexasS4 = Math.floor((Math.random() * 25) + 0);
-var TexasS5 = Math.floor((Math.random() * 25) + 0);
+var TexasS1 = Math.floor((Math.random() * 28) + 0);
+var TexasS2 = Math.floor((Math.random() * 26) + 0);
+var TexasS3 = Math.floor((Math.random() * 24) + 0);
+var TexasS4 = Math.floor((Math.random() * 22) + 0);
+var TexasS5 = Math.floor((Math.random() * 20) + 0);
 var TexasS6 = Math.floor((Math.random() * 10) + 0);
 var TexasS7 = Math.floor((Math.random() * 10) + 0);
 var TexasS8 = Math.floor((Math.random() * 10) + 0);

@@ -1,10 +1,10 @@
 import {generatePurdueNames, PurdueComponent} from './PurdueNames';
 import { default as TexasTotal } from './TexasBox';
-var PurdueS1 = Math.floor((Math.random() * 25) + 0);
-var PurdueS2 = Math.floor((Math.random() * 25) + 0);
-var PurdueS3 = Math.floor((Math.random() * 25) + 0);
-var PurdueS4 = Math.floor((Math.random() * 25) + 0);
-var PurdueS5 = Math.floor((Math.random() * 25) + 0);
+var PurdueS1 = Math.floor((Math.random() * 30) + 0);
+var PurdueS2 = Math.floor((Math.random() * 28) + 0);
+var PurdueS3 = Math.floor((Math.random() * 26) + 0);
+var PurdueS4 = Math.floor((Math.random() * 24) + 0);
+var PurdueS5 = Math.floor((Math.random() * 22) + 0);
 var PurdueS6 = Math.floor((Math.random() * 10) + 0);
 var PurdueS7 = Math.floor((Math.random() * 10) + 0);
 var PurdueS8 = Math.floor((Math.random() * 10) + 0);
@@ -22,18 +22,19 @@ if (PurdueTotal === TexasTotal) {
   PurdueTotal = PurdueTotal + 2;
 }
 
-export default function PurdueTexasBox() {
+export default function PurdueBox() {
   return (
-  <div className="grid-container">
-              <div className="col-sm">
+      <div className="grid-container">
+        <div className="col-sm">
           <h4>Purdue</h4>
           <div className="row">
-          <div className="col-sm">
-          <h2><PurdueComponent generatePurdueNames={generatePurdueNames} /></h2>
+            <div className="col-sm">
+            <h2><PurdueComponent generatePurdueNames={generatePurdueNames} /></h2>
+           
+            </div>
           </div>
-            </div>
-            </div>
-            <div className="row">
+        </div>
+        <div className="row">
           <div className="col-sm">
           <h4>{PurdueTotal}</h4>
           <h2>{PurdueS1}</h2>
@@ -45,9 +46,9 @@ export default function PurdueTexasBox() {
               <h2>{PurdueS7}</h2>
               <h2>{PurdueS8}</h2>
               <h2>{PurdueS9}</h2>
-              <h2>{PurdueS10}</h2>      
-              </div>
-        </div>
-        </div>
-  )
+              <h2>{PurdueS10}</h2>              
+          </div>
+          </div>
+          </div>
+        )
 }
