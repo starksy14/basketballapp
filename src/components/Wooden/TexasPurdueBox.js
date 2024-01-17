@@ -4,15 +4,15 @@ import PurdueBox from './PurdueBox';
 export default function PurdueTexasBox() {
   return (
 <div>
-    <h1>Game 1: Texas vs. Purdue</h1>
+    <center><h1>Game 1: Texas vs. Purdue</h1></center>
     <div className="grid-container">
-    <TexasBox />
-    <div className="row">
-            <div className="col-sm">
-<PurdueBox />
+            <center><TexasBox /></center>
+    <div className="col-sm">
+            <div className="row">
             </div>
             </div>
-</div>
+    <center><PurdueBox /></center>
+            </div>
 </div>
   )
 }
