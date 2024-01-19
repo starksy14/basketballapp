@@ -1,5 +1,5 @@
 import {generateWashingtonNames, WashingtonComponent} from './WashingtonNames';
-import LinkButton from './LinkButton';
+import WashingtonLinkButton from './WashingtonLinkButton';
 
 const scheduleWashington = [
   {
@@ -181,7 +181,7 @@ const WashingtonSchedule = () => {
         </div>
       </div>
       <br></br>
-      <center><LinkButton /></center>
+      <center><WashingtonLinkButton /></center>
     </>
   );
 };

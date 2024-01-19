@@ -1,21 +1,27 @@
 import {generateUCLANames, UCLAComponent} from './UCLANames';
-var UCLAS1 = Math.floor((Math.random() * 28) + 0);
-var UCLAS2 = Math.floor((Math.random() * 26) + 0);
-var UCLAS3 = Math.floor((Math.random() * 24) + 0);
-var UCLAS4 = Math.floor((Math.random() * 22) + 0);
-var UCLAS5 = Math.floor((Math.random() * 20) + 0);
-var UCLAS6 = Math.floor((Math.random() * 10) + 0);
-var UCLAS7 = Math.floor((Math.random() * 10) + 0);
-var UCLAS8 = Math.floor((Math.random() * 10) + 0);
-var UCLAS9 = Math.floor((Math.random() * 10) + 0);
-var UCLAS10 = Math.floor((Math.random() * 10) + 0);
+import { default as SouthCarolinaG1Total } from './SouthCarolinaBox';
 
-var UCLAScores = [UCLAS1, UCLAS2, UCLAS3, UCLAS4, UCLAS5, UCLAS6, UCLAS7, UCLAS8, UCLAS9, UCLAS10];
+var UCLAG1S1 = Math.floor((Math.random() * 30) + 0);
+var UCLAG1S2 = Math.floor((Math.random() * 28) + 0);
+var UCLAG1S3 = Math.floor((Math.random() * 26) + 0);
+var UCLAG1S4 = Math.floor((Math.random() * 24) + 0);
+var UCLAG1S5 = Math.floor((Math.random() * 22) + 0);
+var UCLAG1S6 = Math.floor((Math.random() * 10) + 0);
+var UCLAG1S7 = Math.floor((Math.random() * 10) + 0);
+var UCLAG1S8 = Math.floor((Math.random() * 10) + 0);
+var UCLAG1S9 = Math.floor((Math.random() * 10) + 0);
+var UCLAG1S10 = Math.floor((Math.random() * 10) + 0);
 
-let UCLASum = UCLAScores.reduce(function(a, b) {
+var UCLAG1Scores = [UCLAG1S1, UCLAG1S2, UCLAG1S3, UCLAG1S4, UCLAG1S5, UCLAG1S6, UCLAG1S7, UCLAG1S8, UCLAG1S9, UCLAG1S10];
+
+let UCLAG1Sum = UCLAG1Scores.reduce(function(a, b) {
   return a + b;
 });
-var UCLATotal = (UCLASum);
+var UCLAG1Total = (UCLAG1Sum);
+
+if (UCLAG1Total === SouthCarolinaG1Total) {
+  UCLAG1Total = UCLAG1Total + 2;
+}
 
 export default function UCLABox() {
   return (
@@ -31,17 +37,17 @@ export default function UCLABox() {
         </div>
         <div className="row">
           <div className="col-sm">
-          <h4>{UCLATotal}</h4>
-          <h2>{UCLAS1}</h2>
-              <h2>{UCLAS2}</h2>
-              <h2>{UCLAS3}</h2>
-              <h2>{UCLAS4}</h2>
-              <h2>{UCLAS5}</h2>
-              <h2>{UCLAS6}</h2>
-              <h2>{UCLAS7}</h2>
-              <h2>{UCLAS8}</h2>
-              <h2>{UCLAS9}</h2>
-              <h2>{UCLAS10}</h2>              
+          <h4>{UCLAG1Total}</h4>
+          <h2>{UCLAG1S1}</h2>
+              <h2>{UCLAG1S2}</h2>
+              <h2>{UCLAG1S3}</h2>
+              <h2>{UCLAG1S4}</h2>
+              <h2>{UCLAG1S5}</h2>
+              <h2>{UCLAG1S6}</h2>
+              <h2>{UCLAG1S7}</h2>
+              <h2>{UCLAG1S8}</h2>
+              <h2>{UCLAG1S9}</h2>
+              <h2>{UCLAG1S10}</h2>              
           </div>
           </div>
           </div>
