@@ -5,7 +5,7 @@ export default function SFAustinWashBox () {
   return (
 
 <div>
-    <h1>Game 1: UCLA vs. South Carolina</h1>
+    <h1>Game 1: Stephen F. Austin vs. Washington</h1>
     <div className="grid-container">
             <SFAustinBox />
             <WashingtonBox />

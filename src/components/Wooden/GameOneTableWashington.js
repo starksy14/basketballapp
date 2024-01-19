@@ -3,7 +3,7 @@ import { scheduleUCLA } from './UCLA';
 import SFAustinWashBoxButton from './SFAustinWashBoxButton';
 
 
-export default function GameOneTable() {
+export default function GameOneTableWashington() {
   return (
     <div>
   <center><h1>Wooden Schedule: Game 1</h1></center>

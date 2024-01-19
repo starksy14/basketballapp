@@ -27,7 +27,7 @@ export default function SFAustinBox() {
   return (
       <div className="grid-container">
         <div className="col-sm">
-          <h4>SFAustin</h4>
+          <h4>Stephen F. Austin</h4>
           <div className="row">
             <div className="col-sm">
             <h2><SFAustinComponent generateSFAustinNames={generateSFAustinNames} /></h2>

@@ -22,7 +22,7 @@ export default function WashingtonBox() {
   return (
       <div className="grid-container">
         <div className="col-sm">
-          <h4>South Carolina</h4>
+          <h4>Washington</h4>
           <div className="row">
             <div className="col-sm">
             <h2><WashingtonComponent generateWashingtonNames={generateWashingtonNames} /></h2>
