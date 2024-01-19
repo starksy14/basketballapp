@@ -1,5 +1,5 @@
 import {generateVCUNames, VCUComponent} from './VCUNames';
-import LinkButton from './LinkButton';
+import VCULinkButton from './VCULinkButton';
 
 const scheduleVCU = [
   {
@@ -182,7 +182,7 @@ const VCUSchedule = () => {
           </div>
         </div>
         <br></br>
-      <center><LinkButton /></center>
+      <center><VCULinkButton /></center>
       </>
     );
   };

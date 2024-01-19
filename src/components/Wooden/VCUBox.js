@@ -1,21 +1,26 @@
 import {generateVCUNames, VCUComponent} from './VCUNames';
-var VCUS1 = Math.floor((Math.random() * 28) + 0);
-var VCUS2 = Math.floor((Math.random() * 26) + 0);
-var VCUS3 = Math.floor((Math.random() * 24) + 0);
-var VCUS4 = Math.floor((Math.random() * 22) + 0);
-var VCUS5 = Math.floor((Math.random() * 20) + 0);
-var VCUS6 = Math.floor((Math.random() * 10) + 0);
-var VCUS7 = Math.floor((Math.random() * 10) + 0);
-var VCUS8 = Math.floor((Math.random() * 10) + 0);
-var VCUS9 = Math.floor((Math.random() * 10) + 0);
-var VCUS10 = Math.floor((Math.random() * 10) + 0);
+import { default as HawaiiTotalG1 } from './TexasBox';
+var VCUG1S1 = Math.floor((Math.random() * 30) + 0);
+var VCUG1S2 = Math.floor((Math.random() * 28) + 0);
+var VCUG1S3 = Math.floor((Math.random() * 26) + 0);
+var VCUG1S4 = Math.floor((Math.random() * 24) + 0);
+var VCUG1S5 = Math.floor((Math.random() * 22) + 0);
+var VCUG1S6 = Math.floor((Math.random() * 10) + 0);
+var VCUG1S7 = Math.floor((Math.random() * 10) + 0);
+var VCUG1S8 = Math.floor((Math.random() * 10) + 0);
+var VCUG1S9 = Math.floor((Math.random() * 10) + 0);
+var VCUG1S10 = Math.floor((Math.random() * 10) + 0);
 
-var VCUScores = [VCUS1, VCUS2, VCUS3, VCUS4, VCUS5, VCUS6, VCUS7, VCUS8, VCUS9, VCUS10];
+var VCUScores = [VCUG1S1, VCUG1S2, VCUG1S3, VCUG1S4, VCUG1S5, VCUG1S6, VCUG1S7, VCUG1S8, VCUG1S9, VCUG1S10];
 
-let VCUSum = VCUScores.reduce(function(a, b) {
+let VCUSumG1 = VCUScores.reduce(function(a, b) {
   return a + b;
 });
-var VCUTotal = (VCUSum);
+var VCUTotalG1 = (VCUSumG1);
+
+if (VCUTotalG1 === HawaiiTotalG1) {
+  VCUTotalG1 = VCUTotalG1 + 2;
+}
 
 export default function VCUBox() {
   return (
@@ -31,17 +36,17 @@ export default function VCUBox() {
         </div>
         <div className="row">
           <div className="col-sm">
-          <h4>{VCUTotal}</h4>
-          <h2>{VCUS1}</h2>
-              <h2>{VCUS2}</h2>
-              <h2>{VCUS3}</h2>
-              <h2>{VCUS4}</h2>
-              <h2>{VCUS5}</h2>
-              <h2>{VCUS6}</h2>
-              <h2>{VCUS7}</h2>
-              <h2>{VCUS8}</h2>
-              <h2>{VCUS9}</h2>
-              <h2>{VCUS10}</h2>              
+          <h4>{VCUTotalG1}</h4>
+          <h2>{VCUG1S1}</h2>
+              <h2>{VCUG1S2}</h2>
+              <h2>{VCUG1S3}</h2>
+              <h2>{VCUG1S4}</h2>
+              <h2>{VCUG1S5}</h2>
+              <h2>{VCUG1S6}</h2>
+              <h2>{VCUG1S7}</h2>
+              <h2>{VCUG1S8}</h2>
+              <h2>{VCUG1S9}</h2>
+              <h2>{VCUG1S10}</h2>              
           </div>
           </div>
           </div>

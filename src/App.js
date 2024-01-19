@@ -20,12 +20,14 @@ import DelawareState from "./components/Wooden/DelawareState";
 import GameOneTable from "./components/Wooden/GameOneTable";
 import GameOneTableUCLA from "./components/Wooden/GameOneTableUCLA";
 import GameOneTableWashington from "./components/Wooden/GameOneTableWashington";
+import GameOneTableVCU from "./components/Wooden/GameOneTableVCU";
 import LinkButton from "./components/Wooden/LinkButton";
 import UCLALinkButton from "./components/Wooden/UCLALinkButton";
 import TexasPurdueBox from "./components/Wooden/TexasPurdueBox";
 import SFAustinWashBox from "./components/Wooden/SFAustinWashBox";
 import TexasPurdueBoxButton from "./components/Wooden/TexasPurdueBoxButton";
 import UCLASCarBox from "./components/Wooden/UCLASCarBox";
+import HawaiiVCUBox from "./components/Wooden/HawaiiVCUBox";
 import UCLASCarBoxButton from "./components/Wooden/UCLASCarBoxButton";
 
 export default function App() {
@@ -50,12 +52,14 @@ export default function App() {
           <Route path="Wooden/GameOneTable" element={<GameOneTable />} />
           <Route path="Wooden/GameOneTableUCLA" element={<GameOneTableUCLA />} />
           <Route path="Wooden/GameOneTableWashington" element={<GameOneTableWashington />} />
+          <Route path="Wooden/GameOneTableVCU" element={<GameOneTableVCU />} />
           <Route path="Wooden/LinkButton" element={<LinkButton />} />
           <Route path="Wooden/UCLALinkButton" element={<UCLALinkButton />} />
           <Route path="Wooden/TexasPurdueBoxButton" element={<TexasPurdueBoxButton />} />
           <Route path="Wooden/TexasPurdueBox" element={<TexasPurdueBox />} />
           <Route path="Wooden/UCLASCarBoxButton" element={<UCLASCarBoxButton />} />
           <Route path="Wooden/UCLASCarBox" element={<UCLASCarBox />} />
+          <Route path="Wooden/HawaiiVCUBox" element={<HawaiiVCUBox />} />
           <Route path="Wooden/SFAustinWashBox" element={<SFAustinWashBox />} />
           <Route path="Wooden/Wooden" element={<Wooden />} />
       </Routes>

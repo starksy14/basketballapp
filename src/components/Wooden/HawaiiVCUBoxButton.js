@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
 
-function UCLASCarBoxButton() {
+function HawaiiVCUBoxButton() {
   return (
     <>
-      <Button variant="secondary" size="sm" href="UCLASCarBox">Wooden Conference Schedule: UCLA vs. South Carolina</Button>
+      <Button variant="secondary" size="sm" href="HawaiiVCUBox">Wooden Conference Schedule: Hawaii vs. VCU</Button>
     </>
   );
 }
 
-export default UCLASCarBoxButton;
+export default HawaiiVCUBoxButton;

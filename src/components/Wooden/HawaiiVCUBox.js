@@ -1,14 +1,14 @@
-import UCLABox from './UCLABox';
-import SouthCarolinaBox from './SouthCarolinaBox';
+import HawaiiBox from './HawaiiBox';
+import VCUBox from './VCUBox';
 
-export default function UCLASCarBox() {
+export default function HawaiiVCUBox() {
   return (
 
 <div>
-    <h1>Game 1: UCLA vs. South Carolina</h1>
+    <h1>Game 1: Hawaii vs. VCU</h1>
     <div className="grid-container">
-            <UCLABox />
-            <SouthCarolinaBox />
+            <HawaiiBox />
+            <VCUBox />
             </div>
             </div>
   )
