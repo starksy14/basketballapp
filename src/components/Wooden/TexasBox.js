@@ -1,22 +1,22 @@
 import {generateTexasNames, TexasComponent} from './TexasNames';
-export { default as TexasTotal } from './TexasBox';
-var TexasS1 = Math.floor((Math.random() * 28) + 0);
-var TexasS2 = Math.floor((Math.random() * 26) + 0);
-var TexasS3 = Math.floor((Math.random() * 24) + 0);
-var TexasS4 = Math.floor((Math.random() * 22) + 0);
-var TexasS5 = Math.floor((Math.random() * 20) + 0);
-var TexasS6 = Math.floor((Math.random() * 10) + 0);
-var TexasS7 = Math.floor((Math.random() * 10) + 0);
-var TexasS8 = Math.floor((Math.random() * 10) + 0);
-var TexasS9 = Math.floor((Math.random() * 10) + 0);
-var TexasS10 = Math.floor((Math.random() * 10) + 0);
+var TexasG1S1 = Math.floor((Math.random() * 30) + 0);
+var TexasG1S2 = Math.floor((Math.random() * 28) + 0);
+var TexasG1S3 = Math.floor((Math.random() * 26) + 0);
+var TexasG1S4 = Math.floor((Math.random() * 24) + 0);
+var TexasG1S5 = Math.floor((Math.random() * 22) + 0);
+var TexasG1S6 = Math.floor((Math.random() * 10) + 0);
+var TexasG1S7 = Math.floor((Math.random() * 10) + 0);
+var TexasG1S8 = Math.floor((Math.random() * 10) + 0);
+var TexasG1S9 = Math.floor((Math.random() * 10) + 0);
+var TexasG1S10 = Math.floor((Math.random() * 10) + 0);
 
-var TexasScores = [TexasS1, TexasS2, TexasS3, TexasS4, TexasS5, TexasS6, TexasS7, TexasS8, TexasS9, TexasS10];
+var TexasScores = [TexasG1S1, TexasG1S2, TexasG1S3, TexasG1S4, TexasG1S5, TexasG1S6, TexasG1S7, TexasG1S8, TexasG1S9, TexasG1S10];
 
-let TexasSum = TexasScores.reduce(function(a, b) {
+let TexasSumG1 = TexasScores.reduce(function(a, b) {
   return a + b;
 });
-var TexasTotal = (TexasSum);
+var TexasTotalG1 = (TexasSumG1);
+
 
 export default function TexasBox() {
   return (
@@ -32,17 +32,17 @@ export default function TexasBox() {
         </div>
         <div className="row">
           <div className="col-sm">
-          <h4>{TexasTotal}</h4>
-          <h2>{TexasS1}</h2>
-              <h2>{TexasS2}</h2>
-              <h2>{TexasS3}</h2>
-              <h2>{TexasS4}</h2>
-              <h2>{TexasS5}</h2>
-              <h2>{TexasS6}</h2>
-              <h2>{TexasS7}</h2>
-              <h2>{TexasS8}</h2>
-              <h2>{TexasS9}</h2>
-              <h2>{TexasS10}</h2>              
+          <h4>{TexasTotalG1}</h4>
+          <h2>{TexasG1S1}</h2>
+              <h2>{TexasG1S2}</h2>
+              <h2>{TexasG1S3}</h2>
+              <h2>{TexasG1S4}</h2>
+              <h2>{TexasG1S5}</h2>
+              <h2>{TexasG1S6}</h2>
+              <h2>{TexasG1S7}</h2>
+              <h2>{TexasG1S8}</h2>
+              <h2>{TexasG1S9}</h2>
+              <h2>{TexasG1S10}</h2>              
           </div>
           </div>
           </div>
