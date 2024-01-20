@@ -1,21 +1,22 @@
 import {generateNortheasternNames, NortheasternComponent} from './NortheasternNames';
-var NortheasternS1 = Math.floor((Math.random() * 28) + 0);
-var NortheasternS2 = Math.floor((Math.random() * 26) + 0);
-var NortheasternS3 = Math.floor((Math.random() * 24) + 0);
-var NortheasternS4 = Math.floor((Math.random() * 22) + 0);
-var NortheasternS5 = Math.floor((Math.random() * 20) + 0);
-var NortheasternS6 = Math.floor((Math.random() * 10) + 0);
-var NortheasternS7 = Math.floor((Math.random() * 10) + 0);
-var NortheasternS8 = Math.floor((Math.random() * 10) + 0);
-var NortheasternS9 = Math.floor((Math.random() * 10) + 0);
-var NortheasternS10 = Math.floor((Math.random() * 10) + 0);
+var NortheasternG1S1 = Math.floor(Math.random() * (50 - 0 + 1) + 0);
+var NortheasternG1S2 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var NortheasternG1S3 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var NortheasternG1S4 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var NortheasternG1S5 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var NortheasternG1S6 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var NortheasternG1S7 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var NortheasternG1S8 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var NortheasternG1S9 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var NortheasternG1S10 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
 
-var NortheasternScores = [NortheasternS1, NortheasternS2, NortheasternS3, NortheasternS4, NortheasternS5, NortheasternS6, NortheasternS7, NortheasternS8, NortheasternS9, NortheasternS10];
+var NortheasternScores = [NortheasternG1S1, NortheasternG1S2, NortheasternG1S3, NortheasternG1S4, NortheasternG1S5, NortheasternG1S6, NortheasternG1S7, NortheasternG1S8, NortheasternG1S9, NortheasternG1S10];
 
-let NortheasternSum = NortheasternScores.reduce(function(a, b) {
+let NortheasternSumG1 = NortheasternScores.reduce(function(a, b) {
   return a + b;
 });
-var NortheasternTotal = (NortheasternSum);
+var NortheasternTotalG1 = (NortheasternSumG1);
+
 
 export default function NortheasternBox() {
   return (
@@ -31,17 +32,17 @@ export default function NortheasternBox() {
         </div>
         <div className="row">
           <div className="col-sm">
-          <h4>{NortheasternTotal}</h4>
-          <h2>{NortheasternS1}</h2>
-              <h2>{NortheasternS2}</h2>
-              <h2>{NortheasternS3}</h2>
-              <h2>{NortheasternS4}</h2>
-              <h2>{NortheasternS5}</h2>
-              <h2>{NortheasternS6}</h2>
-              <h2>{NortheasternS7}</h2>
-              <h2>{NortheasternS8}</h2>
-              <h2>{NortheasternS9}</h2>
-              <h2>{NortheasternS10}</h2>              
+          <h4>{NortheasternTotalG1}</h4>
+          <h2>{NortheasternG1S1}</h2>
+              <h2>{NortheasternG1S2}</h2>
+              <h2>{NortheasternG1S3}</h2>
+              <h2>{NortheasternG1S4}</h2>
+              <h2>{NortheasternG1S5}</h2>
+              <h2>{NortheasternG1S6}</h2>
+              <h2>{NortheasternG1S7}</h2>
+              <h2>{NortheasternG1S8}</h2>
+              <h2>{NortheasternG1S9}</h2>
+              <h2>{NortheasternG1S10}</h2>              
           </div>
           </div>
           </div>

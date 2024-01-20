@@ -1,5 +1,5 @@
 import {generateNortheasternNames, NortheasternComponent} from './NortheasternNames';
-import LinkButton from '../Purdue/LinkButton';
+import NortheasternLinkButton from '../Northeastern/NortheasternLinkButton';
 
 const scheduleNortheastern = [
   {
@@ -181,7 +181,7 @@ const NortheasternSchedule = () => {
           </div>
         </div>
         <br></br>
-      <center><LinkButton /></center>
+      <center><NortheasternLinkButton /></center>
       </>
     );
   };

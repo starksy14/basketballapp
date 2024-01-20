@@ -1,15 +1,15 @@
 import {generatePurdueNames, PurdueComponent} from './PurdueNames';
 import { default as TexasTotalG1 } from '../Texas/TexasBox';
-var PurdueG1S1 = Math.floor((Math.random() * 30) + 0);
-var PurdueG1S2 = Math.floor((Math.random() * 28) + 0);
-var PurdueG1S3 = Math.floor((Math.random() * 26) + 0);
-var PurdueG1S4 = Math.floor((Math.random() * 24) + 0);
-var PurdueG1S5 = Math.floor((Math.random() * 22) + 0);
-var PurdueG1S6 = Math.floor((Math.random() * 10) + 0);
-var PurdueG1S7 = Math.floor((Math.random() * 10) + 0);
-var PurdueG1S8 = Math.floor((Math.random() * 10) + 0);
-var PurdueG1S9 = Math.floor((Math.random() * 10) + 0);
-var PurdueG1S10 = Math.floor((Math.random() * 10) + 0);
+var PurdueG1S1 = Math.floor(Math.random() * (50 - 0 + 1) + 0);
+var PurdueG1S2 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var PurdueG1S3 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var PurdueG1S4 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var PurdueG1S5 = Math.floor(Math.random() * (20 - 0 + 1) + 0);
+var PurdueG1S6 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var PurdueG1S7 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var PurdueG1S8 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var PurdueG1S9 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
+var PurdueG1S10 = Math.floor(Math.random() * (5 - 0 + 1) + 0);
 
 var PurdueScores = [PurdueG1S1, PurdueG1S2, PurdueG1S3, PurdueG1S4, PurdueG1S5, PurdueG1S6, PurdueG1S7, PurdueG1S8, PurdueG1S9, PurdueG1S10];
 
@@ -19,7 +19,7 @@ let PurdueSumG1 = PurdueScores.reduce(function(a, b) {
 var PurdueTotalG1 = (PurdueSumG1);
 
 if (PurdueTotalG1 === TexasTotalG1) {
-  PurdueTotalG1 = PurdueTotalG1 + 2;
+  PurdueG1S10 = 6;
 }
 
 export default function PurdueBox() {
