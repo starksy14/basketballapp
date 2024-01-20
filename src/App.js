@@ -5,30 +5,32 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import Wooden from "./components/Wooden/Wooden";
-import Purdue from "./components/Wooden/Purdue";
-import UCLA from "./components/Wooden/UCLA";
-import Washington from "./components/Wooden/Washington";
-import VCU from "./components/Wooden/VCU";
-import SanJoseState from "./components/Wooden/SanJoseState";
-import Penn from "./components/Wooden/Penn";
-import PortlandState from "./components/Wooden/PortlandState";
-import Northeastern from "./components/Wooden/Northeastern";
-import Evansville from "./components/Wooden/Evansville";
-import Marist from "./components/Wooden/Marist";
-import WilliamMary from "./components/Wooden/WilliamMary";
-import DelawareState from "./components/Wooden/DelawareState";
-import GameOneTable from "./components/Wooden/GameOneTable";
-import GameOneTableUCLA from "./components/Wooden/GameOneTableUCLA";
-import GameOneTableWashington from "./components/Wooden/GameOneTableWashington";
-import GameOneTableVCU from "./components/Wooden/GameOneTableVCU";
-import LinkButton from "./components/Wooden/LinkButton";
-import UCLALinkButton from "./components/Wooden/UCLALinkButton";
-import TexasPurdueBox from "./components/Wooden/TexasPurdueBox";
-import SFAustinWashBox from "./components/Wooden/SFAustinWashBox";
-import TexasPurdueBoxButton from "./components/Wooden/TexasPurdueBoxButton";
-import UCLASCarBox from "./components/Wooden/UCLASCarBox";
-import HawaiiVCUBox from "./components/Wooden/HawaiiVCUBox";
-import UCLASCarBoxButton from "./components/Wooden/UCLASCarBoxButton";
+import Purdue from "./components/Wooden/Purdue/Purdue";
+import UCLA from "./components/Wooden/UCLA/UCLA";
+import Washington from "./components/Wooden/Washington/Washington";
+import VCU from "./components/Wooden/VCU/VCU";
+import SanJoseState from "./components/Wooden/SanJoseState/SanJoseState";
+import Penn from "./components/Wooden/Penn/Penn";
+import PortlandState from "./components/Wooden/PortlandState/PortlandState";
+import Northeastern from "./components/Wooden/Northeastern/Northeastern";
+import Evansville from "./components/Wooden/Evansville/Evansville";
+import Marist from "./components/Wooden/Marist/Marist";
+import WilliamMary from "./components/Wooden/WilliamMary/WilliamMary";
+import DelawareState from "./components/Wooden/DelawareState/DelawareState";
+import GameOneTable from "./components/Wooden/Purdue/GameOneTable";
+import GameOneTableUCLA from "./components/Wooden/UCLA/GameOneTableUCLA";
+import GameOneTableWashington from "./components/Wooden/Washington/GameOneTableWashington";
+import GameOneTableVCU from "./components/Wooden/VCU/GameOneTableVCU";
+import GameOneTableSanJoseState from "./components/Wooden/SanJoseState/GameOneTableSanJoseState";
+import LinkButton from "./components/Wooden/Purdue/LinkButton";
+import UCLALinkButton from "./components/Wooden/UCLA/UCLALinkButton";
+import TexasPurdueBox from "./components/Wooden/Texas/TexasPurdueBox";
+import SFAustinWashBox from "./components/Wooden/SFAustin/SFAustinWashBox";
+import TexasPurdueBoxButton from "./components/Wooden/Texas/TexasPurdueBoxButton";
+import UCLASCarBox from "./components/Wooden/UCLA/UCLASCarBox";
+import HawaiiVCUBox from "./components/Wooden/Hawaii/HawaiiVCUBox";
+import AbileneSanJoseBox from "./components/Wooden/AbileneChristian/AbileneSanJoseBox";
+import UCLASCarBoxButton from "./components/Wooden/UCLA/UCLASCarBoxButton";
 
 export default function App() {
   return (
@@ -53,6 +55,7 @@ export default function App() {
           <Route path="Wooden/GameOneTableUCLA" element={<GameOneTableUCLA />} />
           <Route path="Wooden/GameOneTableWashington" element={<GameOneTableWashington />} />
           <Route path="Wooden/GameOneTableVCU" element={<GameOneTableVCU />} />
+          <Route path="Wooden/GameOneTableSanJoseState" element={<GameOneTableSanJoseState />} />
           <Route path="Wooden/LinkButton" element={<LinkButton />} />
           <Route path="Wooden/UCLALinkButton" element={<UCLALinkButton />} />
           <Route path="Wooden/TexasPurdueBoxButton" element={<TexasPurdueBoxButton />} />
@@ -61,6 +64,7 @@ export default function App() {
           <Route path="Wooden/UCLASCarBox" element={<UCLASCarBox />} />
           <Route path="Wooden/HawaiiVCUBox" element={<HawaiiVCUBox />} />
           <Route path="Wooden/SFAustinWashBox" element={<SFAustinWashBox />} />
+          <Route path="Wooden/AbileneSanJoseBox" element={<AbileneSanJoseBox />} />
           <Route path="Wooden/Wooden" element={<Wooden />} />
       </Routes>
     </BrowserRouter>
