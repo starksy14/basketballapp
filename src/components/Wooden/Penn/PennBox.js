@@ -1,21 +1,22 @@
 import {generatePennNames, PennComponent} from './PennNames';
-var PennS1 = Math.floor((Math.random() * 28) + 0);
-var PennS2 = Math.floor((Math.random() * 26) + 0);
-var PennS3 = Math.floor((Math.random() * 24) + 0);
-var PennS4 = Math.floor((Math.random() * 22) + 0);
-var PennS5 = Math.floor((Math.random() * 20) + 0);
-var PennS6 = Math.floor((Math.random() * 10) + 0);
-var PennS7 = Math.floor((Math.random() * 10) + 0);
-var PennS8 = Math.floor((Math.random() * 10) + 0);
-var PennS9 = Math.floor((Math.random() * 10) + 0);
-var PennS10 = Math.floor((Math.random() * 10) + 0);
+var PennG1S1 = Math.floor((Math.random() * 30) + 0);
+var PennG1S2 = Math.floor((Math.random() * 28) + 0);
+var PennG1S3 = Math.floor((Math.random() * 26) + 0);
+var PennG1S4 = Math.floor((Math.random() * 24) + 0);
+var PennG1S5 = Math.floor((Math.random() * 22) + 0);
+var PennG1S6 = Math.floor((Math.random() * 10) + 0);
+var PennG1S7 = Math.floor((Math.random() * 10) + 0);
+var PennG1S8 = Math.floor((Math.random() * 10) + 0);
+var PennG1S9 = Math.floor((Math.random() * 10) + 0);
+var PennG1S10 = Math.floor((Math.random() * 10) + 0);
 
-var PennScores = [PennS1, PennS2, PennS3, PennS4, PennS5, PennS6, PennS7, PennS8, PennS9, PennS10];
+var PennScores = [PennG1S1, PennG1S2, PennG1S3, PennG1S4, PennG1S5, PennG1S6, PennG1S7, PennG1S8, PennG1S9, PennG1S10];
 
-let PennSum = PennScores.reduce(function(a, b) {
+let PennSumG1 = PennScores.reduce(function(a, b) {
   return a + b;
 });
-var PennTotal = (PennSum);
+var PennTotalG1 = (PennSumG1);
+
 
 export default function PennBox() {
   return (
@@ -31,17 +32,17 @@ export default function PennBox() {
         </div>
         <div className="row">
           <div className="col-sm">
-          <h4>{PennTotal}</h4>
-          <h2>{PennS1}</h2>
-              <h2>{PennS2}</h2>
-              <h2>{PennS3}</h2>
-              <h2>{PennS4}</h2>
-              <h2>{PennS5}</h2>
-              <h2>{PennS6}</h2>
-              <h2>{PennS7}</h2>
-              <h2>{PennS8}</h2>
-              <h2>{PennS9}</h2>
-              <h2>{PennS10}</h2>              
+          <h4>{PennTotalG1}</h4>
+          <h2>{PennG1S1}</h2>
+              <h2>{PennG1S2}</h2>
+              <h2>{PennG1S3}</h2>
+              <h2>{PennG1S4}</h2>
+              <h2>{PennG1S5}</h2>
+              <h2>{PennG1S6}</h2>
+              <h2>{PennG1S7}</h2>
+              <h2>{PennG1S8}</h2>
+              <h2>{PennG1S9}</h2>
+              <h2>{PennG1S10}</h2>              
           </div>
           </div>
           </div>

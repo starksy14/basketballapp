@@ -1,14 +1,14 @@
-import UCLABox from '../UCLA/UCLABox';
-import SouthCarolinaBox from '../SouthCarolina/SouthCarolinaBox';
+import PennBox from '../Penn/PennBox';
+import BryantBox from '../Bryant/BryantBox';
 
-export default function UCLASCarBox() {
+export default function PennBryantBox() {
   return (
 
 <div>
-    <h1>Game 1: UCLA vs. South Carolina</h1>
+    <h1>Game 1: Penn vs. Bryant</h1>
     <div className="grid-container">
-            <UCLABox />
-            <SouthCarolinaBox />
+            <PennBox />
+            <BryantBox />
             </div>
             </div>
   )

@@ -22,6 +22,8 @@ import GameOneTableUCLA from "./components/Wooden/UCLA/GameOneTableUCLA";
 import GameOneTableWashington from "./components/Wooden/Washington/GameOneTableWashington";
 import GameOneTableVCU from "./components/Wooden/VCU/GameOneTableVCU";
 import GameOneTableSanJoseState from "./components/Wooden/SanJoseState/GameOneTableSanJoseState";
+import GameOneTablePortlandState from "./components/Wooden/PortlandState/GameOneTablePortlandState";
+import GameOneTablePenn from "./components/Wooden/Penn/GameOneTablePenn";
 import LinkButton from "./components/Wooden/Purdue/LinkButton";
 import UCLALinkButton from "./components/Wooden/UCLA/UCLALinkButton";
 import TexasPurdueBox from "./components/Wooden/Texas/TexasPurdueBox";
@@ -30,6 +32,8 @@ import TexasPurdueBoxButton from "./components/Wooden/Texas/TexasPurdueBoxButton
 import UCLASCarBox from "./components/Wooden/UCLA/UCLASCarBox";
 import HawaiiVCUBox from "./components/Wooden/Hawaii/HawaiiVCUBox";
 import AbileneSanJoseBox from "./components/Wooden/AbileneChristian/AbileneSanJoseBox";
+import NIUPortlandStateBox from "./components/Wooden/NorthernIllinois/NIUPortlandStateBox";
+import PennBryantBox from "./components/Wooden/Penn/PennBryantBox";
 import UCLASCarBoxButton from "./components/Wooden/UCLA/UCLASCarBoxButton";
 
 export default function App() {
@@ -56,6 +60,8 @@ export default function App() {
           <Route path="Wooden/GameOneTableWashington" element={<GameOneTableWashington />} />
           <Route path="Wooden/GameOneTableVCU" element={<GameOneTableVCU />} />
           <Route path="Wooden/GameOneTableSanJoseState" element={<GameOneTableSanJoseState />} />
+          <Route path="Wooden/GameOneTablePortlandState" element={<GameOneTablePortlandState />} />
+          <Route path="Wooden/GameOneTablePenn" element={<GameOneTablePenn />} />
           <Route path="Wooden/LinkButton" element={<LinkButton />} />
           <Route path="Wooden/UCLALinkButton" element={<UCLALinkButton />} />
           <Route path="Wooden/TexasPurdueBoxButton" element={<TexasPurdueBoxButton />} />
@@ -65,6 +71,8 @@ export default function App() {
           <Route path="Wooden/HawaiiVCUBox" element={<HawaiiVCUBox />} />
           <Route path="Wooden/SFAustinWashBox" element={<SFAustinWashBox />} />
           <Route path="Wooden/AbileneSanJoseBox" element={<AbileneSanJoseBox />} />
+          <Route path="Wooden/NIUPortlandStateBox" element={<NIUPortlandStateBox />} />
+          <Route path="Wooden/PennBryantBox" element={<PennBryantBox />} />
           <Route path="Wooden/Wooden" element={<Wooden />} />
       </Routes>
     </BrowserRouter>

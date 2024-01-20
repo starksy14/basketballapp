@@ -1,5 +1,5 @@
 import {generatePennNames, PennComponent} from './PennNames';
-import LinkButton from '../Purdue/LinkButton';
+import PennLinkButton from '../Penn/PennLinkButton';
 
 const schedulePenn = [
   {
@@ -181,7 +181,7 @@ const PennSchedule = () => {
           </div>
         </div>
         <br></br>
-      <center><LinkButton /></center>
+      <center><PennLinkButton /></center>
       </>
     );
   };

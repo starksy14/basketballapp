@@ -1,5 +1,5 @@
 import { schedulePurdue } from '../Purdue/Purdue';
-import { scheduleUCLA } from '../UCLA';
+import { scheduleUCLA } from '../UCLA/UCLA';
 import UCLASCarBoxButton from '../UCLASCarBoxButton';
 
 

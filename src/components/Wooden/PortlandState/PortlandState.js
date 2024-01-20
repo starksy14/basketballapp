@@ -1,5 +1,5 @@
 import {generatePortlandStateNames, PortlandStateComponent} from './PortlandStateNames';
-import LinkButton from '../Purdue/LinkButton';
+import PortlandStateLinkButton from '../PortlandState/PortlandStateLinkButton';
 
 const schedulePortlandSt = [
   {
@@ -181,7 +181,7 @@ const schedulePortlandSt = [
                   </div>
                 </div>
                 <br></br>
-      <center><LinkButton /></center>
+      <center><PortlandStateLinkButton /></center>
               </>
             );
           };

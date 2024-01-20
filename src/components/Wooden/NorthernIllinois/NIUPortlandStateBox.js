@@ -1,14 +1,14 @@
-import UCLABox from '../UCLA/UCLABox';
-import SouthCarolinaBox from '../SouthCarolina/SouthCarolinaBox';
+import NorthernIllinoisBox from '../NorthernIllinois/NorthernIllinoisBox';
+import PortlandStateBox from '../PortlandState/PortlandStateBox';
 
-export default function UCLASCarBox() {
+export default function NIUPortlandStateBox() {
   return (
 
 <div>
-    <h1>Game 1: UCLA vs. South Carolina</h1>
+    <h1>Game 1: Northern Illinois vs. Portland State</h1>
     <div className="grid-container">
-            <UCLABox />
-            <SouthCarolinaBox />
+            <NorthernIllinoisBox />
+            <PortlandStateBox />
             </div>
             </div>
   )
