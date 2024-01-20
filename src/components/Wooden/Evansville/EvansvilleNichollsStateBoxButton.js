@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 
-function UCLASCarBoxButton() {
+export default function EvansvilleNichollsStateBoxButton() {
   return (
     <>
       <Button variant="secondary" size="sm" href="EvansvilleNichollsStateBox">Wooden Conference Schedule: Evansville vs. Nicholls State</Button>
@@ -8,4 +8,3 @@ function UCLASCarBoxButton() {
   );
 }
 
-export default UCLASCarBoxButton;

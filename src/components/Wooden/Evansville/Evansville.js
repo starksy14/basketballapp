@@ -1,5 +1,5 @@
 import {generateEvansvilleNames, EvansvilleComponent} from './EvansvilleNames';
-import LinkButton from '../Purdue/LinkButton';
+import EvansvilleLinkButton from '../Evansville/EvansvilleLinkButton';
 
 const scheduleEvansville = [
   {
@@ -182,7 +182,7 @@ const EvansvilleSchedule = () => {
         </div>
       </div>
       <br></br>
-      <center><LinkButton /></center>
+      <center><EvansvilleLinkButton /></center>
     </>
   );
 };
