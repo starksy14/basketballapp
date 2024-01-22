@@ -26,6 +26,9 @@ import GameOneTablePortlandState from "./components/Wooden/PortlandState/GameOne
 import GameOneTablePenn from "./components/Wooden/Penn/GameOneTablePenn";
 import GameOneTableNortheastern from "./components/Wooden/Northeastern/GameOneTableNortheastern";
 import GameOneTableEvansville from "./components/Wooden/Evansville/GameOneTableEvansville";
+import GameOneTableMarist from "./components/Wooden/Marist/GameOneTableMarist";
+import GameOneTableWilliamMary from "./components/Wooden/WilliamMary/GameOneTableWilliamMary";
+import GameOneTableDelawareState from "./components/Wooden/DelawareState/GameOneTableDelawareState";
 import LinkButton from "./components/Wooden/Purdue/LinkButton";
 import UCLALinkButton from "./components/Wooden/UCLA/UCLALinkButton";
 import TexasPurdueBox from "./components/Wooden/Texas/TexasPurdueBox";
@@ -38,6 +41,9 @@ import NIUPortlandStateBox from "./components/Wooden/NorthernIllinois/NIUPortlan
 import PennBryantBox from "./components/Wooden/Penn/PennBryantBox";
 import NortheasternBallStateBox from "./components/Wooden/Northeastern/NortheasternBallStateBox";
 import EvansvilleNichollsStateBox from "./components/Wooden/Evansville/EvansvilleNichollsStateBox";
+import LamarMaristBox from "./components/Wooden/Lamar/LamarMaristBox";
+import BuffaloWilliamMaryBox from "./components/Wooden/WilliamMary/BuffaloWilliamMaryBox";
+import DelawareStateHoustonBox from "./components/Wooden/DelawareState/DelawareStateHoustonBox";
 import UCLASCarBoxButton from "./components/Wooden/UCLA/UCLASCarBoxButton";
 
 export default function App() {
@@ -68,6 +74,9 @@ export default function App() {
           <Route path="Wooden/GameOneTablePenn" element={<GameOneTablePenn />} />
           <Route path="Wooden/GameOneTableNortheastern" element={<GameOneTableNortheastern />} />
           <Route path="Wooden/GameOneTableEvansville" element={<GameOneTableEvansville />} />
+          <Route path="Wooden/GameOneTableMarist" element={<GameOneTableMarist />} />
+          <Route path="Wooden/GameOneTableWilliamMary" element={<GameOneTableWilliamMary />} />
+          <Route path="Wooden/GameOneTableDelawareState" element={<GameOneTableDelawareState />} />
           <Route path="Wooden/LinkButton" element={<LinkButton />} />
           <Route path="Wooden/UCLALinkButton" element={<UCLALinkButton />} />
           <Route path="Wooden/TexasPurdueBoxButton" element={<TexasPurdueBoxButton />} />
@@ -81,6 +90,9 @@ export default function App() {
           <Route path="Wooden/PennBryantBox" element={<PennBryantBox />} />
           <Route path="Wooden/NortheasternBallStateBox" element={<NortheasternBallStateBox />} />
           <Route path="Wooden/EvansvilleNichollsStateBox" element={<EvansvilleNichollsStateBox />} />
+          <Route path="Wooden/LamarMaristBox" element={<LamarMaristBox />} />
+          <Route path="Wooden/BuffaloWilliamMaryBox" element={<BuffaloWilliamMaryBox />} />
+          <Route path="Wooden/DelawareStateHoustonBox" element={<DelawareStateHoustonBox />} />
           <Route path="Wooden/Wooden" element={<Wooden />} />
       </Routes>
     </BrowserRouter>

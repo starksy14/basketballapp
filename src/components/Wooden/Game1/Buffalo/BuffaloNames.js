@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 
-const DelawareStComponent = ({ generateDelawareStNames }) => {
-  const [DelawareStplayers, setDelawareStPlayers] = useState([]);
+const BuffaloComponent = ({ generateBuffaloNames }) => {
+  const [Buffaloplayers, setBuffaloPlayers] = useState([]);
 
   useEffect(() => {
     // Check if there are previously saved player names in local storage
-    const storedDelawareStPlayers = JSON.parse(localStorage.getItem('DelawareStplayerNames'));
+    const storedBuffaloPlayers = JSON.parse(localStorage.getItem('BuffaloplayerNames'));
 
-    if (storedDelawareStPlayers) {
-      setDelawareStPlayers(storedDelawareStPlayers);
+    if (storedBuffaloPlayers) {
+      setBuffaloPlayers(storedBuffaloPlayers);
     } else {
       // Replace these sample arrays with your actual data
-      const DelawareStArray1 = [
+      const BuffaloArray1 = [
         "Collin",
         "Sean",
         "Leopoldo",
@@ -213,7 +213,7 @@ const DelawareStComponent = ({ generateDelawareStNames }) => {
         "Jonas",
         "Andres"
       ]; // Your array of names
-      const DelawareStArray2 = [
+      const BuffaloArray2 = [
         "Goodyear",
         "Arndorfer",
         "Stire",
@@ -369,17 +369,17 @@ const DelawareStComponent = ({ generateDelawareStNames }) => {
       ]; // Your array of surnames
 
       // Generate player names when the component mounts
-      const generatedDelawareStNames = generateDelawareStNames(DelawareStArray1, DelawareStArray2);
-      setDelawareStPlayers(generatedDelawareStNames);
+      const generatedBuffaloNames = generateBuffaloNames(BuffaloArray1, BuffaloArray2);
+      setBuffaloPlayers(generatedBuffaloNames);
 
       // Save the generated names to local storage
-      localStorage.setItem('DelawareStplayerNames', JSON.stringify(generatedDelawareStNames));
+      localStorage.setItem('BuffaloplayerNames', JSON.stringify(generatedBuffaloNames));
     }
-  }, [generateDelawareStNames]);
+  }, [generateBuffaloNames]);
 
   return (
     <div>
-      {DelawareStplayers.map((player, index) => (
+      {Buffaloplayers.map((player, index) => (
         <div key={index}>
           {player.name}
           <br />
@@ -390,16 +390,16 @@ const DelawareStComponent = ({ generateDelawareStNames }) => {
   );
 };
 
-const generateDelawareStNames = (DelawareStArray1, DelawareStArray2) => {
+const generateBuffaloNames = (BuffaloArray1, BuffaloArray2) => {
   const players = Array.from({ length: 10 }, () => {
     const playerName =
-      DelawareStArray1[Math.floor(Math.random() * DelawareStArray1.length)] +
+      BuffaloArray1[Math.floor(Math.random() * BuffaloArray1.length)] +
       ' ' +
-      DelawareStArray2[Math.floor(Math.random() * DelawareStArray2.length)];
+      BuffaloArray2[Math.floor(Math.random() * BuffaloArray2.length)];
     return { name: playerName };
   });
 
   return players;
 };
 
-export { DelawareStComponent, generateDelawareStNames };
+export { BuffaloComponent, generateBuffaloNames };

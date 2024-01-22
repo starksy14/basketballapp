@@ -1,5 +1,5 @@
 import {generateMaristNames, MaristComponent} from './MaristNames';
-import LinkButton from '../Purdue/LinkButton';
+import MaristLinkButton from '../Marist/MaristLinkButton';
 
 const scheduleMarist = [
   {
@@ -182,7 +182,7 @@ const MaristSchedule = () => {
         </div>
       </div>
       <br></br>
-      <center><LinkButton /></center>
+      <center><MaristLinkButton /></center>
     </>
   );
 };

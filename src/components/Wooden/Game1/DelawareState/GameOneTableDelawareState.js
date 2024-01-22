@@ -1,7 +1,6 @@
 import { schedulePurdue } from '../Purdue/Purdue';
 import { scheduleUCLA } from '../UCLA/UCLA';
-import UCLASCarBoxButton from '../UCLASCarBoxButton';
-
+import DelawareStateHoustonBoxButton from '../DelawareState/DelawareStateHoustonBoxButton';
 
 export default function GameOneTable() {
   return (
@@ -115,7 +114,7 @@ export default function GameOneTable() {
         </div>
       </div>
       <br></br>
-      <center><UCLASCarBoxButton /></center>
+      <center><DelawareStateHoustonBoxButton /></center>
     </div>
 
 );

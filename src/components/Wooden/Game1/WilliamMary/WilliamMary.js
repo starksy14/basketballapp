@@ -1,5 +1,5 @@
 import {generateWilliamMaryNames, WilliamMaryComponent} from './WilliamMaryNames';
-import LinkButton from '../Purdue/LinkButton';
+import WilliamMaryLinkButton from './WilliamMaryLinkButton';
 
 const scheduleWilliamMary = [
   {
@@ -181,7 +181,7 @@ const WilliamMarySchedule = () => {
         </div>
       </div>
       <br></br>
-      <center><LinkButton /></center>
+      <center><WilliamMaryLinkButton /></center>
     </>
   );
 };
