@@ -1,14 +1,16 @@
 import {generateAbileneChristianNames, AbileneChristianComponent} from './AbileneChristianNames';
-var AbileneChristianG1S1 = Math.floor((Math.random() * 30) + 0);
-var AbileneChristianG1S2 = Math.floor((Math.random() * 28) + 0);
-var AbileneChristianG1S3 = Math.floor((Math.random() * 26) + 0);
-var AbileneChristianG1S4 = Math.floor((Math.random() * 24) + 0);
-var AbileneChristianG1S5 = Math.floor((Math.random() * 22) + 0);
-var AbileneChristianG1S6 = Math.floor((Math.random() * 10) + 0);
-var AbileneChristianG1S7 = Math.floor((Math.random() * 10) + 0);
-var AbileneChristianG1S8 = Math.floor((Math.random() * 10) + 0);
-var AbileneChristianG1S9 = Math.floor((Math.random() * 10) + 0);
-var AbileneChristianG1S10 = Math.floor((Math.random() * 10) + 0);
+import { default as SanJoseStateTotalG1 } from '../SanJoseState/SanJoseStateBox';
+
+var AbileneChristianG1S1 = Math.floor((Math.random() * 50) + 0);
+var AbileneChristianG1S2 = Math.floor((Math.random() * 20) + 0);
+var AbileneChristianG1S3 = Math.floor((Math.random() * 20) + 0);
+var AbileneChristianG1S4 = Math.floor((Math.random() * 15) + 0);
+var AbileneChristianG1S5 = Math.floor((Math.random() * 15) + 0);
+var AbileneChristianG1S6 = Math.floor((Math.random() * 5) + 0);
+var AbileneChristianG1S7 = Math.floor((Math.random() * 5) + 0);
+var AbileneChristianG1S8 = Math.floor((Math.random() * 5) + 0);
+var AbileneChristianG1S9 = Math.floor((Math.random() * 5) + 0);
+var AbileneChristianG1S10 = Math.floor((Math.random() * 5) + 0);
 
 var AbileneChristianScores = [AbileneChristianG1S1, AbileneChristianG1S2, AbileneChristianG1S3, AbileneChristianG1S4, AbileneChristianG1S5, AbileneChristianG1S6, AbileneChristianG1S7, AbileneChristianG1S8, AbileneChristianG1S9, AbileneChristianG1S10];
 
@@ -17,6 +19,13 @@ let AbileneChristianSumG1 = AbileneChristianScores.reduce(function(a, b) {
 });
 var AbileneChristianTotalG1 = (AbileneChristianSumG1);
 
+if (SanJoseStateTotalG1 === AbileneChristianTotalG1) {
+  AbileneChristianG1S1 = AbileneChristianG1S1 + Math.floor((Math.random() * 5) + 0);
+  AbileneChristianG1S2 = AbileneChristianG1S2 + Math.floor((Math.random() * 5) + 0);
+  AbileneChristianG1S3 = AbileneChristianG1S3 + Math.floor((Math.random() * 5) + 0);
+  AbileneChristianG1S4 = AbileneChristianG1S4 + Math.floor((Math.random() * 5) + 0);
+  AbileneChristianG1S5 = AbileneChristianG1S5 + Math.floor((Math.random() * 5) + 0);
+}
 
 export default function AbileneChristianBox() {
   return (
