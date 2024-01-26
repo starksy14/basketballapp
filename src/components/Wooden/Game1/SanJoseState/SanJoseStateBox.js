@@ -18,6 +18,8 @@ var SanJoseStateScores = [SanJoseStateG1S1, SanJoseStateG1S2, SanJoseStateG1S3, 
   });
   var SanJoseStateTotalG1 = (SanJoseStateSumG1);
 
+  localStorage.setItem('SanJoseStateTotalG1', SanJoseStateTotalG1);
+
 while (SanJoseStateTotalG1 === AbileneChristianTotalG1) {
   SanJoseStateG1S1 = Math.floor((Math.random() * 30) + 10);
   SanJoseStateG1S2 = Math.floor((Math.random() * 20) + 10);
@@ -32,11 +34,15 @@ while (SanJoseStateTotalG1 === AbileneChristianTotalG1) {
   
   SanJoseStateScores = [SanJoseStateG1S1, SanJoseStateG1S2, SanJoseStateG1S3, SanJoseStateG1S4, SanJoseStateG1S5, SanJoseStateG1S6, SanJoseStateG1S7, SanJoseStateG1S8, SanJoseStateG1S9, SanJoseStateG1S10];
 
+  localStorage.setItem('SanJoseStateScores', SanJoseStateScores);
+
   SanJoseStateSumG1 = SanJoseStateScores.reduce(function(a, b) {
     return a + b;
   });
   SanJoseStateTotalG1 = (SanJoseStateSumG1);
- 
+
+    localStorage.setItem('SanJoseStateScores', SanJoseStateScores);
+
 }
 
 export default function SanJoseStateBox() {

@@ -14,10 +14,15 @@ var AbileneChristianG1S10 = Math.floor((Math.random() * 5) + 0);
   
 var AbileneChristianScores = [AbileneChristianG1S1, AbileneChristianG1S2, AbileneChristianG1S3, AbileneChristianG1S4, AbileneChristianG1S5, AbileneChristianG1S6, AbileneChristianG1S7, AbileneChristianG1S8, AbileneChristianG1S9, AbileneChristianG1S10];
 
+localStorage.setItem('AbileneChristianScores', AbileneChristianScores);
+
 let AbileneChristianSumG1 = AbileneChristianScores.reduce(function(a, b) {
   return a + b;
 });
 var AbileneChristianTotalG1 = (AbileneChristianSumG1);
+
+localStorage.setItem('AbileneChristianTotalG1', AbileneChristianTotalG1);
+
 export default function AbileneChristianBox() {
   return (
       <div className="grid-container">
