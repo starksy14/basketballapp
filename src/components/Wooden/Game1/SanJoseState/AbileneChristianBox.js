@@ -1,5 +1,5 @@
 import './boxcontainer.css';
-import {generateAbileneChristianNames, AbileneChristianComponent} from './AbileneChristianNames';
+import {generateAbileneChristianNames, AbileneChristianComponent} from '../AbileneChristian/AbileneChristianNames';
 
 var AbileneChristianG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
 var AbileneChristianG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
@@ -624,7 +624,7 @@ export default function AbileneChristianBox() {
     <div>
       <h1>Abilene Christian {AbileneChristianSumG1}</h1>
       <div className="grid-container">
-        <h2>Player <br /><br /> <AbileneChristianComponent generateAbileneChristianNames={generateAbileneChristianNames} /></h2>
+        <h2>Player<br /><br /><AbileneChristianComponent generateAbileneChristianNames={generateAbileneChristianNames} /></h2>
         <h2>Points<br /><br />{AbileneChristianG1S1}<br /><br />{AbileneChristianG1S2}<br /><br />{AbileneChristianG1S3}<br /><br />{AbileneChristianG1S4}<br /><br />{AbileneChristianG1S5}<br /><br />{AbileneChristianG1S6}<br /><br />{AbileneChristianG1S7}<br /><br />{AbileneChristianG1S8}<br /><br />{AbileneChristianG1S9}<br /><br />{AbileneChristianG1S10}</h2>
         <h2>2FG<br /><br />{AbileneChristianG1TwoFG1}<br /><br />{AbileneChristianG1TwoFG2}<br /><br />{AbileneChristianG1TwoFG3}<br /><br />{AbileneChristianG1TwoFG4}<br /><br />{AbileneChristianG1TwoFG5}<br /><br />{AbileneChristianG1TwoFG6}<br /><br />{AbileneChristianG1TwoFG7}<br /><br />{AbileneChristianG1TwoFG8}<br /><br />{AbileneChristianG1TwoFG9}<br /><br />{AbileneChristianG1TwoFG10}</h2>
         <h2>2FGA<br /><br />{AbileneChristianG1TwoFGAtt1}<br /><br />{AbileneChristianG1TwoFGAtt2}<br /><br />{AbileneChristianG1TwoFGAtt3}<br /><br />{AbileneChristianG1TwoFGAtt4}<br /><br />{AbileneChristianG1TwoFGAtt5}<br /><br />{AbileneChristianG1TwoFGAtt6}<br /><br />{AbileneChristianG1TwoFGAtt7}<br /><br />{AbileneChristianG1TwoFGAtt8}<br /><br />{AbileneChristianG1TwoFGAtt9}<br /><br />{AbileneChristianG1TwoFGAtt10}</h2>
@@ -666,3 +666,5 @@ export default function AbileneChristianBox() {
     </div>
   );
 };
+
+export { AbileneChristianSumG1 };

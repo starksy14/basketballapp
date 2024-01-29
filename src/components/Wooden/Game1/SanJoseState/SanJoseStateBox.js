@@ -1,5 +1,6 @@
 import './boxcontainer.css';
 import {generateSanJoseStateNames, SanJoseStateComponent} from './SanJoseStateNames';
+import {AbileneChristianSumG1} from './AbileneChristianBox';
 
 var SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
 var SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
@@ -618,6 +619,29 @@ var SanJoseStateSumG1Turnovers = SanJoseStateG1Turnovers.reduce(
   (a, b) => a + b,
   0
 );
+
+while (SanJoseStateSumG1 === AbileneChristianSumG1) {
+SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
+SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
+SanJoseStateG1TwoFG3 = Math.floor(Math.random() * 6 + 2);
+SanJoseStateG1TwoFG4 = Math.floor(Math.random() * 6 + 2);
+SanJoseStateG1TwoFG5 = Math.floor(Math.random() * 6 + 2);
+SanJoseStateG1TwoFG6 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1TwoFG7 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1TwoFG8 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1TwoFG9 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1TwoFG10 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG1 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG2 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG3 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG4 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG5 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG6 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
+SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
+}
 
 export default function SanJoseStateBox() {
   return (

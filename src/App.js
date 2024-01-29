@@ -45,6 +45,7 @@ import LamarMaristBox from "./components/Wooden/Game1/Lamar/LamarMaristBox";
 import BuffaloWilliamMaryBox from "./components/Wooden/Game1/WilliamMary/BuffaloWilliamMaryBox";
 import DelawareStateHoustonBox from "./components/Wooden/Game1/DelawareState/DelawareStateHoustonBox";
 import UCLASCarBoxButton from "./components/Wooden/Game1/UCLA/UCLASCarBoxButton";
+import AbileneChristianBox from './components/Wooden/Game1/SanJoseState/AbileneChristianBox';
 
 export default function App() {
   return (
@@ -93,6 +94,7 @@ export default function App() {
           <Route path="Wooden/LamarMaristBox" element={<LamarMaristBox />} />
           <Route path="Wooden/BuffaloWilliamMaryBox" element={<BuffaloWilliamMaryBox />} />
           <Route path="Wooden/DelawareStateHoustonBox" element={<DelawareStateHoustonBox />} />
+          <Route path="Wooden/AbileneChristianBox" element={<AbileneChristianBox />} />
           <Route path="Wooden/Wooden" element={<Wooden />} />
       </Routes>
     </BrowserRouter>
