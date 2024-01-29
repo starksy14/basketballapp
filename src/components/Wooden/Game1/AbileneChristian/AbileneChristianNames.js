@@ -371,9 +371,9 @@ const AbileneChristianComponent = ({ generateAbileneChristianNames }) => {
       // Generate player names when the component mounts
       const generatedAbileneChristianNames = generateAbileneChristianNames(AbileneChristianArray1, AbileneChristianArray2);
       setAbileneChristianPlayers(generatedAbileneChristianNames);
+      localStorage.setItem('AbileneChristianplayerNames', JSON.stringify(generatedAbileneChristianNames));
 
       // Save the generated names to local storage
-      localStorage.setItem('AbileneChristianplayerNames', JSON.stringify(generatedAbileneChristianNames));
     }
   }, [generateAbileneChristianNames]);
 
@@ -391,7 +391,7 @@ const AbileneChristianComponent = ({ generateAbileneChristianNames }) => {
 };
 
 const generateAbileneChristianNames = (AbileneChristianArray1, AbileneChristianArray2) => {
-  const players = Array.from({ length: 10 }, () => {
+  const players = Array.from({ length: 1 }, () => {
     const playerName =
       AbileneChristianArray1[Math.floor(Math.random() * AbileneChristianArray1.length)] +
       ' ' +

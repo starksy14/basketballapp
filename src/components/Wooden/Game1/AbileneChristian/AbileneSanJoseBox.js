@@ -7,8 +7,7 @@ export default function AbileneSanJoseBox() {
 <div>
     <h1>Game 1: Abilene Christian vs. San Jose State</h1>
     <div className="grid-container">
-            <AbileneChristianBox />
-            <SanJoseStateBox />
+            <AbileneChristianBox />            <SanJoseStateBox />
             </div>
             </div>
   )
