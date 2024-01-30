@@ -690,3 +690,5 @@ export default function SanJoseStateBox() {
     </div>
   );
 };
+
+export { SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 }

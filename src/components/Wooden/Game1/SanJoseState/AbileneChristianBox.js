@@ -1,5 +1,7 @@
 import './boxcontainer.css';
 import {generateAbileneChristianNames, AbileneChristianComponent} from '../AbileneChristian/AbileneChristianNames';
+import { SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, 
+        SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 } from '../SanJoseState/SanJoseStateBox';
 
 var AbileneChristianG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
 var AbileneChristianG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
@@ -474,16 +476,16 @@ var AbileneChristianTotal = [
 
 var AbileneChristianSumG1 = AbileneChristianTotal.reduce((a, b) => a + b, 0);
 
-var AbileneChristianG1Rebounds1 = Math.floor(Math.random() * 10 + 0);
-var AbileneChristianG1Rebounds2 = Math.floor(Math.random() * 10 + 0);
-var AbileneChristianG1Rebounds3 = Math.floor(Math.random() * 10 + 0);
-var AbileneChristianG1Rebounds4 = Math.floor(Math.random() * 10 + 0);
-var AbileneChristianG1Rebounds5 = Math.floor(Math.random() * 10 + 0);
-var AbileneChristianG1Rebounds6 = Math.floor(Math.random() * 7 + 0);
-var AbileneChristianG1Rebounds7 = Math.floor(Math.random() * 7 + 0);
-var AbileneChristianG1Rebounds8 = Math.floor(Math.random() * 7 + 0);
-var AbileneChristianG1Rebounds9 = Math.floor(Math.random() * 7 + 0);
-var AbileneChristianG1Rebounds10 = Math.floor(Math.random() * 7 + 0);
+var AbileneChristianG1Rebounds1 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P1 - 0) + 0);
+var AbileneChristianG1Rebounds2 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P2 - 0) + 0);
+var AbileneChristianG1Rebounds3 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P3 - 0) + 0);
+var AbileneChristianG1Rebounds4 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P4 - 0) + 0);
+var AbileneChristianG1Rebounds5 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P5 - 0) + 0);
+var AbileneChristianG1Rebounds6 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P6 - 0) + 0);
+var AbileneChristianG1Rebounds7 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P7 - 0) + 0);
+var AbileneChristianG1Rebounds8 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P8 - 0) + 0);
+var AbileneChristianG1Rebounds9 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P9 - 0) + 0);
+var AbileneChristianG1Rebounds10 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P10 - 0) + 0);
 
 var AbileneChristianG1Rebounds = [
   AbileneChristianG1Rebounds1,
@@ -503,16 +505,16 @@ var AbileneChristianSumG1Rebounds = AbileneChristianG1Rebounds.reduce(
   0
 );
 
-var AbileneChristianG1Assists1 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists2 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists3 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists4 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists5 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists6 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists7 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists8 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists9 = Math.floor(Math.random() * 4 + 0);
-var AbileneChristianG1Assists10 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1Assists1 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P1);
+var AbileneChristianG1Assists2 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P2);
+var AbileneChristianG1Assists3 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P3);
+var AbileneChristianG1Assists4 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P4);
+var AbileneChristianG1Assists5 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P5);
+var AbileneChristianG1Assists6 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P6);
+var AbileneChristianG1Assists7 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P7);
+var AbileneChristianG1Assists8 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P8);
+var AbileneChristianG1Assists9 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P9);
+var AbileneChristianG1Assists10 = Math.floor(Math.random() * 0 + AbileneChristianTotalFGsG1P10);
 
 var AbileneChristianG1Assists = [
   AbileneChristianG1Assists1,
