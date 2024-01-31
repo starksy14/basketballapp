@@ -1,6 +1,5 @@
-import './boxcontainer.css';
-import {generateSanJoseStateNames, SanJoseStateComponent} from './SanJoseStateNames';
-import {AbileneChristianSumG1} from './AbileneChristianBox';
+import { generateSanJoseStateNames, SanJoseStateComponent } from './SanJoseStateNames';
+import { AbileneChristianSumG1 } from '../AbileneChristian/AbileneChristianBox';
 
 var SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
 var SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
@@ -475,16 +474,16 @@ var SanJoseStateTotal = [
 
 var SanJoseStateSumG1 = SanJoseStateTotal.reduce((a, b) => a + b, 0);
 
-var SanJoseStateG1Rebounds1 = Math.floor(Math.random() * 10 + 0);
-var SanJoseStateG1Rebounds2 = Math.floor(Math.random() * 10 + 0);
-var SanJoseStateG1Rebounds3 = Math.floor(Math.random() * 10 + 0);
-var SanJoseStateG1Rebounds4 = Math.floor(Math.random() * 10 + 0);
-var SanJoseStateG1Rebounds5 = Math.floor(Math.random() * 10 + 0);
-var SanJoseStateG1Rebounds6 = Math.floor(Math.random() * 7 + 0);
-var SanJoseStateG1Rebounds7 = Math.floor(Math.random() * 7 + 0);
-var SanJoseStateG1Rebounds8 = Math.floor(Math.random() * 7 + 0);
-var SanJoseStateG1Rebounds9 = Math.floor(Math.random() * 7 + 0);
-var SanJoseStateG1Rebounds10 = Math.floor(Math.random() * 7 + 0);
+var SanJoseStateG1Rebounds1 = Math.floor(Math.random() * (10 - 0) + 0);
+var SanJoseStateG1Rebounds2 = Math.floor(Math.random() * (10 - 0) + 0);
+var SanJoseStateG1Rebounds3 = Math.floor(Math.random() * (10 - 0) + 0);
+var SanJoseStateG1Rebounds4 = Math.floor(Math.random() * (10 - 0) + 0);
+var SanJoseStateG1Rebounds5 = Math.floor(Math.random() * (10 - 0) + 0);
+var SanJoseStateG1Rebounds6 = Math.floor(Math.random() * (5 - 0) + 0);
+var SanJoseStateG1Rebounds7 = Math.floor(Math.random() * (5 - 0) + 0);
+var SanJoseStateG1Rebounds8 = Math.floor(Math.random() * (5 - 0) + 0);
+var SanJoseStateG1Rebounds9 = Math.floor(Math.random() * (5 - 0) + 0);
+var SanJoseStateG1Rebounds10 = Math.floor(Math.random() * (5 - 0) + 0);
 
 var SanJoseStateG1Rebounds = [
   SanJoseStateG1Rebounds1,
@@ -504,16 +503,16 @@ var SanJoseStateSumG1Rebounds = SanJoseStateG1Rebounds.reduce(
   0
 );
 
-var SanJoseStateG1Assists1 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists2 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists3 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists4 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists5 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists6 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists7 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists8 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists9 = Math.floor(Math.random() * 4 + 0);
-var SanJoseStateG1Assists10 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1Assists1 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P1 - 0) + 0);
+var SanJoseStateG1Assists2 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P2 - 0) + 0);
+var SanJoseStateG1Assists3 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P3 - 0) + 0);
+var SanJoseStateG1Assists4 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P4 - 0) + 0);
+var SanJoseStateG1Assists5 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P5 - 0) + 0);
+var SanJoseStateG1Assists6 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P6 - 0) + 0);
+var SanJoseStateG1Assists7 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P7 - 0) + 0);
+var SanJoseStateG1Assists8 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P8 - 0) + 0);
+var SanJoseStateG1Assists9 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P9 - 0) + 0);
+var SanJoseStateG1Assists10 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P10 - 0) + 0);
 
 var SanJoseStateG1Assists = [
   SanJoseStateG1Assists1,
@@ -641,7 +640,19 @@ SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
 SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
 SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
 SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
+
+SanJoseStateTwoFGSumG1 = SanJoseStateG1TwoFGs.reduce(
+  (a, b) => a + b,
+  0
+);
+
+SanJoseStateThreeFGSumG1 = SanJoseStateG1ThreeFGs.reduce(
+  (a, b) => a + b,
+  0
+);
+
 }
+
 
 export default function SanJoseStateBox() {
   return (
@@ -691,4 +702,4 @@ export default function SanJoseStateBox() {
   );
 };
 
-export { SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 }
+export { SanJoseStateSumG1, SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 }

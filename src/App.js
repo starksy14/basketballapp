@@ -45,7 +45,7 @@ import LamarMaristBox from "./components/Wooden/Game1/Lamar/LamarMaristBox";
 import BuffaloWilliamMaryBox from "./components/Wooden/Game1/WilliamMary/BuffaloWilliamMaryBox";
 import DelawareStateHoustonBox from "./components/Wooden/Game1/DelawareState/DelawareStateHoustonBox";
 import UCLASCarBoxButton from "./components/Wooden/Game1/UCLA/UCLASCarBoxButton";
-import AbileneChristianBox from './components/Wooden/Game1/SanJoseState/AbileneChristianBox';
+import AbileneChristianBox from './components/Wooden/Game1/AbileneChristian/AbileneChristianBox';
 
 export default function App() {
   return (
