@@ -13,68 +13,20 @@ function Copy() {
 // This one also has an explicit return
 const App = () => {
   return(
-<center>
 <div>
       <Title text="THE UNTITLED COLLEGE BASKETBALL PROJECT" />
       <Copy />
-      <br></br>
+      <br />
       <div className="grid-container">
       <div className="col-sm">
             <div className="row">
               <div className="col-sm">
              <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
       </div>
               </div>
               </div>
-      <div className="row">
-      <div className="col-sm">
-      <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
               </div>
               </div>
-              <div className="row">
-      <div className="col-sm">
-      <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-              
-              </div>
-              </div>
-              <div className="row">
-      <div className="col-sm">
-      <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-              </div>
-              </div>
-              <div className="row">
-      <div className="col-sm">
-      <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-             <center><Wooden /></center>
-              </div>
-              </div>
-              </div>
-              </div>
-              </center>
               
   );
 }

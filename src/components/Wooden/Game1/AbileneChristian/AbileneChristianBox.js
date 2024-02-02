@@ -655,49 +655,112 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
   }
 export default function AbileneChristianBox() {
   return (
+    <>
     <div>
       <h1>Abilene Christian {AbileneChristianSumG1}</h1>
-      <div className="grid-container">
-        <h2><span class="bolded">Player</span><br /><br /><AbileneChristianComponent generateAbileneChristianNames={generateAbileneChristianNames} /></h2>
-        <h2><span class="bolded">Points</span><br /><br />{AbileneChristianG1S1}<br /><br />{AbileneChristianG1S2}<br /><br />{AbileneChristianG1S3}<br /><br />{AbileneChristianG1S4}<br /><br />{AbileneChristianG1S5}<br /><br />{AbileneChristianG1S6}<br /><br />{AbileneChristianG1S7}<br /><br />{AbileneChristianG1S8}<br /><br />{AbileneChristianG1S9}<br /><br />{AbileneChristianG1S10}</h2>
-        <h2><span class="bolded">2FG</span><br /><br />{AbileneChristianG1TwoFG1}<br /><br />{AbileneChristianG1TwoFG2}<br /><br />{AbileneChristianG1TwoFG3}<br /><br />{AbileneChristianG1TwoFG4}<br /><br />{AbileneChristianG1TwoFG5}<br /><br />{AbileneChristianG1TwoFG6}<br /><br />{AbileneChristianG1TwoFG7}<br /><br />{AbileneChristianG1TwoFG8}<br /><br />{AbileneChristianG1TwoFG9}<br /><br />{AbileneChristianG1TwoFG10}</h2>
-        <h2><span class="bolded">2FGA</span><br /><br />{AbileneChristianG1TwoFGAtt1}<br /><br />{AbileneChristianG1TwoFGAtt2}<br /><br />{AbileneChristianG1TwoFGAtt3}<br /><br />{AbileneChristianG1TwoFGAtt4}<br /><br />{AbileneChristianG1TwoFGAtt5}<br /><br />{AbileneChristianG1TwoFGAtt6}<br /><br />{AbileneChristianG1TwoFGAtt7}<br /><br />{AbileneChristianG1TwoFGAtt8}<br /><br />{AbileneChristianG1TwoFGAtt9}<br /><br />{AbileneChristianG1TwoFGAtt10}</h2>
-        <h2><span class="bolded">2FG%</span><br /><br />{isNaN(AbileneChristianTwoFGPctG1P1)  ? "0.000" : AbileneChristianTwoFGPctG1P1}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P2)  ? "0.000" : AbileneChristianTwoFGPctG1P2}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P3)  ? "0.000" : AbileneChristianTwoFGPctG1P3}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P4)  ? "0.000" : AbileneChristianTwoFGPctG1P4}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P5)  ? "0.000" : AbileneChristianTwoFGPctG1P5}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P6)  ? "0.000" : AbileneChristianTwoFGPctG1P6}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P7)  ? "0.000" : AbileneChristianTwoFGPctG1P7}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P8)  ? "0.000" : AbileneChristianTwoFGPctG1P8}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P9)  ? "0.000" : AbileneChristianTwoFGPctG1P9}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P10)  ? "0.000" : AbileneChristianTwoFGPctG1P10}</h2>
-        <h2><span class="bolded">3FG</span><br /><br />{AbileneChristianG1ThreeFG1}<br /><br />{AbileneChristianG1ThreeFG2}<br /><br />{AbileneChristianG1ThreeFG3}<br /><br />{AbileneChristianG1ThreeFG4}<br /><br />{AbileneChristianG1ThreeFG5}<br /><br />{AbileneChristianG1ThreeFG6}<br /><br />{AbileneChristianG1ThreeFG7}<br /><br />{AbileneChristianG1ThreeFG8}<br /><br />{AbileneChristianG1ThreeFG9}<br /><br />{AbileneChristianG1ThreeFG10}</h2>
-        <h2><span class="bolded">3FGA</span><br /><br />{AbileneChristianG1ThreeFGAtt1}<br /><br />{AbileneChristianG1ThreeFGAtt2}<br /><br />{AbileneChristianG1ThreeFGAtt3}<br /><br />{AbileneChristianG1ThreeFGAtt4}<br /><br />{AbileneChristianG1ThreeFGAtt5}<br /><br />{AbileneChristianG1ThreeFGAtt6}<br /><br />{AbileneChristianG1ThreeFGAtt7}<br /><br />{AbileneChristianG1ThreeFGAtt8}<br /><br />{AbileneChristianG1ThreeFGAtt9}<br /><br />{AbileneChristianG1ThreeFGAtt10}</h2>
-        <h2><span class="bolded">3FG%</span><br /><br />{isNaN(AbileneChristianThreeFGPctG1P1)  ? "0.000" : AbileneChristianThreeFGPctG1P1}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P2)  ? "0.000" : AbileneChristianThreeFGPctG1P2}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P3)  ? "0.000" : AbileneChristianThreeFGPctG1P3}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P4)  ? "0.000" : AbileneChristianThreeFGPctG1P4}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P5)  ? "0.000" : AbileneChristianThreeFGPctG1P5}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P6)  ? "0.000" : AbileneChristianThreeFGPctG1P6}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P7)  ? "0.000" : AbileneChristianThreeFGPctG1P7}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P8)  ? "0.000" : AbileneChristianThreeFGPctG1P8}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P9)  ? "0.000" : AbileneChristianThreeFGPctG1P9}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P10)  ? "0.000" : AbileneChristianThreeFGPctG1P10}</h2>
-        <h2><span class="bolded">FG</span><br /><br />{AbileneChristianTotalFGsG1P1}<br /><br />{AbileneChristianTotalFGsG1P2}<br /><br />{AbileneChristianTotalFGsG1P3}<br /><br />{AbileneChristianTotalFGsG1P4}<br /><br />{AbileneChristianTotalFGsG1P5}<br /><br />{AbileneChristianTotalFGsG1P6}<br /><br />{AbileneChristianTotalFGsG1P7}<br /><br />{AbileneChristianTotalFGsG1P8}<br /><br />{AbileneChristianTotalFGsG1P9}<br /><br />{AbileneChristianTotalFGsG1P10}</h2>
-        <h2><span class="bolded">FGA</span><br /><br />{AbileneChristianTotalFGAttsG1P1}<br /><br />{AbileneChristianTotalFGAttsG1P2}<br /><br />{AbileneChristianTotalFGAttsG1P3}<br /><br />{AbileneChristianTotalFGAttsG1P4}<br /><br />{AbileneChristianTotalFGAttsG1P5}<br /><br />{AbileneChristianTotalFGAttsG1P6}<br /><br />{AbileneChristianTotalFGAttsG1P7}<br /><br />{AbileneChristianTotalFGAttsG1P8}<br /><br />{AbileneChristianTotalFGAttsG1P9}<br /><br />{AbileneChristianTotalFGAttsG1P10}</h2>
-        <h2><span class="bolded">FG%</span><br /><br />{isNaN(AbileneChristianTotalFGPctG1P1)  ? "0.000" : AbileneChristianTotalFGPctG1P1}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P2)  ? "0.000" : AbileneChristianTotalFGPctG1P2}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P3)  ? "0.000" : AbileneChristianTotalFGPctG1P3}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P4)  ? "0.000" : AbileneChristianTotalFGPctG1P4}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P5)  ? "0.000" : AbileneChristianTotalFGPctG1P5}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P6)  ? "0.000" : AbileneChristianTotalFGPctG1P6}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P7)  ? "0.000" : AbileneChristianTotalFGPctG1P7}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P8)  ? "0.000" : AbileneChristianTotalFGPctG1P8}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P9)  ? "0.000" : AbileneChristianTotalFGPctG1P9}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P10)  ? "0.000" : AbileneChristianTotalFGPctG1P10}</h2>
-        <h2><span class="bolded">FT</span><br /><br />{AbileneChristianG1FTM1}<br /><br />{AbileneChristianG1FTM2}<br /><br />{AbileneChristianG1FTM3}<br /><br />{AbileneChristianG1FTM4}<br /><br />{AbileneChristianG1FTM5}<br /><br />{AbileneChristianG1FTM6}<br /><br />{AbileneChristianG1FTM7}<br /><br />{AbileneChristianG1FTM8}<br /><br />{AbileneChristianG1FTM9}<br /><br />{AbileneChristianG1FTM10}</h2>
-        <h2><span class="bolded">FTA</span><br /><br />{AbileneChristianG1FTA1}<br /><br />{AbileneChristianG1FTA2}<br /><br />{AbileneChristianG1FTA3}<br /><br />{AbileneChristianG1FTA4}<br /><br />{AbileneChristianG1FTA5}<br /><br />{AbileneChristianG1FTA6}<br /><br />{AbileneChristianG1FTA7}<br /><br />{AbileneChristianG1FTA8}<br /><br />{AbileneChristianG1FTA9}<br /><br />{AbileneChristianG1FTA10}</h2>
-        <h2><span class="bolded">FT%</span><br /><br />{AbileneChristianFTPctG1P1}<br /><br />{AbileneChristianFTPctG1P2}<br /><br />{AbileneChristianFTPctG1P3}<br /><br />{AbileneChristianFTPctG1P4}<br /><br />{AbileneChristianFTPctG1P5}<br /><br />{AbileneChristianFTPctG1P6}<br /><br />{AbileneChristianFTPctG1P7}<br /><br />{AbileneChristianFTPctG1P8}<br /><br />{AbileneChristianFTPctG1P9}<br /><br />{AbileneChristianFTPctG1P10}</h2>
-        <h2><span class="bolded">Rebounds</span><br /><br />{AbileneChristianG1Rebounds1}<br /><br />{AbileneChristianG1Rebounds2}<br /><br />{AbileneChristianG1Rebounds3}<br /><br />{AbileneChristianG1Rebounds4}<br /><br />{AbileneChristianG1Rebounds5}<br /><br />{AbileneChristianG1Rebounds6}<br /><br />{AbileneChristianG1Rebounds7}<br /><br />{AbileneChristianG1Rebounds8}<br /><br />{AbileneChristianG1Rebounds9}<br /><br />{AbileneChristianG1Rebounds10}</h2>
-        <h2><span class="bolded">Assists</span><br /><br />{AbileneChristianG1Assists1}<br /><br />{AbileneChristianG1Assists2}<br /><br />{AbileneChristianG1Assists3}<br /><br />{AbileneChristianG1Assists4}<br /><br />{AbileneChristianG1Assists5}<br /><br />{AbileneChristianG1Assists6}<br /><br />{AbileneChristianG1Assists7}<br /><br />{AbileneChristianG1Assists8}<br /><br />{AbileneChristianG1Assists9}<br /><br />{AbileneChristianG1Assists10}</h2>
-        <h2><span class="bolded">Steals</span><br /><br />{AbileneChristianG1Steals1}<br /><br />{AbileneChristianG1Steals2}<br /><br />{AbileneChristianG1Steals3}<br /><br />{AbileneChristianG1Steals4}<br /><br />{AbileneChristianG1Steals5}<br /><br />{AbileneChristianG1Steals6}<br /><br />{AbileneChristianG1Steals7}<br /><br />{AbileneChristianG1Steals8}<br /><br />{AbileneChristianG1Steals9}<br /><br />{AbileneChristianG1Steals10}</h2>
-        <h2><span class="bolded">Blocks</span><br /><br />{AbileneChristianG1Blocks1}<br /><br />{AbileneChristianG1Blocks2}<br /><br />{AbileneChristianG1Blocks3}<br /><br />{AbileneChristianG1Blocks4}<br /><br />{AbileneChristianG1Blocks5}<br /><br />{AbileneChristianG1Blocks6}<br /><br />{AbileneChristianG1Blocks7}<br /><br />{AbileneChristianG1Blocks8}<br /><br />{AbileneChristianG1Blocks9}<br /><br />{AbileneChristianG1Blocks10}</h2>
-        <h2><span class="bolded">Turnovers</span><br /><br />{AbileneChristianG1Turnovers1}<br /><br />{AbileneChristianG1Turnovers2}<br /><br />{AbileneChristianG1Turnovers3}<br /><br />{AbileneChristianG1Turnovers4}<br /><br />{AbileneChristianG1Turnovers5}<br /><br />{AbileneChristianG1Turnovers6}<br /><br />{AbileneChristianG1Turnovers7}<br /><br />{AbileneChristianG1Turnovers8}<br /><br />{AbileneChristianG1Turnovers9}<br /><br />{AbileneChristianG1Turnovers10}</h2>
-        <h2><span class="bolded">Totals</span></h2>
-        <h2>{AbileneChristianSumG1}</h2>
-        <h2>{AbileneChristianTwoFGSumG1}</h2>
-        <h2>{AbileneChristianTwoFGAttSumG1}</h2>
-        <h2>{AbileneChristianTwoFGPctG1} </h2>
-        <h2>{AbileneChristianThreeFGSumG1} </h2>
-        <h2>{AbileneChristianThreeFGAttSumG1} </h2>
-        <h2>{AbileneChristianThreeFGPctG1} </h2>
-        <h2>{AbileneChristianTotalFGsG1}</h2>
-        <h2>{AbileneChristianTotalFGAttsG1}</h2>
-        <h2>{AbileneChristianTotalFGPctG1}</h2>
-        <h2>{AbileneChristianFTMSumG1} </h2>
-        <h2>{AbileneChristianFTASumG1} </h2>
-        <h2>{AbileneChristianFTPctG1} </h2>
-        <h2>{AbileneChristianSumG1Rebounds}</h2>
-        <h2>{AbileneChristianSumG1Assists}</h2>
-        <h2>{AbileneChristianSumG1Steals} </h2>
-        <h2>{AbileneChristianSumG1Blocks} </h2>
-         <h2> {AbileneChristianSumG1Turnovers}</h2>
+      <div class="items-wrap container">
+	<div class="items-col">
+              <p><span class="bolded">Player</span>
+        <br /><br /><AbileneChristianComponent generateAbileneChristianNames={generateAbileneChristianNames} /></p>
+        </div>
+        <div class="items-col">
+      <p><span class="bolded">Points</span></p>
+      <p>{AbileneChristianG1S1}</p>
+      <p>{AbileneChristianG1S2}</p>
+      <p>{AbileneChristianG1S3}</p>
+      <p>{AbileneChristianG1S4}</p>
+      <p>{AbileneChristianG1S5}</p>
+      <p>{AbileneChristianG1S6}</p>
+      <p>{AbileneChristianG1S7}</p>
+      <p>{AbileneChristianG1S8}</p>
+      <p>{AbileneChristianG1S9}</p>
+      <p>{AbileneChristianG1S10}</p>
+      <p>{AbileneChristianSumG1}</p>
       </div>
-    </div>
+        <div class="items-col">
+        <span class="bolded">2FG</span>
+        <p>{AbileneChristianG1TwoFG1}</p>
+        <p>{AbileneChristianG1TwoFG2}</p>
+        <p>{AbileneChristianG1TwoFG3}</p>
+        <p>{AbileneChristianG1TwoFG4}</p>
+        <p>{AbileneChristianG1TwoFG5}</p>
+        <p>{AbileneChristianG1TwoFG6}</p>
+        <p>{AbileneChristianG1TwoFG7}</p>
+        <p>{AbileneChristianG1TwoFG8}</p>
+        <p>{AbileneChristianG1TwoFG9}</p>
+        <p>{AbileneChristianG1TwoFG10}</p>
+        <p>{AbileneChristianTwoFGSumG1}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">2FGA</span><br /><br />{AbileneChristianG1TwoFGAtt1}<br /><br />{AbileneChristianG1TwoFGAtt2}<br /><br />{AbileneChristianG1TwoFGAtt3}<br /><br />{AbileneChristianG1TwoFGAtt4}<br /><br />{AbileneChristianG1TwoFGAtt5}<br /><br />{AbileneChristianG1TwoFGAtt6}<br /><br />{AbileneChristianG1TwoFGAtt7}<br /><br />{AbileneChristianG1TwoFGAtt8}<br /><br />{AbileneChristianG1TwoFGAtt9}<br /><br />{AbileneChristianG1TwoFGAtt10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">2FG%</span><br /><br />{isNaN(AbileneChristianTwoFGPctG1P1)  ? "0.000" : AbileneChristianTwoFGPctG1P1}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P2)  ? "0.000" : AbileneChristianTwoFGPctG1P2}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P3)  ? "0.000" : AbileneChristianTwoFGPctG1P3}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P4)  ? "0.000" : AbileneChristianTwoFGPctG1P4}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P5)  ? "0.000" : AbileneChristianTwoFGPctG1P5}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P6)  ? "0.000" : AbileneChristianTwoFGPctG1P6}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P7)  ? "0.000" : AbileneChristianTwoFGPctG1P7}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P8)  ? "0.000" : AbileneChristianTwoFGPctG1P8}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P9)  ? "0.000" : AbileneChristianTwoFGPctG1P9}<br /><br />{isNaN(AbileneChristianTwoFGPctG1P10)  ? "0.000" : AbileneChristianTwoFGPctG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">3FG</span><br /><br />{AbileneChristianG1ThreeFG1}<br /><br />{AbileneChristianG1ThreeFG2}<br /><br />{AbileneChristianG1ThreeFG3}<br /><br />{AbileneChristianG1ThreeFG4}<br /><br />{AbileneChristianG1ThreeFG5}<br /><br />{AbileneChristianG1ThreeFG6}<br /><br />{AbileneChristianG1ThreeFG7}<br /><br />{AbileneChristianG1ThreeFG8}<br /><br />{AbileneChristianG1ThreeFG9}<br /><br />{AbileneChristianG1ThreeFG10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">3FGA</span><br /><br />{AbileneChristianG1ThreeFGAtt1}<br /><br />{AbileneChristianG1ThreeFGAtt2}<br /><br />{AbileneChristianG1ThreeFGAtt3}<br /><br />{AbileneChristianG1ThreeFGAtt4}<br /><br />{AbileneChristianG1ThreeFGAtt5}<br /><br />{AbileneChristianG1ThreeFGAtt6}<br /><br />{AbileneChristianG1ThreeFGAtt7}<br /><br />{AbileneChristianG1ThreeFGAtt8}<br /><br />{AbileneChristianG1ThreeFGAtt9}<br /><br />{AbileneChristianG1ThreeFGAtt10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">3FG%</span><br /><br />{isNaN(AbileneChristianThreeFGPctG1P1)  ? "0.000" : AbileneChristianThreeFGPctG1P1}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P2)  ? "0.000" : AbileneChristianThreeFGPctG1P2}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P3)  ? "0.000" : AbileneChristianThreeFGPctG1P3}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P4)  ? "0.000" : AbileneChristianThreeFGPctG1P4}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P5)  ? "0.000" : AbileneChristianThreeFGPctG1P5}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P6)  ? "0.000" : AbileneChristianThreeFGPctG1P6}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P7)  ? "0.000" : AbileneChristianThreeFGPctG1P7}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P8)  ? "0.000" : AbileneChristianThreeFGPctG1P8}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P9)  ? "0.000" : AbileneChristianThreeFGPctG1P9}<br /><br />{isNaN(AbileneChristianThreeFGPctG1P10)  ? "0.000" : AbileneChristianThreeFGPctG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FG</span><br /><br />{AbileneChristianTotalFGsG1P1}<br /><br />{AbileneChristianTotalFGsG1P2}<br /><br />{AbileneChristianTotalFGsG1P3}<br /><br />{AbileneChristianTotalFGsG1P4}<br /><br />{AbileneChristianTotalFGsG1P5}<br /><br />{AbileneChristianTotalFGsG1P6}<br /><br />{AbileneChristianTotalFGsG1P7}<br /><br />{AbileneChristianTotalFGsG1P8}<br /><br />{AbileneChristianTotalFGsG1P9}<br /><br />{AbileneChristianTotalFGsG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FGA</span><br /><br />{AbileneChristianTotalFGAttsG1P1}<br /><br />{AbileneChristianTotalFGAttsG1P2}<br /><br />{AbileneChristianTotalFGAttsG1P3}<br /><br />{AbileneChristianTotalFGAttsG1P4}<br /><br />{AbileneChristianTotalFGAttsG1P5}<br /><br />{AbileneChristianTotalFGAttsG1P6}<br /><br />{AbileneChristianTotalFGAttsG1P7}<br /><br />{AbileneChristianTotalFGAttsG1P8}<br /><br />{AbileneChristianTotalFGAttsG1P9}<br /><br />{AbileneChristianTotalFGAttsG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FG%</span><br /><br />{isNaN(AbileneChristianTotalFGPctG1P1)  ? "0.000" : AbileneChristianTotalFGPctG1P1}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P2)  ? "0.000" : AbileneChristianTotalFGPctG1P2}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P3)  ? "0.000" : AbileneChristianTotalFGPctG1P3}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P4)  ? "0.000" : AbileneChristianTotalFGPctG1P4}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P5)  ? "0.000" : AbileneChristianTotalFGPctG1P5}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P6)  ? "0.000" : AbileneChristianTotalFGPctG1P6}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P7)  ? "0.000" : AbileneChristianTotalFGPctG1P7}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P8)  ? "0.000" : AbileneChristianTotalFGPctG1P8}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P9)  ? "0.000" : AbileneChristianTotalFGPctG1P9}<br /><br />{isNaN(AbileneChristianTotalFGPctG1P10)  ? "0.000" : AbileneChristianTotalFGPctG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FT</span><br /><br />{AbileneChristianG1FTM1}<br /><br />{AbileneChristianG1FTM2}<br /><br />{AbileneChristianG1FTM3}<br /><br />{AbileneChristianG1FTM4}<br /><br />{AbileneChristianG1FTM5}<br /><br />{AbileneChristianG1FTM6}<br /><br />{AbileneChristianG1FTM7}<br /><br />{AbileneChristianG1FTM8}<br /><br />{AbileneChristianG1FTM9}<br /><br />{AbileneChristianG1FTM10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FTA</span><br /><br />{AbileneChristianG1FTA1}<br /><br />{AbileneChristianG1FTA2}<br /><br />{AbileneChristianG1FTA3}<br /><br />{AbileneChristianG1FTA4}<br /><br />{AbileneChristianG1FTA5}<br /><br />{AbileneChristianG1FTA6}<br /><br />{AbileneChristianG1FTA7}<br /><br />{AbileneChristianG1FTA8}<br /><br />{AbileneChristianG1FTA9}<br /><br />{AbileneChristianG1FTA10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">FT%</span><br /><br />{AbileneChristianFTPctG1P1}<br /><br />{AbileneChristianFTPctG1P2}<br /><br />{AbileneChristianFTPctG1P3}<br /><br />{AbileneChristianFTPctG1P4}<br /><br />{AbileneChristianFTPctG1P5}<br /><br />{AbileneChristianFTPctG1P6}<br /><br />{AbileneChristianFTPctG1P7}<br /><br />{AbileneChristianFTPctG1P8}<br /><br />{AbileneChristianFTPctG1P9}<br /><br />{AbileneChristianFTPctG1P10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">Rebounds</span><br /><br />{AbileneChristianG1Rebounds1}<br /><br />{AbileneChristianG1Rebounds2}<br /><br />{AbileneChristianG1Rebounds3}<br /><br />{AbileneChristianG1Rebounds4}<br /><br />{AbileneChristianG1Rebounds5}<br /><br />{AbileneChristianG1Rebounds6}<br /><br />{AbileneChristianG1Rebounds7}<br /><br />{AbileneChristianG1Rebounds8}<br /><br />{AbileneChristianG1Rebounds9}<br /><br />{AbileneChristianG1Rebounds10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">Assists</span><br /><br />{AbileneChristianG1Assists1}<br /><br />{AbileneChristianG1Assists2}<br /><br />{AbileneChristianG1Assists3}<br /><br />{AbileneChristianG1Assists4}<br /><br />{AbileneChristianG1Assists5}<br /><br />{AbileneChristianG1Assists6}<br /><br />{AbileneChristianG1Assists7}<br /><br />{AbileneChristianG1Assists8}<br /><br />{AbileneChristianG1Assists9}<br /><br />{AbileneChristianG1Assists10}</p>
+        </div>
+        <div class="items-col">
+        <p><span class="bolded">Steals</span><br /><br />{AbileneChristianG1Steals1}<br /><br />{AbileneChristianG1Steals2}<br /><br />{AbileneChristianG1Steals3}<br /><br />{AbileneChristianG1Steals4}<br /><br />{AbileneChristianG1Steals5}<br /><br />{AbileneChristianG1Steals6}<br /><br />{AbileneChristianG1Steals7}<br /><br />{AbileneChristianG1Steals8}<br /><br />{AbileneChristianG1Steals9}<br /><br />{AbileneChristianG1Steals10}</p>
+        <div class="items-col">
+        <p><span class="bolded">Blocks</span><br /><br />{AbileneChristianG1Blocks1}<br /><br />{AbileneChristianG1Blocks2}<br /><br />{AbileneChristianG1Blocks3}<br /><br />{AbileneChristianG1Blocks4}<br /><br />{AbileneChristianG1Blocks5}<br /><br />{AbileneChristianG1Blocks6}<br /><br />{AbileneChristianG1Blocks7}<br /><br />{AbileneChristianG1Blocks8}<br /><br />{AbileneChristianG1Blocks9}<br /><br />{AbileneChristianG1Blocks10}</p>
+        <div class="items-col">
+        <p><span class="bolded">Turnovers</span><br /><br />{AbileneChristianG1Turnovers1}<br /><br />{AbileneChristianG1Turnovers2}<br /><br />{AbileneChristianG1Turnovers3}<br /><br />{AbileneChristianG1Turnovers4}<br /><br />{AbileneChristianG1Turnovers5}<br /><br />{AbileneChristianG1Turnovers6}<br /><br />{AbileneChristianG1Turnovers7}<br /><br />{AbileneChristianG1Turnovers8}<br /><br />{AbileneChristianG1Turnovers9}<br /><br />{AbileneChristianG1Turnovers10}</p>
+        <div class="items-col">
+        <p><span class="bolded">Totals</span></p>
+        <p>{AbileneChristianTwoFGAttSumG1}</p>
+        <p>{AbileneChristianTwoFGPctG1} </p>
+        <p>{AbileneChristianThreeFGSumG1} </p>
+        <p>{AbileneChristianThreeFGAttSumG1} </p>
+        <p>{AbileneChristianThreeFGPctG1} </p>
+        <p>{AbileneChristianTotalFGsG1}</p>
+        <p>{AbileneChristianTotalFGAttsG1}</p>
+        <p>{AbileneChristianTotalFGPctG1}</p>
+        <p>{AbileneChristianFTMSumG1} </p>
+        <p>{AbileneChristianFTASumG1} </p>
+        <p>{AbileneChristianFTPctG1} </p>
+        <p>{AbileneChristianSumG1Rebounds}</p>
+        <p>{AbileneChristianSumG1Assists}</p>
+        <p>{AbileneChristianSumG1Steals} </p>
+        <p>{AbileneChristianSumG1Blocks} </p>
+         <p> {AbileneChristianSumG1Turnovers}</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </>
   );
 };
 

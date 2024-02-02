@@ -474,16 +474,16 @@ var SanJoseStateTotal = [
 
 var SanJoseStateSumG1 = SanJoseStateTotal.reduce((a, b) => a + b, 0);
 
-var SanJoseStateG1Rebounds1 = Math.floor(Math.random() * (10 - 0) + 0);
-var SanJoseStateG1Rebounds2 = Math.floor(Math.random() * (10 - 0) + 0);
-var SanJoseStateG1Rebounds3 = Math.floor(Math.random() * (10 - 0) + 0);
-var SanJoseStateG1Rebounds4 = Math.floor(Math.random() * (10 - 0) + 0);
-var SanJoseStateG1Rebounds5 = Math.floor(Math.random() * (10 - 0) + 0);
-var SanJoseStateG1Rebounds6 = Math.floor(Math.random() * (5 - 0) + 0);
-var SanJoseStateG1Rebounds7 = Math.floor(Math.random() * (5 - 0) + 0);
-var SanJoseStateG1Rebounds8 = Math.floor(Math.random() * (5 - 0) + 0);
-var SanJoseStateG1Rebounds9 = Math.floor(Math.random() * (5 - 0) + 0);
-var SanJoseStateG1Rebounds10 = Math.floor(Math.random() * (5 - 0) + 0);
+var SanJoseStateG1Rebounds1 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P1 - 0) + 0);
+var SanJoseStateG1Rebounds2 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P2 - 0) + 0);
+var SanJoseStateG1Rebounds3 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P3 - 0) + 0);
+var SanJoseStateG1Rebounds4 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P4 - 0) + 0);
+var SanJoseStateG1Rebounds5 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P5 - 0) + 0);
+var SanJoseStateG1Rebounds6 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P6 - 0) + 0);
+var SanJoseStateG1Rebounds7 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P7 - 0) + 0);
+var SanJoseStateG1Rebounds8 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P8 - 0) + 0);
+var SanJoseStateG1Rebounds9 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P9 - 0) + 0);
+var SanJoseStateG1Rebounds10 = Math.floor(Math.random() * (SanJoseStateTotalFGAttsG1P10 - 0) + 0);
 
 var SanJoseStateG1Rebounds = [
   SanJoseStateG1Rebounds1,
@@ -658,7 +658,7 @@ export default function SanJoseStateBox() {
   return (
     <div>
       <h1>San Jose State {SanJoseStateSumG1}</h1>
-      <div className="grid-container">
+      <div className="items-wrap-container">
         <h2>Player <br /><br /> <SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} /></h2>
         <h2>Points<br /><br />{SanJoseStateG1S1}<br /><br />{SanJoseStateG1S2}<br /><br />{SanJoseStateG1S3}<br /><br />{SanJoseStateG1S4}<br /><br />{SanJoseStateG1S5}<br /><br />{SanJoseStateG1S6}<br /><br />{SanJoseStateG1S7}<br /><br />{SanJoseStateG1S8}<br /><br />{SanJoseStateG1S9}<br /><br />{SanJoseStateG1S10}</h2>
         <h2>2FG<br /><br />{SanJoseStateG1TwoFG1}<br /><br />{SanJoseStateG1TwoFG2}<br /><br />{SanJoseStateG1TwoFG3}<br /><br />{SanJoseStateG1TwoFG4}<br /><br />{SanJoseStateG1TwoFG5}<br /><br />{SanJoseStateG1TwoFG6}<br /><br />{SanJoseStateG1TwoFG7}<br /><br />{SanJoseStateG1TwoFG8}<br /><br />{SanJoseStateG1TwoFG9}<br /><br />{SanJoseStateG1TwoFG10}</h2>
