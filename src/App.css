@@ -17,14 +17,14 @@ body {
   color: #fff;
 }
 .App {
-	padding: 10%;
+	padding: 0%;
 }
 .container {
-	margin: 0 auto;
-	max-width: calc(100% - 60px);
+margin: 0 auto;
+max-width: calc(100% - 60px);
   background: #000;
   color: #fff;
-	align-items: center;
+  align-content:stretch;
 }
 
 .items-wrap {
@@ -33,20 +33,15 @@ body {
 	
 	
 	.items-col {
-		padding: 0.5%;
+		padding: 4px;
 		width: flex;
 		display: flex;
-		flex-flow: column;
-		align-items: center;
-		
+		flex-flow:column;
+
 		.item {
 			height: 340px;
 			background: #000;
 			color: #fff;
-			display: flex;
-			flex-flow: column;
-			align-items: center;
-			justify-content: center;
 			
 		}
 	}

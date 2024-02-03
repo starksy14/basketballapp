@@ -38,147 +38,134 @@ const SanJoseStSchedule = () => {
     return (
       <>
         <div>
-        <center><h1>San Jose State schedule</h1></center>
+        <center><h1><strong>San Jose State schedule</strong></h1></center>
   
-          <div className="grid-container">
-            <div className="col-sm">
-              <h4>Game</h4>
-              <div className="row">
-                <div className="col-sm">
-                  <h2>Game 1</h2>
-                  <h2>Game 2</h2>
-                  <h2>Game 3</h2>
-                  <h2>Game 4</h2>
-                  <h2>Game 5</h2>
-                  <h2>Game 6</h2>
-                  <h2>Game 7</h2>
-                  <h2>Game 8</h2>
-                  <h2>Game 9</h2>
-                  <h2>Game 10</h2>
-                  <h2>Game 11</h2>
-                  <h2>Game 12</h2>
-                  <h2>Game 13</h2>
-                  <h2>Game 14</h2>
-                  <h2>Game 15</h2>
-                  <h2>Game 16</h2>
-                  <h2>Game 17</h2>
-                  <h2>Game 18</h2>
-                  <h2>Game 19</h2>
-                  <h2>Game 20</h2>
-                  <h2>Game 21</h2>
-                  <h2>Game 22</h2>
-                  <h2>Game 23</h2>
-                  <h2>Game 24</h2>
-                  <h2>Game 25</h2>
-                  <h2>Game 26</h2>
-                  <h2>Game 27</h2>
+        <div class="items-wrap container">
+	<div class="items-col">
+              <p>Game</p>
+                  <p><strong>Game 1</strong></p>
+                  <p>Game 2</p>
+                  <p>Game 3</p>
+                  <p>Game 4</p>
+                  <p>Game 5</p>
+                  <p>Game 6</p>
+                  <p>Game 7</p>
+                  <p>Game 8</p>
+                  <p>Game 9</p>
+                  <p>Game 10</p>
+                  <p>Game 11</p>
+                  <p>Game 12</p>
+                  <p>Game 13</p>
+                  <p>Game 14</p>
+                  <p>Game 15</p>
+                  <p>Game 16</p>
+                  <p>Game 17</p>
+                  <p>Game 18</p>
+                  <p>Game 19</p>
+                  <p>Game 20</p>
+                  <p>Game 21</p>
+                  <p>Game 22</p>
+                  <p>Game 23</p>
+                  <p>Game 24</p>
+                  <p>Game 25</p>
+                  <p>Game 26</p>
+                  <p>Game 27</p>
                 </div>
+            <div class="items-col">
+              <p><strong>Opponent</strong></p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam1)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam2)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam3)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam4)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam5)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam6)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam7)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam8)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam9)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam10)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam11)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam12)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam13)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam14)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam15)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam16)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam17)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam18)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam19)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam20)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam21)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam22)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam23)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam24)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam25)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam26)}</p>
+                <p>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam27)}</p>
+              </div>
+              <div class="items-col">
+              <p><strong>Result</strong></p>
+                  <p>Game 1</p>
+                  <p>Game 2</p>
+                  <p>Game 3</p>
+                  <p>Game 4</p>
+                  <p>Game 5</p>
+                  <p>Game 6</p>
+                  <p>Game 7</p>
+                  <p>Game 8</p>
+                  <p>Game 9</p>
+                  <p>Game 10</p>
+                  <p>Game 11</p>
+                  <p>Game 12</p>
+                  <p>Game 13</p>
+                  <p>Game 14</p>
+                  <p>Game 15</p>
+                  <p>Game 16</p>
+                  <p>Game 17</p>
+                  <p>Game 18</p>
+                  <p>Game 19</p>
+                  <p>Game 20</p>
+                  <p>Game 21</p>
+                  <p>Game 22</p>
+                  <p>Game 23</p>
+                  <p>Game 24</p>
+                  <p>Game 25</p>
+                  <p>Game 26</p>
+                  <p>Game 27</p>
+                </div>
+                <div class="items-col">
+              <p><strong>Record</strong></p>
+                  <p>Game 1</p>
+                  <p>Game 2</p>
+                  <p>Game 3</p>
+                  <p>Game 4</p>
+                  <p>Game 5</p>
+                  <p>Game 6</p>
+                  <p>Game 7</p>
+                  <p>Game 8</p>
+                  <p>Game 9</p>
+                  <p>Game 10</p>
+                  <p>Game 11</p>
+                  <p>Game 12</p>
+                  <p>Game 13</p>
+                  <p>Game 14</p>
+                  <p>Game 15</p>
+                  <p>Game 16</p>
+                  <p>Game 17</p>
+                  <p>Game 18</p>
+                  <p>Game 19</p>
+                  <p>Game 20</p>
+                  <p>Game 21</p>
+                  <p>Game 22</p>
+                  <p>Game 23</p>
+                  <p>Game 24</p>
+                  <p>Game 25</p>
+                  <p>Game 26</p>
+                  <p>Game 27</p>
+                </div>
+                <div class="items-col">
+              <p><strong>Team roster</strong></p>
+              <p><SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} /></p>
               </div>
             </div>
-            <div className="row">
-              <h4>Opponent</h4>
-              <div className="col-sm">
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam1)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam2)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam3)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam4)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam5)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam6)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam7)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam8)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam9)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam10)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam11)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam12)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam13)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam14)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam15)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam16)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam17)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam18)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam19)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam20)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam21)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam22)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam23)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam24)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam25)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam26)}</h2>
-                <h2>{scheduleSanJoseSt.map((scheduleSanJoseSt) => scheduleSanJoseSt.SanJoseTeam27)}</h2>
-              </div>
-            </div>
-            <div className="row">
-              <h4>Result</h4>
-              <div className="col-sm">
-                  <h2>Game 1</h2>
-                  <h2>Game 2</h2>
-                  <h2>Game 3</h2>
-                  <h2>Game 4</h2>
-                  <h2>Game 5</h2>
-                  <h2>Game 6</h2>
-                  <h2>Game 7</h2>
-                  <h2>Game 8</h2>
-                  <h2>Game 9</h2>
-                  <h2>Game 10</h2>
-                  <h2>Game 11</h2>
-                  <h2>Game 12</h2>
-                  <h2>Game 13</h2>
-                  <h2>Game 14</h2>
-                  <h2>Game 15</h2>
-                  <h2>Game 16</h2>
-                  <h2>Game 17</h2>
-                  <h2>Game 18</h2>
-                  <h2>Game 19</h2>
-                  <h2>Game 20</h2>
-                  <h2>Game 21</h2>
-                  <h2>Game 22</h2>
-                  <h2>Game 23</h2>
-                  <h2>Game 24</h2>
-                  <h2>Game 25</h2>
-                  <h2>Game 26</h2>
-                  <h2>Game 27</h2>
-                </div>
-            </div>
-            <div className="row">
-              <h4>Record</h4>
-               <div className="col-sm">
-                  <h2>Game 1</h2>
-                  <h2>Game 2</h2>
-                  <h2>Game 3</h2>
-                  <h2>Game 4</h2>
-                  <h2>Game 5</h2>
-                  <h2>Game 6</h2>
-                  <h2>Game 7</h2>
-                  <h2>Game 8</h2>
-                  <h2>Game 9</h2>
-                  <h2>Game 10</h2>
-                  <h2>Game 11</h2>
-                  <h2>Game 12</h2>
-                  <h2>Game 13</h2>
-                  <h2>Game 14</h2>
-                  <h2>Game 15</h2>
-                  <h2>Game 16</h2>
-                  <h2>Game 17</h2>
-                  <h2>Game 18</h2>
-                  <h2>Game 19</h2>
-                  <h2>Game 20</h2>
-                  <h2>Game 21</h2>
-                  <h2>Game 22</h2>
-                  <h2>Game 23</h2>
-                  <h2>Game 24</h2>
-                  <h2>Game 25</h2>
-                  <h2>Game 26</h2>
-                  <h2>Game 27</h2>
-                </div>
-            </div>
-            <div className="row">
-              <div className="col-sm">
-              <h4>Team roster</h4>
-              <h2><SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} /></h2>
-
-              </div>
-            </div>
-          </div>
         </div>
         <br></br>
       <center><SanJoseStateLinkButton /></center>
