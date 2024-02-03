@@ -16,13 +16,15 @@ body {
   background: #000;
   color: #fff;
 }
-
+.App {
+	padding: 10%;
+}
 .container {
-	width: 100%;
 	margin: 0 auto;
 	max-width: calc(100% - 60px);
   background: #000;
   color: #fff;
+	align-items: center;
 }
 
 .items-wrap {
@@ -35,6 +37,7 @@ body {
 		width: flex;
 		display: flex;
 		flex-flow: column;
+		align-items: center;
 		
 		.item {
 			height: 340px;
@@ -44,6 +47,18 @@ body {
 			flex-flow: column;
 			align-items: center;
 			justify-content: center;
+			
 		}
 	}
+}
+
+h3 {
+	margin: 0rem;
+	padding-bottom: 0rem;
+	font-size: 180px;
+	padding-bottom: 0.2em;
+	line-height: 0.9em;
+font-family: 'Courier', serif;
+ background-color: black;
+	 width: 100%;
 }

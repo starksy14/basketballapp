@@ -656,15 +656,15 @@ export default function SanJoseStateBox() {
   return (
     <>
     <div>
-      <h1>San Jose State {SanJoseStateSumG1}</h1>
+      <h1><strong>San Jose State {SanJoseStateSumG1}</strong></h1>
       <div class="items-wrap container">
 	<div class="items-col">
-              <p>Player</p>
+  <p><strong>Player</strong></p>
         <SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} />
-        <p>Totals</p>
+        <p><strong>Totals</strong></p>
         </div>
         <div class="items-col">
-      <p>Points</p>
+        <p><strong>Points</strong></p>
       <p>{SanJoseStateG1S1}</p>
       <p>{SanJoseStateG1S2}</p>
       <p>{SanJoseStateG1S3}</p>
@@ -678,7 +678,7 @@ export default function SanJoseStateBox() {
       <p>{SanJoseStateSumG1}</p>
       </div>
         <div class="items-col">
-        <p>2FG</p>
+        <p><strong>2FG</strong></p>
         <p>{SanJoseStateG1TwoFG1}</p>
         <p>{SanJoseStateG1TwoFG2}</p>
         <p>{SanJoseStateG1TwoFG3}</p>
@@ -692,7 +692,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTwoFGSumG1}</p>
         </div>
         <div class="items-col">
-        <p>2FGA</p>
+        <p><strong>2FGA</strong></p>
         <p>{SanJoseStateG1TwoFGAtt1}</p>
         <p>{SanJoseStateG1TwoFGAtt2}</p>
         <p>{SanJoseStateG1TwoFGAtt3}</p>
@@ -706,7 +706,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTwoFGAttSumG1}</p>
         </div>
         <div class="items-col">
-        <p>2FG%</p>
+        <p><strong>2FG%</strong></p>
         <p>{isNaN(SanJoseStateTwoFGPctG1P1)  ? "0.000" : SanJoseStateTwoFGPctG1P1}</p>
         <p>{isNaN(SanJoseStateTwoFGPctG1P2)  ? "0.000" : SanJoseStateTwoFGPctG1P2}</p>
         <p>{isNaN(SanJoseStateTwoFGPctG1P3)  ? "0.000" : SanJoseStateTwoFGPctG1P3}</p>
@@ -720,7 +720,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTwoFGPctG1} </p>
         </div>
         <div class="items-col">
-        <p>3FG</p>
+        <p><strong>3FG</strong></p>
         <p>{SanJoseStateG1ThreeFG1}</p>
         <p>{SanJoseStateG1ThreeFG2}</p>
         <p>{SanJoseStateG1ThreeFG3}</p>
@@ -734,7 +734,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateThreeFGSumG1} </p>
         </div>
         <div class="items-col">
-        <p>3FGA</p>
+        <p><strong>3FGA</strong></p>
         <p>{SanJoseStateG1ThreeFGAtt1}</p>
         <p>{SanJoseStateG1ThreeFGAtt2}</p>
         <p>{SanJoseStateG1ThreeFGAtt3}</p>
@@ -749,7 +749,7 @@ export default function SanJoseStateBox() {
         </div>
         
         <div class="items-col">
-        <p>3FG%</p>
+        <p><strong>3FG%</strong></p>
         <p>{isNaN(SanJoseStateThreeFGPctG1P1)  ? "0.000" : SanJoseStateThreeFGPctG1P1}</p>
         <p>{isNaN(SanJoseStateThreeFGPctG1P2)  ? "0.000" : SanJoseStateThreeFGPctG1P2}</p>
         <p>{isNaN(SanJoseStateThreeFGPctG1P3)  ? "0.000" : SanJoseStateThreeFGPctG1P3}</p>
@@ -763,7 +763,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateThreeFGPctG1} </p>
         </div>
         <div class="items-col">
-        <p>FG</p>
+        <p><strong>FG</strong></p>
         <p>{SanJoseStateTotalFGsG1P1}</p>
         <p>{SanJoseStateTotalFGsG1P2}</p>
         <p>{SanJoseStateTotalFGsG1P3}</p>
@@ -777,7 +777,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTotalFGsG1}</p>
         </div>
         <div class="items-col">
-        <p>FGA</p>
+        <p><strong>FGA</strong></p>
         <p>{SanJoseStateTotalFGAttsG1P1}</p>
         <p>{SanJoseStateTotalFGAttsG1P2}</p>
         <p>{SanJoseStateTotalFGAttsG1P3}</p>
@@ -791,7 +791,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTotalFGAttsG1}</p>
         </div>
         <div class="items-col">
-        <p>FG%</p>
+        <p><strong>FG%</strong></p>
         <p>{isNaN(SanJoseStateTotalFGPctG1P1)  ? "0.000" : SanJoseStateTotalFGPctG1P1}</p>
         <p>{isNaN(SanJoseStateTotalFGPctG1P2)  ? "0.000" : SanJoseStateTotalFGPctG1P2}</p>
         <p>{isNaN(SanJoseStateTotalFGPctG1P3)  ? "0.000" : SanJoseStateTotalFGPctG1P3}</p>
@@ -805,7 +805,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateTotalFGPctG1}</p>
         </div>
         <div class="items-col">
-        <p>FT</p>
+        <p><strong>FT</strong></p>
         <p>{SanJoseStateG1FTM1}</p>
         <p>{SanJoseStateG1FTM2}</p>
         <p>{SanJoseStateG1FTM3}</p>
@@ -819,7 +819,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateFTMSumG1} </p>
         </div>
         <div class="items-col">
-        <p>FTA</p>
+        <p><strong>FTA</strong></p>
         <p>{SanJoseStateG1FTA1}</p>
         <p>{SanJoseStateG1FTA2}</p>
         <p>{SanJoseStateG1FTA3}</p>
@@ -833,7 +833,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateFTASumG1} </p>
         </div>
         <div class="items-col">
-        <p>FT%</p>
+        <p><strong>FT%</strong></p>
         <p>{SanJoseStateFTPctG1P1}</p>
         <p>{SanJoseStateFTPctG1P2}</p>
         <p>{SanJoseStateFTPctG1P3}</p>
@@ -847,7 +847,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateFTPctG1} </p>
         </div>
         <div class="items-col">
-        <p>Rebounds</p>
+        <p><strong>Rebounds</strong></p>
         <p>{SanJoseStateG1Rebounds1}</p>
         <p>{SanJoseStateG1Rebounds2}</p>
         <p>{SanJoseStateG1Rebounds3}</p>
@@ -861,7 +861,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateSumG1Rebounds}</p>
         </div>
         <div class="items-col">
-        <p>Assists</p>
+        <p><strong>Assists</strong></p>
         <p>{SanJoseStateG1Assists1}</p>
         <p>{SanJoseStateG1Assists2}</p>
         <p>{SanJoseStateG1Assists3}</p>
@@ -875,7 +875,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateSumG1Assists}</p>
         </div>
         <div class="items-col">
-        <p>Steals</p>
+        <p><strong>Steals</strong></p>
         <p>{SanJoseStateG1Steals1}</p>
         <p>{SanJoseStateG1Steals2}</p>
         <p>{SanJoseStateG1Steals3}</p>
@@ -889,7 +889,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateSumG1Steals}</p>
         </div>
         <div class="items-col">
-        <p>Blocks</p>
+        <p><strong>Blocks</strong></p>
         <p>{SanJoseStateG1Blocks1}</p>
         <p>{SanJoseStateG1Blocks2}</p>
         <p>{SanJoseStateG1Blocks3}</p>
@@ -903,7 +903,7 @@ export default function SanJoseStateBox() {
         <p>{SanJoseStateSumG1Blocks}</p>
         </div>
         <div class="items-col">
-        <p>Turnovers</p>
+        <p><strong>Turnovers</strong></p>
         <p>{SanJoseStateG1Turnovers1}</p>
         <p>{SanJoseStateG1Turnovers2}</p>
         <p>{SanJoseStateG1Turnovers3}</p>

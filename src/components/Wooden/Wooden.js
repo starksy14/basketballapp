@@ -4,7 +4,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 const Wooden = () => {
   return (
     <>
-    <h2>Wooden Conference</h2>
+    <p>Wooden Conference</p>
       <Dropdown data-bs-theme="dark">
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Select team

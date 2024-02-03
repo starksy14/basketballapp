@@ -39,7 +39,7 @@ const AbileneChristianSchedule = () => {
   return (
     <>
       <div>
-      <center><h1>AbileneChristian schedule</h1></center>
+      <center><h1>Abilene Christian schedule</h1></center>
 
         <div className="grid-container">
           <div className="col-sm">

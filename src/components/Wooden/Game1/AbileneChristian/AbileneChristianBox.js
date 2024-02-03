@@ -657,15 +657,15 @@ export default function AbileneChristianBox() {
   return (
     <>
     <div>
-      <h1>Abilene Christian {AbileneChristianSumG1}</h1>
+      <h1><strong>Abilene Christian {AbileneChristianSumG1}</strong></h1>
       <div class="items-wrap container">
 	<div class="items-col">
-              <p>Player</p>
+              <p><strong>Player</strong></p>
         <AbileneChristianComponent generateAbileneChristianNames={generateAbileneChristianNames} />
-        <p>Totals</p>
+        <p><strong>Totals</strong></p>
         </div>
         <div class="items-col">
-      <p>Points</p>
+      <p><strong>Points</strong></p>
       <p>{AbileneChristianG1S1}</p>
       <p>{AbileneChristianG1S2}</p>
       <p>{AbileneChristianG1S3}</p>
@@ -679,7 +679,7 @@ export default function AbileneChristianBox() {
       <p>{AbileneChristianSumG1}</p>
       </div>
         <div class="items-col">
-        <p>2FG</p>
+        <p><strong>2FG</strong></p>
         <p>{AbileneChristianG1TwoFG1}</p>
         <p>{AbileneChristianG1TwoFG2}</p>
         <p>{AbileneChristianG1TwoFG3}</p>
@@ -693,7 +693,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTwoFGSumG1}</p>
         </div>
         <div class="items-col">
-        <p>2FGA</p>
+        <p><strong>2FGA</strong></p>
         <p>{AbileneChristianG1TwoFGAtt1}</p>
         <p>{AbileneChristianG1TwoFGAtt2}</p>
         <p>{AbileneChristianG1TwoFGAtt3}</p>
@@ -707,7 +707,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTwoFGAttSumG1}</p>
         </div>
         <div class="items-col">
-        <p>2FG%</p>
+        <p><strong>2FG%</strong></p>
         <p>{isNaN(AbileneChristianTwoFGPctG1P1)  ? "0.000" : AbileneChristianTwoFGPctG1P1}</p>
         <p>{isNaN(AbileneChristianTwoFGPctG1P2)  ? "0.000" : AbileneChristianTwoFGPctG1P2}</p>
         <p>{isNaN(AbileneChristianTwoFGPctG1P3)  ? "0.000" : AbileneChristianTwoFGPctG1P3}</p>
@@ -721,7 +721,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTwoFGPctG1} </p>
         </div>
         <div class="items-col">
-        <p>3FG</p>
+        <p><strong>3FG</strong></p>
         <p>{AbileneChristianG1ThreeFG1}</p>
         <p>{AbileneChristianG1ThreeFG2}</p>
         <p>{AbileneChristianG1ThreeFG3}</p>
@@ -735,7 +735,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianThreeFGSumG1} </p>
         </div>
         <div class="items-col">
-        <p>3FGA</p>
+        <p><strong>3FGA</strong></p>
         <p>{AbileneChristianG1ThreeFGAtt1}</p>
         <p>{AbileneChristianG1ThreeFGAtt2}</p>
         <p>{AbileneChristianG1ThreeFGAtt3}</p>
@@ -750,7 +750,7 @@ export default function AbileneChristianBox() {
         </div>
         
         <div class="items-col">
-        <p>3FG%</p>
+        <p><strong>3FG%</strong></p>
         <p>{isNaN(AbileneChristianThreeFGPctG1P1)  ? "0.000" : AbileneChristianThreeFGPctG1P1}</p>
         <p>{isNaN(AbileneChristianThreeFGPctG1P2)  ? "0.000" : AbileneChristianThreeFGPctG1P2}</p>
         <p>{isNaN(AbileneChristianThreeFGPctG1P3)  ? "0.000" : AbileneChristianThreeFGPctG1P3}</p>
@@ -764,7 +764,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianThreeFGPctG1} </p>
         </div>
         <div class="items-col">
-        <p>FG</p>
+        <p><strong>FG</strong></p>
         <p>{AbileneChristianTotalFGsG1P1}</p>
         <p>{AbileneChristianTotalFGsG1P2}</p>
         <p>{AbileneChristianTotalFGsG1P3}</p>
@@ -778,7 +778,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTotalFGsG1}</p>
         </div>
         <div class="items-col">
-        <p>FGA</p>
+        <p><strong>FGA</strong></p>
         <p>{AbileneChristianTotalFGAttsG1P1}</p>
         <p>{AbileneChristianTotalFGAttsG1P2}</p>
         <p>{AbileneChristianTotalFGAttsG1P3}</p>
@@ -792,7 +792,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTotalFGAttsG1}</p>
         </div>
         <div class="items-col">
-        <p>FG%</p>
+        <p><strong>FG%</strong></p>
         <p>{isNaN(AbileneChristianTotalFGPctG1P1)  ? "0.000" : AbileneChristianTotalFGPctG1P1}</p>
         <p>{isNaN(AbileneChristianTotalFGPctG1P2)  ? "0.000" : AbileneChristianTotalFGPctG1P2}</p>
         <p>{isNaN(AbileneChristianTotalFGPctG1P3)  ? "0.000" : AbileneChristianTotalFGPctG1P3}</p>
@@ -806,7 +806,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianTotalFGPctG1}</p>
         </div>
         <div class="items-col">
-        <p>FT</p>
+        <p><strong>FT</strong></p>
         <p>{AbileneChristianG1FTM1}</p>
         <p>{AbileneChristianG1FTM2}</p>
         <p>{AbileneChristianG1FTM3}</p>
@@ -820,7 +820,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianFTMSumG1} </p>
         </div>
         <div class="items-col">
-        <p>FTA</p>
+        <p><strong>FTA</strong></p>
         <p>{AbileneChristianG1FTA1}</p>
         <p>{AbileneChristianG1FTA2}</p>
         <p>{AbileneChristianG1FTA3}</p>
@@ -834,7 +834,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianFTASumG1} </p>
         </div>
         <div class="items-col">
-        <p>FT%</p>
+        <p><strong>FT%</strong></p>
         <p>{AbileneChristianFTPctG1P1}</p>
         <p>{AbileneChristianFTPctG1P2}</p>
         <p>{AbileneChristianFTPctG1P3}</p>
@@ -848,7 +848,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianFTPctG1} </p>
         </div>
         <div class="items-col">
-        <p>Rebounds</p>
+        <p><strong>Rebounds</strong></p>
         <p>{AbileneChristianG1Rebounds1}</p>
         <p>{AbileneChristianG1Rebounds2}</p>
         <p>{AbileneChristianG1Rebounds3}</p>
@@ -862,7 +862,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianSumG1Rebounds}</p>
         </div>
         <div class="items-col">
-        <p>Assists</p>
+        <p><strong>Assists</strong></p>
         <p>{AbileneChristianG1Assists1}</p>
         <p>{AbileneChristianG1Assists2}</p>
         <p>{AbileneChristianG1Assists3}</p>
@@ -876,7 +876,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianSumG1Assists}</p>
         </div>
         <div class="items-col">
-        <p>Steals</p>
+        <p><strong>Steals</strong></p>
         <p>{AbileneChristianG1Steals1}</p>
         <p>{AbileneChristianG1Steals2}</p>
         <p>{AbileneChristianG1Steals3}</p>
@@ -890,7 +890,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianSumG1Steals}</p>
         </div>
         <div class="items-col">
-        <p>Blocks</p>
+        <p><strong>Blocks</strong></p>
         <p>{AbileneChristianG1Blocks1}</p>
         <p>{AbileneChristianG1Blocks2}</p>
         <p>{AbileneChristianG1Blocks3}</p>
@@ -904,7 +904,7 @@ export default function AbileneChristianBox() {
         <p>{AbileneChristianSumG1Blocks}</p>
         </div>
         <div class="items-col">
-        <p>Turnovers</p>
+        <p><strong>Turnovers</strong></p>
         <p>{AbileneChristianG1Turnovers1}</p>
         <p>{AbileneChristianG1Turnovers2}</p>
         <p>{AbileneChristianG1Turnovers3}</p>
