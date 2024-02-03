@@ -620,85 +620,305 @@ var SanJoseStateSumG1Turnovers = SanJoseStateG1Turnovers.reduce(
 );
 
 while (SanJoseStateSumG1 === AbileneChristianSumG1) {
-SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
-SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
-SanJoseStateG1TwoFG3 = Math.floor(Math.random() * 6 + 2);
-SanJoseStateG1TwoFG4 = Math.floor(Math.random() * 6 + 2);
-SanJoseStateG1TwoFG5 = Math.floor(Math.random() * 6 + 2);
-SanJoseStateG1TwoFG6 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1TwoFG7 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1TwoFG8 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1TwoFG9 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1TwoFG10 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG1 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG2 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG3 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG4 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG5 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG6 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
-SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
-
-SanJoseStateTwoFGSumG1 = SanJoseStateG1TwoFGs.reduce(
-  (a, b) => a + b,
-  0
-);
-
-SanJoseStateThreeFGSumG1 = SanJoseStateG1ThreeFGs.reduce(
-  (a, b) => a + b,
-  0
-);
-
-}
-
-
+  SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
+  SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
+  SanJoseStateG1TwoFG3 = Math.floor(Math.random() * 6 + 2);
+  SanJoseStateG1TwoFG4 = Math.floor(Math.random() * 6 + 2);
+  SanJoseStateG1TwoFG5 = Math.floor(Math.random() * 6 + 2);
+  SanJoseStateG1TwoFG6 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1TwoFG7 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1TwoFG8 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1TwoFG9 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1TwoFG10 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG1 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG2 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG3 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG4 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG5 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG6 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
+  SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
+  
+  SanJoseStateTwoFGSumG1 = SanJoseStateG1TwoFGs.reduce(
+    (a, b) => a + b,
+    0
+  );
+  
+  SanJoseStateThreeFGSumG1 = SanJoseStateG1ThreeFGs.reduce(
+    (a, b) => a + b,
+    0
+  );
+  
+  }
 export default function SanJoseStateBox() {
   return (
+    <>
     <div>
       <h1>San Jose State {SanJoseStateSumG1}</h1>
-      <div className="items-wrap-container">
-        <h2>Player <br /><br /> <SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} /></h2>
-        <h2>Points<br /><br />{SanJoseStateG1S1}<br /><br />{SanJoseStateG1S2}<br /><br />{SanJoseStateG1S3}<br /><br />{SanJoseStateG1S4}<br /><br />{SanJoseStateG1S5}<br /><br />{SanJoseStateG1S6}<br /><br />{SanJoseStateG1S7}<br /><br />{SanJoseStateG1S8}<br /><br />{SanJoseStateG1S9}<br /><br />{SanJoseStateG1S10}</h2>
-        <h2>2FG<br /><br />{SanJoseStateG1TwoFG1}<br /><br />{SanJoseStateG1TwoFG2}<br /><br />{SanJoseStateG1TwoFG3}<br /><br />{SanJoseStateG1TwoFG4}<br /><br />{SanJoseStateG1TwoFG5}<br /><br />{SanJoseStateG1TwoFG6}<br /><br />{SanJoseStateG1TwoFG7}<br /><br />{SanJoseStateG1TwoFG8}<br /><br />{SanJoseStateG1TwoFG9}<br /><br />{SanJoseStateG1TwoFG10}</h2>
-        <h2>2FGA<br /><br />{SanJoseStateG1TwoFGAtt1}<br /><br />{SanJoseStateG1TwoFGAtt2}<br /><br />{SanJoseStateG1TwoFGAtt3}<br /><br />{SanJoseStateG1TwoFGAtt4}<br /><br />{SanJoseStateG1TwoFGAtt5}<br /><br />{SanJoseStateG1TwoFGAtt6}<br /><br />{SanJoseStateG1TwoFGAtt7}<br /><br />{SanJoseStateG1TwoFGAtt8}<br /><br />{SanJoseStateG1TwoFGAtt9}<br /><br />{SanJoseStateG1TwoFGAtt10}</h2>
-        <h2>2FG%<br /><br />{isNaN(SanJoseStateTwoFGPctG1P1)  ? "0.000" : SanJoseStateTwoFGPctG1P1}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P2)  ? "0.000" : SanJoseStateTwoFGPctG1P2}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P3)  ? "0.000" : SanJoseStateTwoFGPctG1P3}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P4)  ? "0.000" : SanJoseStateTwoFGPctG1P4}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P5)  ? "0.000" : SanJoseStateTwoFGPctG1P5}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P6)  ? "0.000" : SanJoseStateTwoFGPctG1P6}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P7)  ? "0.000" : SanJoseStateTwoFGPctG1P7}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P8)  ? "0.000" : SanJoseStateTwoFGPctG1P8}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P9)  ? "0.000" : SanJoseStateTwoFGPctG1P9}<br /><br />{isNaN(SanJoseStateTwoFGPctG1P10)  ? "0.000" : SanJoseStateTwoFGPctG1P10}</h2>
-        <h2>3FG<br /><br />{SanJoseStateG1ThreeFG1}<br /><br />{SanJoseStateG1ThreeFG2}<br /><br />{SanJoseStateG1ThreeFG3}<br /><br />{SanJoseStateG1ThreeFG4}<br /><br />{SanJoseStateG1ThreeFG5}<br /><br />{SanJoseStateG1ThreeFG6}<br /><br />{SanJoseStateG1ThreeFG7}<br /><br />{SanJoseStateG1ThreeFG8}<br /><br />{SanJoseStateG1ThreeFG9}<br /><br />{SanJoseStateG1ThreeFG10}</h2>
-        <h2>3FGA<br /><br />{SanJoseStateG1ThreeFGAtt1}<br /><br />{SanJoseStateG1ThreeFGAtt2}<br /><br />{SanJoseStateG1ThreeFGAtt3}<br /><br />{SanJoseStateG1ThreeFGAtt4}<br /><br />{SanJoseStateG1ThreeFGAtt5}<br /><br />{SanJoseStateG1ThreeFGAtt6}<br /><br />{SanJoseStateG1ThreeFGAtt7}<br /><br />{SanJoseStateG1ThreeFGAtt8}<br /><br />{SanJoseStateG1ThreeFGAtt9}<br /><br />{SanJoseStateG1ThreeFGAtt10}</h2>
-        <h2>3FG%<br /><br />{isNaN(SanJoseStateThreeFGPctG1P1)  ? "0.000" : SanJoseStateThreeFGPctG1P1}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P2)  ? "0.000" : SanJoseStateThreeFGPctG1P2}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P3)  ? "0.000" : SanJoseStateThreeFGPctG1P3}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P4)  ? "0.000" : SanJoseStateThreeFGPctG1P4}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P5)  ? "0.000" : SanJoseStateThreeFGPctG1P5}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P6)  ? "0.000" : SanJoseStateThreeFGPctG1P6}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P7)  ? "0.000" : SanJoseStateThreeFGPctG1P7}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P8)  ? "0.000" : SanJoseStateThreeFGPctG1P8}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P9)  ? "0.000" : SanJoseStateThreeFGPctG1P9}<br /><br />{isNaN(SanJoseStateThreeFGPctG1P10)  ? "0.000" : SanJoseStateThreeFGPctG1P10}</h2>
-        <h2>FG<br /><br />{SanJoseStateTotalFGsG1P1}<br /><br />{SanJoseStateTotalFGsG1P2}<br /><br />{SanJoseStateTotalFGsG1P3}<br /><br />{SanJoseStateTotalFGsG1P4}<br /><br />{SanJoseStateTotalFGsG1P5}<br /><br />{SanJoseStateTotalFGsG1P6}<br /><br />{SanJoseStateTotalFGsG1P7}<br /><br />{SanJoseStateTotalFGsG1P8}<br /><br />{SanJoseStateTotalFGsG1P9}<br /><br />{SanJoseStateTotalFGsG1P10}</h2>
-        <h2>FGA<br /><br />{SanJoseStateTotalFGAttsG1P1}<br /><br />{SanJoseStateTotalFGAttsG1P2}<br /><br />{SanJoseStateTotalFGAttsG1P3}<br /><br />{SanJoseStateTotalFGAttsG1P4}<br /><br />{SanJoseStateTotalFGAttsG1P5}<br /><br />{SanJoseStateTotalFGAttsG1P6}<br /><br />{SanJoseStateTotalFGAttsG1P7}<br /><br />{SanJoseStateTotalFGAttsG1P8}<br /><br />{SanJoseStateTotalFGAttsG1P9}<br /><br />{SanJoseStateTotalFGAttsG1P10}</h2>
-        <h2>FG%<br /><br />{isNaN(SanJoseStateTotalFGPctG1P1)  ? "0.000" : SanJoseStateTotalFGPctG1P1}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P2)  ? "0.000" : SanJoseStateTotalFGPctG1P2}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P3)  ? "0.000" : SanJoseStateTotalFGPctG1P3}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P4)  ? "0.000" : SanJoseStateTotalFGPctG1P4}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P5)  ? "0.000" : SanJoseStateTotalFGPctG1P5}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P6)  ? "0.000" : SanJoseStateTotalFGPctG1P6}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P7)  ? "0.000" : SanJoseStateTotalFGPctG1P7}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P8)  ? "0.000" : SanJoseStateTotalFGPctG1P8}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P9)  ? "0.000" : SanJoseStateTotalFGPctG1P9}<br /><br />{isNaN(SanJoseStateTotalFGPctG1P10)  ? "0.000" : SanJoseStateTotalFGPctG1P10}</h2>
-        <h2>FT<br /><br />{SanJoseStateG1FTM1}<br /><br />{SanJoseStateG1FTM2}<br /><br />{SanJoseStateG1FTM3}<br /><br />{SanJoseStateG1FTM4}<br /><br />{SanJoseStateG1FTM5}<br /><br />{SanJoseStateG1FTM6}<br /><br />{SanJoseStateG1FTM7}<br /><br />{SanJoseStateG1FTM8}<br /><br />{SanJoseStateG1FTM9}<br /><br />{SanJoseStateG1FTM10}</h2>
-        <h2>FTA<br /><br />{SanJoseStateG1FTA1}<br /><br />{SanJoseStateG1FTA2}<br /><br />{SanJoseStateG1FTA3}<br /><br />{SanJoseStateG1FTA4}<br /><br />{SanJoseStateG1FTA5}<br /><br />{SanJoseStateG1FTA6}<br /><br />{SanJoseStateG1FTA7}<br /><br />{SanJoseStateG1FTA8}<br /><br />{SanJoseStateG1FTA9}<br /><br />{SanJoseStateG1FTA10}</h2>
-        <h2>FT%<br /><br />{SanJoseStateFTPctG1P1}<br /><br />{SanJoseStateFTPctG1P2}<br /><br />{SanJoseStateFTPctG1P3}<br /><br />{SanJoseStateFTPctG1P4}<br /><br />{SanJoseStateFTPctG1P5}<br /><br />{SanJoseStateFTPctG1P6}<br /><br />{SanJoseStateFTPctG1P7}<br /><br />{SanJoseStateFTPctG1P8}<br /><br />{SanJoseStateFTPctG1P9}<br /><br />{SanJoseStateFTPctG1P10}</h2>
-        <h2>Rebounds<br /><br />{SanJoseStateG1Rebounds1}<br /><br />{SanJoseStateG1Rebounds2}<br /><br />{SanJoseStateG1Rebounds3}<br /><br />{SanJoseStateG1Rebounds4}<br /><br />{SanJoseStateG1Rebounds5}<br /><br />{SanJoseStateG1Rebounds6}<br /><br />{SanJoseStateG1Rebounds7}<br /><br />{SanJoseStateG1Rebounds8}<br /><br />{SanJoseStateG1Rebounds9}<br /><br />{SanJoseStateG1Rebounds10}</h2>
-        <h2>Assists<br /><br />{SanJoseStateG1Assists1}<br /><br />{SanJoseStateG1Assists2}<br /><br />{SanJoseStateG1Assists3}<br /><br />{SanJoseStateG1Assists4}<br /><br />{SanJoseStateG1Assists5}<br /><br />{SanJoseStateG1Assists6}<br /><br />{SanJoseStateG1Assists7}<br /><br />{SanJoseStateG1Assists8}<br /><br />{SanJoseStateG1Assists9}<br /><br />{SanJoseStateG1Assists10}</h2>
-        <h2>Steals<br /><br />{SanJoseStateG1Steals1}<br /><br />{SanJoseStateG1Steals2}<br /><br />{SanJoseStateG1Steals3}<br /><br />{SanJoseStateG1Steals4}<br /><br />{SanJoseStateG1Steals5}<br /><br />{SanJoseStateG1Steals6}<br /><br />{SanJoseStateG1Steals7}<br /><br />{SanJoseStateG1Steals8}<br /><br />{SanJoseStateG1Steals9}<br /><br />{SanJoseStateG1Steals10}</h2>
-        <h2>Blocks<br /><br />{SanJoseStateG1Blocks1}<br /><br />{SanJoseStateG1Blocks2}<br /><br />{SanJoseStateG1Blocks3}<br /><br />{SanJoseStateG1Blocks4}<br /><br />{SanJoseStateG1Blocks5}<br /><br />{SanJoseStateG1Blocks6}<br /><br />{SanJoseStateG1Blocks7}<br /><br />{SanJoseStateG1Blocks8}<br /><br />{SanJoseStateG1Blocks9}<br /><br />{SanJoseStateG1Blocks10}</h2>
-        <h2>Turnovers<br /><br />{SanJoseStateG1Turnovers1}<br /><br />{SanJoseStateG1Turnovers2}<br /><br />{SanJoseStateG1Turnovers3}<br /><br />{SanJoseStateG1Turnovers4}<br /><br />{SanJoseStateG1Turnovers5}<br /><br />{SanJoseStateG1Turnovers6}<br /><br />{SanJoseStateG1Turnovers7}<br /><br />{SanJoseStateG1Turnovers8}<br /><br />{SanJoseStateG1Turnovers9}<br /><br />{SanJoseStateG1Turnovers10}</h2>
-        <h2>Totals</h2>
-        <h2>{SanJoseStateSumG1}</h2>
-        <h2>{SanJoseStateTwoFGSumG1}</h2>
-        <h2>{SanJoseStateTwoFGAttSumG1}</h2>
-        <h2>{SanJoseStateTwoFGPctG1} </h2>
-        <h2>{SanJoseStateThreeFGSumG1} </h2>
-        <h2>{SanJoseStateThreeFGAttSumG1} </h2>
-        <h2>{SanJoseStateThreeFGPctG1} </h2>
-        <h2>{SanJoseStateTotalFGsG1}</h2>
-        <h2>{SanJoseStateTotalFGAttsG1}</h2>
-        <h2>{SanJoseStateTotalFGPctG1}</h2>
-        <h2>{SanJoseStateFTMSumG1} </h2>
-        <h2>{SanJoseStateFTASumG1} </h2>
-        <h2>{SanJoseStateFTPctG1} </h2>
-        <h2>{SanJoseStateSumG1Rebounds}</h2>
-        <h2>{SanJoseStateSumG1Assists}</h2>
-        <h2>{SanJoseStateSumG1Steals} </h2>
-        <h2>{SanJoseStateSumG1Blocks} </h2>
-         <h2> {SanJoseStateSumG1Turnovers}</h2>
+      <div class="items-wrap container">
+	<div class="items-col">
+              <p>Player</p>
+        <SanJoseStateComponent generateSanJoseStateNames={generateSanJoseStateNames} />
+        <p>Totals</p>
+        </div>
+        <div class="items-col">
+      <p>Points</p>
+      <p>{SanJoseStateG1S1}</p>
+      <p>{SanJoseStateG1S2}</p>
+      <p>{SanJoseStateG1S3}</p>
+      <p>{SanJoseStateG1S4}</p>
+      <p>{SanJoseStateG1S5}</p>
+      <p>{SanJoseStateG1S6}</p>
+      <p>{SanJoseStateG1S7}</p>
+      <p>{SanJoseStateG1S8}</p>
+      <p>{SanJoseStateG1S9}</p>
+      <p>{SanJoseStateG1S10}</p>
+      <p>{SanJoseStateSumG1}</p>
       </div>
-    </div>
+        <div class="items-col">
+        <p>2FG</p>
+        <p>{SanJoseStateG1TwoFG1}</p>
+        <p>{SanJoseStateG1TwoFG2}</p>
+        <p>{SanJoseStateG1TwoFG3}</p>
+        <p>{SanJoseStateG1TwoFG4}</p>
+        <p>{SanJoseStateG1TwoFG5}</p>
+        <p>{SanJoseStateG1TwoFG6}</p>
+        <p>{SanJoseStateG1TwoFG7}</p>
+        <p>{SanJoseStateG1TwoFG8}</p>
+        <p>{SanJoseStateG1TwoFG9}</p>
+        <p>{SanJoseStateG1TwoFG10}</p>
+        <p>{SanJoseStateTwoFGSumG1}</p>
+        </div>
+        <div class="items-col">
+        <p>2FGA</p>
+        <p>{SanJoseStateG1TwoFGAtt1}</p>
+        <p>{SanJoseStateG1TwoFGAtt2}</p>
+        <p>{SanJoseStateG1TwoFGAtt3}</p>
+        <p>{SanJoseStateG1TwoFGAtt4}</p>
+        <p>{SanJoseStateG1TwoFGAtt5}</p>
+        <p>{SanJoseStateG1TwoFGAtt6}</p>
+        <p>{SanJoseStateG1TwoFGAtt7}</p>
+        <p>{SanJoseStateG1TwoFGAtt8}</p>
+        <p>{SanJoseStateG1TwoFGAtt9}</p>
+        <p>{SanJoseStateG1TwoFGAtt10}</p>
+        <p>{SanJoseStateTwoFGAttSumG1}</p>
+        </div>
+        <div class="items-col">
+        <p>2FG%</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P1)  ? "0.000" : SanJoseStateTwoFGPctG1P1}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P2)  ? "0.000" : SanJoseStateTwoFGPctG1P2}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P3)  ? "0.000" : SanJoseStateTwoFGPctG1P3}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P4)  ? "0.000" : SanJoseStateTwoFGPctG1P4}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P5)  ? "0.000" : SanJoseStateTwoFGPctG1P5}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P6)  ? "0.000" : SanJoseStateTwoFGPctG1P6}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P7)  ? "0.000" : SanJoseStateTwoFGPctG1P7}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P8)  ? "0.000" : SanJoseStateTwoFGPctG1P8}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P9)  ? "0.000" : SanJoseStateTwoFGPctG1P9}</p>
+        <p>{isNaN(SanJoseStateTwoFGPctG1P10)  ? "0.000" : SanJoseStateTwoFGPctG1P10}</p>
+        <p>{SanJoseStateTwoFGPctG1} </p>
+        </div>
+        <div class="items-col">
+        <p>3FG</p>
+        <p>{SanJoseStateG1ThreeFG1}</p>
+        <p>{SanJoseStateG1ThreeFG2}</p>
+        <p>{SanJoseStateG1ThreeFG3}</p>
+        <p>{SanJoseStateG1ThreeFG4}</p>
+        <p>{SanJoseStateG1ThreeFG5}</p>
+        <p>{SanJoseStateG1ThreeFG6}</p>
+        <p>{SanJoseStateG1ThreeFG7}</p>
+        <p>{SanJoseStateG1ThreeFG8}</p>
+        <p>{SanJoseStateG1ThreeFG9}</p>
+        <p>{SanJoseStateG1ThreeFG10}</p>
+        <p>{SanJoseStateThreeFGSumG1} </p>
+        </div>
+        <div class="items-col">
+        <p>3FGA</p>
+        <p>{SanJoseStateG1ThreeFGAtt1}</p>
+        <p>{SanJoseStateG1ThreeFGAtt2}</p>
+        <p>{SanJoseStateG1ThreeFGAtt3}</p>
+        <p>{SanJoseStateG1ThreeFGAtt4}</p>
+        <p>{SanJoseStateG1ThreeFGAtt5}</p>
+        <p>{SanJoseStateG1ThreeFGAtt6}</p>
+        <p>{SanJoseStateG1ThreeFGAtt7}</p>
+        <p>{SanJoseStateG1ThreeFGAtt8}</p>
+        <p>{SanJoseStateG1ThreeFGAtt9}</p>
+        <p>{SanJoseStateG1ThreeFGAtt10}</p>
+        <p>{SanJoseStateThreeFGAttSumG1} </p>
+        </div>
+        
+        <div class="items-col">
+        <p>3FG%</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P1)  ? "0.000" : SanJoseStateThreeFGPctG1P1}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P2)  ? "0.000" : SanJoseStateThreeFGPctG1P2}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P3)  ? "0.000" : SanJoseStateThreeFGPctG1P3}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P4)  ? "0.000" : SanJoseStateThreeFGPctG1P4}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P5)  ? "0.000" : SanJoseStateThreeFGPctG1P5}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P6)  ? "0.000" : SanJoseStateThreeFGPctG1P6}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P7)  ? "0.000" : SanJoseStateThreeFGPctG1P7}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P8)  ? "0.000" : SanJoseStateThreeFGPctG1P8}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P9)  ? "0.000" : SanJoseStateThreeFGPctG1P9}</p>
+        <p>{isNaN(SanJoseStateThreeFGPctG1P10)  ? "0.000" : SanJoseStateThreeFGPctG1P10}</p>
+        <p>{SanJoseStateThreeFGPctG1} </p>
+        </div>
+        <div class="items-col">
+        <p>FG</p>
+        <p>{SanJoseStateTotalFGsG1P1}</p>
+        <p>{SanJoseStateTotalFGsG1P2}</p>
+        <p>{SanJoseStateTotalFGsG1P3}</p>
+        <p>{SanJoseStateTotalFGsG1P4}</p>
+        <p>{SanJoseStateTotalFGsG1P5}</p>
+        <p>{SanJoseStateTotalFGsG1P6}</p>
+        <p>{SanJoseStateTotalFGsG1P7}</p>
+        <p>{SanJoseStateTotalFGsG1P8}</p>
+        <p>{SanJoseStateTotalFGsG1P9}</p>
+        <p>{SanJoseStateTotalFGsG1P10}</p>
+        <p>{SanJoseStateTotalFGsG1}</p>
+        </div>
+        <div class="items-col">
+        <p>FGA</p>
+        <p>{SanJoseStateTotalFGAttsG1P1}</p>
+        <p>{SanJoseStateTotalFGAttsG1P2}</p>
+        <p>{SanJoseStateTotalFGAttsG1P3}</p>
+        <p>{SanJoseStateTotalFGAttsG1P4}</p>
+        <p>{SanJoseStateTotalFGAttsG1P5}</p>
+        <p>{SanJoseStateTotalFGAttsG1P6}</p>
+        <p>{SanJoseStateTotalFGAttsG1P7}</p>
+        <p>{SanJoseStateTotalFGAttsG1P8}</p>
+        <p>{SanJoseStateTotalFGAttsG1P9}</p>
+        <p>{SanJoseStateTotalFGAttsG1P10}</p>
+        <p>{SanJoseStateTotalFGAttsG1}</p>
+        </div>
+        <div class="items-col">
+        <p>FG%</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P1)  ? "0.000" : SanJoseStateTotalFGPctG1P1}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P2)  ? "0.000" : SanJoseStateTotalFGPctG1P2}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P3)  ? "0.000" : SanJoseStateTotalFGPctG1P3}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P4)  ? "0.000" : SanJoseStateTotalFGPctG1P4}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P5)  ? "0.000" : SanJoseStateTotalFGPctG1P5}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P6)  ? "0.000" : SanJoseStateTotalFGPctG1P6}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P7)  ? "0.000" : SanJoseStateTotalFGPctG1P7}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P8)  ? "0.000" : SanJoseStateTotalFGPctG1P8}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P9)  ? "0.000" : SanJoseStateTotalFGPctG1P9}</p>
+        <p>{isNaN(SanJoseStateTotalFGPctG1P10)  ? "0.000" : SanJoseStateTotalFGPctG1P10}</p>
+        <p>{SanJoseStateTotalFGPctG1}</p>
+        </div>
+        <div class="items-col">
+        <p>FT</p>
+        <p>{SanJoseStateG1FTM1}</p>
+        <p>{SanJoseStateG1FTM2}</p>
+        <p>{SanJoseStateG1FTM3}</p>
+        <p>{SanJoseStateG1FTM4}</p>
+        <p>{SanJoseStateG1FTM5}</p>
+        <p>{SanJoseStateG1FTM6}</p>
+        <p>{SanJoseStateG1FTM7}</p>
+        <p>{SanJoseStateG1FTM8}</p>
+        <p>{SanJoseStateG1FTM9}</p>
+        <p>{SanJoseStateG1FTM10}</p>
+        <p>{SanJoseStateFTMSumG1} </p>
+        </div>
+        <div class="items-col">
+        <p>FTA</p>
+        <p>{SanJoseStateG1FTA1}</p>
+        <p>{SanJoseStateG1FTA2}</p>
+        <p>{SanJoseStateG1FTA3}</p>
+        <p>{SanJoseStateG1FTA4}</p>
+        <p>{SanJoseStateG1FTA5}</p>
+        <p>{SanJoseStateG1FTA6}</p>
+        <p>{SanJoseStateG1FTA7}</p>
+        <p>{SanJoseStateG1FTA8}</p>
+        <p>{SanJoseStateG1FTA9}</p>
+        <p>{SanJoseStateG1FTA10}</p>
+        <p>{SanJoseStateFTASumG1} </p>
+        </div>
+        <div class="items-col">
+        <p>FT%</p>
+        <p>{SanJoseStateFTPctG1P1}</p>
+        <p>{SanJoseStateFTPctG1P2}</p>
+        <p>{SanJoseStateFTPctG1P3}</p>
+        <p>{SanJoseStateFTPctG1P4}</p>
+        <p>{SanJoseStateFTPctG1P5}</p>
+        <p>{SanJoseStateFTPctG1P6}</p>
+        <p>{SanJoseStateFTPctG1P7}</p>
+        <p>{SanJoseStateFTPctG1P8}</p>
+        <p>{SanJoseStateFTPctG1P9}</p>
+        <p>{SanJoseStateFTPctG1P10}</p>
+        <p>{SanJoseStateFTPctG1} </p>
+        </div>
+        <div class="items-col">
+        <p>Rebounds</p>
+        <p>{SanJoseStateG1Rebounds1}</p>
+        <p>{SanJoseStateG1Rebounds2}</p>
+        <p>{SanJoseStateG1Rebounds3}</p>
+        <p>{SanJoseStateG1Rebounds4}</p>
+        <p>{SanJoseStateG1Rebounds5}</p>
+        <p>{SanJoseStateG1Rebounds6}</p>
+        <p>{SanJoseStateG1Rebounds7}</p>
+        <p>{SanJoseStateG1Rebounds8}</p>
+        <p>{SanJoseStateG1Rebounds9}</p>
+        <p>{SanJoseStateG1Rebounds10}</p>
+        <p>{SanJoseStateSumG1Rebounds}</p>
+        </div>
+        <div class="items-col">
+        <p>Assists</p>
+        <p>{SanJoseStateG1Assists1}</p>
+        <p>{SanJoseStateG1Assists2}</p>
+        <p>{SanJoseStateG1Assists3}</p>
+        <p>{SanJoseStateG1Assists4}</p>
+        <p>{SanJoseStateG1Assists5}</p>
+        <p>{SanJoseStateG1Assists6}</p>
+        <p>{SanJoseStateG1Assists7}</p>
+        <p>{SanJoseStateG1Assists8}</p>
+        <p>{SanJoseStateG1Assists9}</p>
+        <p>{SanJoseStateG1Assists10}</p>
+        <p>{SanJoseStateSumG1Assists}</p>
+        </div>
+        <div class="items-col">
+        <p>Steals</p>
+        <p>{SanJoseStateG1Steals1}</p>
+        <p>{SanJoseStateG1Steals2}</p>
+        <p>{SanJoseStateG1Steals3}</p>
+        <p>{SanJoseStateG1Steals4}</p>
+        <p>{SanJoseStateG1Steals5}</p>
+        <p>{SanJoseStateG1Steals6}</p>
+        <p>{SanJoseStateG1Steals7}</p>
+        <p>{SanJoseStateG1Steals8}</p>
+        <p>{SanJoseStateG1Steals9}</p>
+        <p>{SanJoseStateG1Steals10}</p>
+        <p>{SanJoseStateSumG1Steals}</p>
+        </div>
+        <div class="items-col">
+        <p>Blocks</p>
+        <p>{SanJoseStateG1Blocks1}</p>
+        <p>{SanJoseStateG1Blocks2}</p>
+        <p>{SanJoseStateG1Blocks3}</p>
+        <p>{SanJoseStateG1Blocks4}</p>
+        <p>{SanJoseStateG1Blocks5}</p>
+        <p>{SanJoseStateG1Blocks6}</p>
+        <p>{SanJoseStateG1Blocks7}</p>
+        <p>{SanJoseStateG1Blocks8}</p>
+        <p>{SanJoseStateG1Blocks9}</p>
+        <p>{SanJoseStateG1Blocks10}</p>
+        <p>{SanJoseStateSumG1Blocks}</p>
+        </div>
+        <div class="items-col">
+        <p>Turnovers</p>
+        <p>{SanJoseStateG1Turnovers1}</p>
+        <p>{SanJoseStateG1Turnovers2}</p>
+        <p>{SanJoseStateG1Turnovers3}</p>
+        <p>{SanJoseStateG1Turnovers4}</p>
+        <p>{SanJoseStateG1Turnovers5}</p>
+        <p>{SanJoseStateG1Turnovers6}</p>
+        <p>{SanJoseStateG1Turnovers7}</p>
+        <p>{SanJoseStateG1Turnovers8}</p>
+        <p>{SanJoseStateG1Turnovers9}</p>
+        <p>{SanJoseStateG1Turnovers10}</p>
+        <p>{SanJoseStateSumG1Turnovers}</p>
+        </div>
+      </div>
+      </div>
+      </>
   );
 };
 

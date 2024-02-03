@@ -381,9 +381,7 @@ const SanJoseStateComponent = ({ generateSanJoseStateNames }) => {
     <div>
       {SanJoseStateplayers.map((player, index) => (
         <div key={index}>
-          {player.name}
-          <br />
-          <br />
+          <p>{player.name}</p>
         </div>
       ))}
     </div>

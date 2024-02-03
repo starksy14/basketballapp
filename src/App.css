@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	max-width: calc(100% - 60px);
   background: #000;
@@ -28,11 +28,10 @@ body {
 .items-wrap {
 	display: flex;
 	flex-flow: row wrap;
-	align-items: center;
 	
 	
 	.items-col {
-		padding: flex;
+		padding: 0.5%;
 		width: flex;
 		display: flex;
 		flex-flow: column;
