@@ -10,8 +10,6 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	padding: 0;
-	margin: 0;
 	font-family: Arial;
   background: #000;
   color: #fff;
@@ -20,31 +18,11 @@ body {
 	padding: 0%;
 }
 .container {
-margin: 0 auto;
-max-width: calc(100% - 60px);
-  background: #000;
-  color: #fff;
-  align-content:stretch;
-}
-
-.items-wrap {
 	display: flex;
-	flex-flow: row wrap;
-	
-	
-	.items-col {
-		padding: 4px;
-		width: flex;
-		display: flex;
-		flex-flow:column;
-
-		.item {
-			height: 340px;
-			background: #000;
-			color: #fff;
-			
-		}
-	}
+  justify-content: center;
+  align-items: center;
+	background-color: #000;
+	color: #fff;
 }
 
 h3 {

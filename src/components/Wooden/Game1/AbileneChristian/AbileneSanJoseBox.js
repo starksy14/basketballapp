@@ -1,5 +1,6 @@
 import AbileneChristianBox from '../AbileneChristian/AbileneChristianBox';
 import SanJoseStateBox from '../SanJoseState/SanJoseStateBox';
+import SanJoseGame1ResultButton from '../SanJoseState/SanJoseGame1ResultButton';
 
 export default function AbileneSanJoseBox() {
   return (
@@ -10,6 +11,7 @@ export default function AbileneSanJoseBox() {
           <div>
           <center><SanJoseStateBox /></center>
             </div>
+            <center><SanJoseGame1ResultButton /></center>
             </div>
   )
 }

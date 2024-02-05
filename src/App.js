@@ -46,6 +46,7 @@ import BuffaloWilliamMaryBox from "./components/Wooden/Game1/WilliamMary/Buffalo
 import DelawareStateHoustonBox from "./components/Wooden/Game1/DelawareState/DelawareStateHoustonBox";
 import UCLASCarBoxButton from "./components/Wooden/Game1/UCLA/UCLASCarBoxButton";
 import AbileneChristianBox from './components/Wooden/Game1/AbileneChristian/AbileneChristianBox';
+import GameOneResultsSanJoseState from "./components/Wooden/Game1/SanJoseState/GameOneResultsSanJoseState";
 
 export default function App() {
   return (
@@ -71,6 +72,7 @@ export default function App() {
           <Route path="Wooden/GameOneTableWashington" element={<GameOneTableWashington />} />
           <Route path="Wooden/GameOneTableVCU" element={<GameOneTableVCU />} />
           <Route path="Wooden/GameOneTableSanJoseState" element={<GameOneTableSanJoseState />} />
+          <Route path="Wooden/GameOneResultsSanJoseState" element={<GameOneResultsSanJoseState />} />
           <Route path="Wooden/GameOneTablePortlandState" element={<GameOneTablePortlandState />} />
           <Route path="Wooden/GameOneTablePenn" element={<GameOneTablePenn />} />
           <Route path="Wooden/GameOneTableNortheastern" element={<GameOneTableNortheastern />} />
