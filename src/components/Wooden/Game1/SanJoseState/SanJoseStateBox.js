@@ -619,6 +619,7 @@ var SanJoseStateSumG1Turnovers = SanJoseStateG1Turnovers.reduce(
   0
 );
 
+
 while (SanJoseStateSumG1 === AbileneChristianSumG1) {
   SanJoseStateG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
   SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
@@ -650,6 +651,8 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     (a, b) => a + b,
     0
   );
+
+  localStorage.setItem('SanJoseStateSumG1', (SanJoseStateSumG1));
   
   }
 export default function SanJoseStateBox() {

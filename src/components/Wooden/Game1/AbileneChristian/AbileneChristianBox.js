@@ -651,6 +651,9 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     (a, b) => a + b,
     0
   );
+
+  localStorage.setItem('AbileneChristianSumG1', (AbileneChristianSumG1));
+
   
   }
 export default function AbileneChristianBox() {
