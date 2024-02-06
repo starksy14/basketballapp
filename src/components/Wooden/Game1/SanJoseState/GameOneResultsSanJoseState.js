@@ -1,13 +1,6 @@
 import { schedulePurdue } from '../Purdue/Purdue';
 import { scheduleUCLA } from '../UCLA/UCLA';
 import AbileneSanJoseBoxButton from '../AbileneChristian/AbileneSanJoseBoxButton';
-import { SanJoseStateSumG1 } from './SanJoseStateBox';
-import { AbileneChristianSumG1 } from '../AbileneChristian/AbileneChristianBox';
-
-if (SanJoseStateSumG1 > AbileneChristianSumG1) 
-var Result4 = "W" + {SanJoseStateSumG1} + "-" + {AbileneChristianSumG1};
-else
-Result4 = "L" + {AbileneChristianSumG1} + "-" + {SanJoseStateSumG1}; 
 
 
 export default function GameOneTable() {
@@ -55,7 +48,7 @@ export default function GameOneTable() {
               <p>Game 2</p>
               <p>Game 3</p>
               <p>Game 4</p>
-              <p>{Result4}</p>
+              <p>Game 5</p>
               <p>Game 6</p>
               <p>Game 7</p>
               <p>Game 8</p>

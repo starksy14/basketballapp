@@ -23,6 +23,7 @@ body {
   align-items: center;
 	background-color: #000;
 	color: #fff;
+	column-gap: 0.5%;
 }
 
 h3 {

@@ -6,21 +6,21 @@ var SanJoseStateG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
 var SanJoseStateG1TwoFG3 = Math.floor(Math.random() * 6 + 2);
 var SanJoseStateG1TwoFG4 = Math.floor(Math.random() * 6 + 2);
 var SanJoseStateG1TwoFG5 = Math.floor(Math.random() * 6 + 2);
-var SanJoseStateG1TwoFG6 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1TwoFG7 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1TwoFG8 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1TwoFG9 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1TwoFG10 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG1 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG2 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG3 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG4 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG5 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG6 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
-var SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
+var SanJoseStateG1TwoFG6 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1TwoFG7 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1TwoFG8 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1TwoFG9 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1TwoFG10 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1ThreeFG1 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1ThreeFG2 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1ThreeFG3 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1ThreeFG4 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1ThreeFG5 = Math.floor(Math.random() * 4 + 0);
+var SanJoseStateG1ThreeFG6 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1ThreeFG7 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1ThreeFG8 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1ThreeFG9 = Math.floor(Math.random() * 1 + 0);
+var SanJoseStateG1ThreeFG10 = Math.floor(Math.random() * 1 + 0);
 var SanJoseStateG1TwoFGAtt1 = Math.floor(
   Math.random() * 10 + SanJoseStateG1TwoFG1
 );
@@ -652,8 +652,8 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     0
   );
 
-  localStorage.setItem('SanJoseStateSumG1', (SanJoseStateSumG1));
-  
+  var SanJoseStateSumG1String = SanJoseStateSumG1.toString();
+
   }
 export default function SanJoseStateBox() {
   return (
@@ -925,4 +925,4 @@ export default function SanJoseStateBox() {
   );
 };
 
-export { SanJoseStateSumG1, SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 }
+export { SanJoseStateSumG1, SanJoseStateSumG1String, SanJoseStateTotalFGAttsG1P1, SanJoseStateTotalFGAttsG1P2, SanJoseStateTotalFGAttsG1P3, SanJoseStateTotalFGAttsG1P4, SanJoseStateTotalFGAttsG1P5, SanJoseStateTotalFGAttsG1P6, SanJoseStateTotalFGAttsG1P7, SanJoseStateTotalFGAttsG1P8, SanJoseStateTotalFGAttsG1P9, SanJoseStateTotalFGAttsG1P10 }

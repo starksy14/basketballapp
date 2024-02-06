@@ -7,21 +7,21 @@ var AbileneChristianG1TwoFG2 = Math.floor(Math.random() * 6 + 2);
 var AbileneChristianG1TwoFG3 = Math.floor(Math.random() * 6 + 2);
 var AbileneChristianG1TwoFG4 = Math.floor(Math.random() * 6 + 2);
 var AbileneChristianG1TwoFG5 = Math.floor(Math.random() * 6 + 2);
-var AbileneChristianG1TwoFG6 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1TwoFG7 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1TwoFG8 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1TwoFG9 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1TwoFG10 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG1 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG2 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG3 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG4 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG5 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG6 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG7 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG8 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG9 = Math.floor(Math.random() * 2 + 0);
-var AbileneChristianG1ThreeFG10 = Math.floor(Math.random() * 2 + 0);
+var AbileneChristianG1TwoFG6 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1TwoFG7 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1TwoFG8 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1TwoFG9 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1TwoFG10 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1ThreeFG1 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1ThreeFG2 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1ThreeFG3 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1ThreeFG4 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1ThreeFG5 = Math.floor(Math.random() * 4 + 0);
+var AbileneChristianG1ThreeFG6 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1ThreeFG7 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1ThreeFG8 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1ThreeFG9 = Math.floor(Math.random() * 1 + 0);
+var AbileneChristianG1ThreeFG10 = Math.floor(Math.random() * 1 + 0);
 var AbileneChristianG1TwoFGAtt1 = Math.floor(
   Math.random() * 10 + AbileneChristianG1TwoFG1
 );
@@ -652,10 +652,9 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     0
   );
 
-  localStorage.setItem('AbileneChristianSumG1', (AbileneChristianSumG1));
+  var AbileneChristianSumG1String = AbileneChristianSumG1.toString();
 
-  
-  }
+}
 export default function AbileneChristianBox() {
   return (
     <>
@@ -926,4 +925,4 @@ export default function AbileneChristianBox() {
   );
 };
 
-export { AbileneChristianSumG1, AbileneChristianTotalFGAttsG1P1, AbileneChristianTotalFGAttsG1P2, AbileneChristianTotalFGAttsG1P3, AbileneChristianTotalFGAttsG1P4, AbileneChristianTotalFGAttsG1P5, AbileneChristianTotalFGAttsG1P6, AbileneChristianTotalFGAttsG1P7, AbileneChristianTotalFGAttsG1P8, AbileneChristianTotalFGAttsG1P9, AbileneChristianTotalFGAttsG1P10 };
+export { AbileneChristianSumG1, AbileneChristianSumG1String, AbileneChristianTotalFGAttsG1P1, AbileneChristianTotalFGAttsG1P2, AbileneChristianTotalFGAttsG1P3, AbileneChristianTotalFGAttsG1P4, AbileneChristianTotalFGAttsG1P5, AbileneChristianTotalFGAttsG1P6, AbileneChristianTotalFGAttsG1P7, AbileneChristianTotalFGAttsG1P8, AbileneChristianTotalFGAttsG1P9, AbileneChristianTotalFGAttsG1P10 };
