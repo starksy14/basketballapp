@@ -20,7 +20,6 @@ body {
 .container {
 	display: flex;
   justify-content: center;
-  align-items: center;
 	background-color: #000;
 	color: #fff;
 	column-gap: 0.5%;

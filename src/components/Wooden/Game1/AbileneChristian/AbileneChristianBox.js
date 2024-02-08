@@ -141,6 +141,9 @@ var AbileneChristianTwoFGSumG1 = AbileneChristianG1TwoFGs.reduce(
   0
 );
 
+var AbileneChristianTwoFGSumG1String = AbileneChristianTwoFGSumG1.toString();
+localStorage.setItem('AbileneChristianTwoFGSumG1', AbileneChristianTwoFGSumG1String);
+
 var AbileneChristianG1TwoFGAtts = [
   AbileneChristianG1TwoFGAtt1,
   AbileneChristianG1TwoFGAtt2,
@@ -158,6 +161,9 @@ var AbileneChristianTwoFGAttSumG1 = AbileneChristianG1TwoFGAtts.reduce(
   (a, b) => a + b,
   0
 );
+
+var AbileneChristianTwoFGAttSumG1String = AbileneChristianTwoFGAttSumG1.toString();
+localStorage.setItem('AbileneChristianTwoFGAttSumG1', AbileneChristianTwoFGAttSumG1String);
 
 var AbileneChristianTwoFGPctG1 = (
   AbileneChristianTwoFGSumG1 / AbileneChristianTwoFGAttSumG1
@@ -212,6 +218,9 @@ var AbileneChristianThreeFGSumG1 = AbileneChristianG1ThreeFGs.reduce(
   0
 );
 
+var AbileneChristianThreeFGSumG1String = AbileneChristianThreeFGSumG1.toString();
+localStorage.setItem('AbileneChristianThreeFGSumG1', AbileneChristianThreeFGSumG1String);
+
 var AbileneChristianG1ThreeFGAtts = [
   AbileneChristianG1ThreeFGAtt1,
   AbileneChristianG1ThreeFGAtt2,
@@ -229,6 +238,9 @@ var AbileneChristianThreeFGAttSumG1 = AbileneChristianG1ThreeFGAtts.reduce(
   (a, b) => a + b,
   0
 );
+
+var AbileneChristianThreeFGAttSumG1String = AbileneChristianThreeFGAttSumG1.toString();
+localStorage.setItem('AbileneChristianThreeFGAttSumG1', AbileneChristianThreeFGAttSumG1String);
 
 var AbileneChristianThreeFGPctG1 = (
   AbileneChristianThreeFGSumG1 / AbileneChristianThreeFGAttSumG1
@@ -340,10 +352,13 @@ var AbileneChristianTotalFGPctG1P10 = (
 
 var AbileneChristianTotalFGsG1 =
   AbileneChristianTwoFGSumG1 + AbileneChristianThreeFGSumG1;
-
+  var AbileneChristianTotalFGsG1String = AbileneChristianTotalFGsG1.toString();
+  localStorage.setItem('AbileneChristianTotalFGsG1', AbileneChristianTotalFGsG1String);
+  
 var AbileneChristianTotalFGAttsG1 =
   AbileneChristianTwoFGAttSumG1 + AbileneChristianThreeFGAttSumG1;
-
+  var AbileneChristianTotalFGAttsG1String = AbileneChristianTotalFGAttsG1.toString();
+  localStorage.setItem('AbileneChristianTotalFGAttsG1', AbileneChristianTotalFGAttsG1String);
 var AbileneChristianTotalFGPctG1 = (
   AbileneChristianTotalFGsG1 / AbileneChristianTotalFGAttsG1
 ).toFixed(3);
@@ -366,6 +381,8 @@ var AbileneChristianFTMSumG1 = AbileneChristianG1FTMs.reduce(
   0
 );
 
+var AbileneChristianFTMSumG1String = AbileneChristianFTMSumG1.toString();
+localStorage.setItem('AbileneChristianFTMSumG1', AbileneChristianFTMSumG1String);
 var AbileneChristianG1FTAs = [
   AbileneChristianG1FTA1,
   AbileneChristianG1FTA2,
@@ -383,6 +400,10 @@ var AbileneChristianFTASumG1 = AbileneChristianG1FTAs.reduce(
   (a, b) => a + b,
   0
 );
+
+
+var AbileneChristianFTASumG1String = AbileneChristianFTASumG1.toString();
+localStorage.setItem('AbileneChristianFTASumG1', AbileneChristianFTASumG1String);
 
 var AbileneChristianFTPctG1 = (
   AbileneChristianFTMSumG1 / AbileneChristianFTASumG1
@@ -504,6 +525,9 @@ var AbileneChristianSumG1Rebounds = AbileneChristianG1Rebounds.reduce(
   0
 );
 
+var AbileneChristianSumG1ReboundsString = AbileneChristianSumG1Rebounds.toString();
+localStorage.setItem('AbileneChristianSumG1Rebounds', AbileneChristianSumG1ReboundsString);
+
 var AbileneChristianG1Assists1 = Math.floor(Math.random() * (AbileneChristianTotalFGsG1P1 - 0) + 0);
 var AbileneChristianG1Assists2 = Math.floor(Math.random() * (AbileneChristianTotalFGsG1P2 - 0) + 0);
 var AbileneChristianG1Assists3 = Math.floor(Math.random() * (AbileneChristianTotalFGsG1P3 - 0) + 0);
@@ -532,6 +556,9 @@ var AbileneChristianSumG1Assists = AbileneChristianG1Assists.reduce(
   (a, b) => a + b,
   0
 );
+
+var AbileneChristianSumG1AssistsString = AbileneChristianSumG1Assists.toString();
+localStorage.setItem('AbileneChristianSumG1Assists', AbileneChristianSumG1AssistsString);
 
 var AbileneChristianG1Steals1 = Math.floor(Math.random() * 2 + 0);
 var AbileneChristianG1Steals2 = Math.floor(Math.random() * 2 + 0);
@@ -562,6 +589,9 @@ var AbileneChristianSumG1Steals = AbileneChristianG1Steals.reduce(
   0
 );
 
+var AbileneChristianSumG1StealsString = AbileneChristianSumG1Steals.toString();
+localStorage.setItem('AbileneChristianSumG1Steals', AbileneChristianSumG1StealsString);
+
 var AbileneChristianG1Blocks1 = Math.floor(Math.random() * 2 + 0);
 var AbileneChristianG1Blocks2 = Math.floor(Math.random() * 2 + 0);
 var AbileneChristianG1Blocks3 = Math.floor(Math.random() * 2 + 0);
@@ -590,6 +620,8 @@ var AbileneChristianSumG1Blocks = AbileneChristianG1Blocks.reduce(
   (a, b) => a + b,
   0
 );
+var AbileneChristianSumG1BlocksString = AbileneChristianSumG1Blocks.toString();
+localStorage.setItem('AbileneChristianSumG1Blocks', AbileneChristianSumG1BlocksString);
 
 var AbileneChristianG1Turnovers1 = Math.floor(Math.random() * 4 + 0);
 var AbileneChristianG1Turnovers2 = Math.floor(Math.random() * 4 + 0);
@@ -619,6 +651,10 @@ var AbileneChristianSumG1Turnovers = AbileneChristianG1Turnovers.reduce(
   (a, b) => a + b,
   0
 );
+
+var AbileneChristianSumG1TurnoversString = AbileneChristianSumG1Turnovers.toString();
+localStorage.setItem('AbileneChristianSumG1Turnovers', AbileneChristianSumG1TurnoversString);
+
 
 while (SanJoseStateSumG1 === AbileneChristianSumG1) {
   AbileneChristianG1TwoFG1 = Math.floor(Math.random() * 6 + 2);
@@ -651,9 +687,9 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     (a, b) => a + b,
     0
   );
-
   var AbileneChristianSumG1String = AbileneChristianSumG1.toString();
-
+  localStorage.setItem('AbileneChristianSumG1', AbileneChristianSumG1String);
+  
 }
 export default function AbileneChristianBox() {
   return (

@@ -1,7 +1,16 @@
 import { schedulePurdue } from '../Purdue/Purdue';
 import { scheduleUCLA } from '../UCLA/UCLA';
 import AbileneSanJoseBoxButton from '../AbileneChristian/AbileneSanJoseBoxButton';
+import { SanJoseStateSumG1String } from './SanJoseStateBox';
+import { AbileneChristianSumG1String } from '../AbileneChristian/AbileneChristianBox';
+localStorage.setItem('AbileneChristianSumG1', AbileneChristianSumG1String);
+localStorage.setItem('SanJoseStateSumG1', SanJoseStateSumG1String);
 
+  if (localStorage.getItem('SanJoseStateSumG1') > localStorage.getItem('AbileneChristianSumG1')){
+    var Result5 = 'W,' + localStorage.getItem('SanJoseStateSumG1') + '-' + localStorage.getItem('AbileneChristianSumG1');
+  } else {
+    Result5 = 'L,' + localStorage.getItem('AbileneChristianSumG1') + '-' + localStorage.getItem('SanJoseStateSumG1');
+  }
 
 export default function GameOneTable() {
   return (
@@ -48,7 +57,7 @@ export default function GameOneTable() {
               <p>Game 2</p>
               <p>Game 3</p>
               <p>Game 4</p>
-              <p>Game 5</p>
+              <p>{Result5}</p>
               <p>Game 6</p>
               <p>Game 7</p>
               <p>Game 8</p>

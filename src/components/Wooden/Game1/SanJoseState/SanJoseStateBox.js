@@ -140,6 +140,9 @@ var SanJoseStateTwoFGSumG1 = SanJoseStateG1TwoFGs.reduce(
   0
 );
 
+var SanJoseStateTwoFGSumG1String = SanJoseStateTwoFGSumG1.toString();
+localStorage.setItem('SanJoseStateTwoFGSumG1', SanJoseStateTwoFGSumG1String);
+
 var SanJoseStateG1TwoFGAtts = [
   SanJoseStateG1TwoFGAtt1,
   SanJoseStateG1TwoFGAtt2,
@@ -157,6 +160,9 @@ var SanJoseStateTwoFGAttSumG1 = SanJoseStateG1TwoFGAtts.reduce(
   (a, b) => a + b,
   0
 );
+
+var SanJoseStateTwoFGAttSumG1String = SanJoseStateTwoFGAttSumG1.toString();
+localStorage.setItem('SanJoseStateTwoFGAttSumG1', SanJoseStateTwoFGAttSumG1String);
 
 var SanJoseStateTwoFGPctG1 = (
   SanJoseStateTwoFGSumG1 / SanJoseStateTwoFGAttSumG1
@@ -211,6 +217,9 @@ var SanJoseStateThreeFGSumG1 = SanJoseStateG1ThreeFGs.reduce(
   0
 );
 
+var SanJoseStateThreeFGSumG1String = SanJoseStateThreeFGSumG1.toString();
+localStorage.setItem('SanJoseStateThreeFGSumG1', SanJoseStateThreeFGSumG1String);
+
 var SanJoseStateG1ThreeFGAtts = [
   SanJoseStateG1ThreeFGAtt1,
   SanJoseStateG1ThreeFGAtt2,
@@ -228,6 +237,9 @@ var SanJoseStateThreeFGAttSumG1 = SanJoseStateG1ThreeFGAtts.reduce(
   (a, b) => a + b,
   0
 );
+
+var SanJoseStateThreeFGAttSumG1String = SanJoseStateThreeFGAttSumG1.toString();
+localStorage.setItem('SanJoseStateThreeFGAttSumG1', SanJoseStateThreeFGAttSumG1String);
 
 var SanJoseStateThreeFGPctG1 = (
   SanJoseStateThreeFGSumG1 / SanJoseStateThreeFGAttSumG1
@@ -339,10 +351,13 @@ var SanJoseStateTotalFGPctG1P10 = (
 
 var SanJoseStateTotalFGsG1 =
   SanJoseStateTwoFGSumG1 + SanJoseStateThreeFGSumG1;
-
+  var SanJoseStateTotalFGsG1String = SanJoseStateTotalFGsG1.toString();
+  localStorage.setItem('SanJoseStateTotalFGsG1', SanJoseStateTotalFGsG1String);
+  
 var SanJoseStateTotalFGAttsG1 =
   SanJoseStateTwoFGAttSumG1 + SanJoseStateThreeFGAttSumG1;
-
+  var SanJoseStateTotalFGAttsG1String = SanJoseStateTotalFGAttsG1.toString();
+  localStorage.setItem('SanJoseStateTotalFGAttsG1', SanJoseStateTotalFGAttsG1String);
 var SanJoseStateTotalFGPctG1 = (
   SanJoseStateTotalFGsG1 / SanJoseStateTotalFGAttsG1
 ).toFixed(3);
@@ -365,6 +380,8 @@ var SanJoseStateFTMSumG1 = SanJoseStateG1FTMs.reduce(
   0
 );
 
+var SanJoseStateFTMSumG1String = SanJoseStateFTMSumG1.toString();
+localStorage.setItem('SanJoseStateFTMSumG1', SanJoseStateFTMSumG1String);
 var SanJoseStateG1FTAs = [
   SanJoseStateG1FTA1,
   SanJoseStateG1FTA2,
@@ -382,6 +399,10 @@ var SanJoseStateFTASumG1 = SanJoseStateG1FTAs.reduce(
   (a, b) => a + b,
   0
 );
+
+
+var SanJoseStateFTASumG1String = SanJoseStateFTASumG1.toString();
+localStorage.setItem('SanJoseStateFTASumG1', SanJoseStateFTASumG1String);
 
 var SanJoseStateFTPctG1 = (
   SanJoseStateFTMSumG1 / SanJoseStateFTASumG1
@@ -503,6 +524,9 @@ var SanJoseStateSumG1Rebounds = SanJoseStateG1Rebounds.reduce(
   0
 );
 
+var SanJoseStateSumG1ReboundsString = SanJoseStateSumG1Rebounds.toString();
+localStorage.setItem('SanJoseStateSumG1Rebounds', SanJoseStateSumG1ReboundsString);
+
 var SanJoseStateG1Assists1 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P1 - 0) + 0);
 var SanJoseStateG1Assists2 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P2 - 0) + 0);
 var SanJoseStateG1Assists3 = Math.floor(Math.random() * (SanJoseStateTotalFGsG1P3 - 0) + 0);
@@ -531,6 +555,9 @@ var SanJoseStateSumG1Assists = SanJoseStateG1Assists.reduce(
   (a, b) => a + b,
   0
 );
+
+var SanJoseStateSumG1AssistsString = SanJoseStateSumG1Assists.toString();
+localStorage.setItem('SanJoseStateSumG1Assists', SanJoseStateSumG1AssistsString);
 
 var SanJoseStateG1Steals1 = Math.floor(Math.random() * 2 + 0);
 var SanJoseStateG1Steals2 = Math.floor(Math.random() * 2 + 0);
@@ -561,6 +588,9 @@ var SanJoseStateSumG1Steals = SanJoseStateG1Steals.reduce(
   0
 );
 
+var SanJoseStateSumG1StealsString = SanJoseStateSumG1Steals.toString();
+localStorage.setItem('SanJoseStateSumG1Steals', SanJoseStateSumG1StealsString);
+
 var SanJoseStateG1Blocks1 = Math.floor(Math.random() * 2 + 0);
 var SanJoseStateG1Blocks2 = Math.floor(Math.random() * 2 + 0);
 var SanJoseStateG1Blocks3 = Math.floor(Math.random() * 2 + 0);
@@ -589,6 +619,8 @@ var SanJoseStateSumG1Blocks = SanJoseStateG1Blocks.reduce(
   (a, b) => a + b,
   0
 );
+var SanJoseStateSumG1BlocksString = SanJoseStateSumG1Blocks.toString();
+localStorage.setItem('SanJoseStateSumG1Blocks', SanJoseStateSumG1BlocksString);
 
 var SanJoseStateG1Turnovers1 = Math.floor(Math.random() * 4 + 0);
 var SanJoseStateG1Turnovers2 = Math.floor(Math.random() * 4 + 0);
@@ -618,6 +650,9 @@ var SanJoseStateSumG1Turnovers = SanJoseStateG1Turnovers.reduce(
   (a, b) => a + b,
   0
 );
+
+var SanJoseStateSumG1TurnoversString = SanJoseStateSumG1Turnovers.toString();
+localStorage.setItem('SanJoseStateSumG1Turnovers', SanJoseStateSumG1TurnoversString);
 
 
 while (SanJoseStateSumG1 === AbileneChristianSumG1) {
@@ -651,10 +686,10 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
     (a, b) => a + b,
     0
   );
-
   var SanJoseStateSumG1String = SanJoseStateSumG1.toString();
-
-  }
+  localStorage.setItem('SanJoseStateSumG1', SanJoseStateSumG1String);
+  
+}
 export default function SanJoseStateBox() {
   return (
     <>
