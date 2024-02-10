@@ -688,6 +688,7 @@ while (SanJoseStateSumG1 === AbileneChristianSumG1) {
   );
   var SanJoseStateSumG1String = SanJoseStateSumG1.toString();
   localStorage.setItem('SanJoseStateSumG1', SanJoseStateSumG1String);
+  localStorage.getItem('SanJoseStateSumG1', SanJoseStateSumG1String);
   
 }
 export default function SanJoseStateBox() {
@@ -713,7 +714,7 @@ export default function SanJoseStateBox() {
       <p>{SanJoseStateG1S8}</p>
       <p>{SanJoseStateG1S9}</p>
       <p>{SanJoseStateG1S10}</p>
-      <p>{SanJoseStateSumG1}</p>
+      <p>{SanJoseStateSumG1String}</p>
       </div>
         <div class="items-col">
         <p><strong>2FG</strong></p>

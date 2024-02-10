@@ -3,13 +3,13 @@ import { scheduleUCLA } from '../UCLA/UCLA';
 import AbileneSanJoseBoxButton from '../AbileneChristian/AbileneSanJoseBoxButton';
 import { SanJoseStateSumG1String } from './SanJoseStateBox';
 import { AbileneChristianSumG1String } from '../AbileneChristian/AbileneChristianBox';
-localStorage.setItem('AbileneChristianSumG1', AbileneChristianSumG1String);
-localStorage.setItem('SanJoseStateSumG1', SanJoseStateSumG1String);
+localStorage.getItem('SanJoseStateSumG1', SanJoseStateSumG1String);
+localStorage.getItem('AbileneChristianSumG1', AbileneChristianSumG1String);
 
-  if (localStorage.getItem('SanJoseStateSumG1') > localStorage.getItem('AbileneChristianSumG1')){
-    var Result5 = 'W,' + localStorage.getItem('SanJoseStateSumG1') + '-' + localStorage.getItem('AbileneChristianSumG1');
+  if ({SanJoseStateSumG1String} > {AbileneChristianSumG1String}) {
+    var Result5 = 'W,' + { SanJoseStateSumG1String } + '-' + { AbileneChristianSumG1String };
   } else {
-    Result5 = 'L,' + localStorage.getItem('AbileneChristianSumG1') + '-' + localStorage.getItem('SanJoseStateSumG1');
+    Result5 = 'L,' + { AbileneChristianSumG1String } + '-' + { SanJoseStateSumG1String };
   }
 
 export default function GameOneTable() {
